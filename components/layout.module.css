@@ -1,0 +1,29 @@
+.container {
+    padding: 0 124px 0px 160px;
+    margin: 300px auto 300px;
+    column-gap: 10rem;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+  
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: "/images/backgroundimage.svg";
+  float: left;
+}
+  
+.backToHome {
+    margin: 3rem 0 0;
+}
+
+.cover{
+  background-size: cover;
+  height: 100%;
+}
+
+  
