@@ -143,5 +143,24 @@
   object-fit: contain;
   max-width:100%;
   height:auto;
+}
 
+.footerStyle{
+
+  height: 453.48px;
+}
+
+.adrlogo_footer{
+  object-fit: contain;
+  width: 216.21px;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.footer_text{
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 40px;
+  margin-top: 47.3px;
 }

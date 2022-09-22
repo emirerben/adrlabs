@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import Home from '../pages';
 import Header from "./Header";
-import NavBar from "./NavBar";
+import Footer from "./Footer";
 import Body from './Body';
 
 const name = 'ADR';
@@ -23,7 +23,7 @@ const Layout = props => (
     <div className={utilStyles.contentStyle}>
       {props.children}
     </div>
-    <NavBar />
+    <Footer />
   </div>
 );
 
