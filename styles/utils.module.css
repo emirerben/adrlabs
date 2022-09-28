@@ -164,3 +164,115 @@
   margin-left: 40px;
   margin-top: 47.3px;
 }
+
+.lastestWorkStyle h3{
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 300;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+
+
+.projectsScrollStyle{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 100px;
+}
+
+.projectImageStyle{
+  position: relative;
+  left: 40px;
+  margin-right: 60px;
+  object-fit:fill;
+}
+
+.projectCardStyle p{
+  top: 0px;
+  left: 40px;
+  position: relative;
+}
+
+.SmallAboutUsStyle{
+  display: block;
+  height: max-content;
+  padding-top: 120px;
+  padding-bottom: 147px;
+}
+
+.SmallAboutUsStyle p{
+  width: 480px;
+  margin-left: 40px;
+  display: inline-block;
+  vertical-align:top;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.SmallAboutUs_imageStyle{
+  display: inline-block;
+  position: relative;
+  left: 200px;
+  top: 1rem;
+  vertical-align:top;
+  object-fit:cover;
+}
+
+
+
+.TopicContainerStyle{
+
+}
+
+.TopicBlockStyle{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.SmallResearchTopicsStyle{
+  background-color: black;
+  color: white;
+  display: block;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 87px;
+  padding-bottom: 123px;
+
+}
+
+.TopicBlockStyle h3{
+  width: 240px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.SmallResearchTopicsStyle h2{
+  font-size: 40px;
+  font-weight: 600;
+
+  letter-spacing:-1px;
+}
+
+.TopicBlockStyle p{
+  position: relative;
+  width: 360px;
+  display: inline;
+  float: right;
+  margin-left: 420px;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 18px;
+  
+}
+
+.breakerWhite{
+  border : 1px solid white;
+}
+
+.breakerBlack{
+  border : 1px solid black;
+}
