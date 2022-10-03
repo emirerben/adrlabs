@@ -222,9 +222,6 @@
 
 
 
-.TopicContainerStyle{
-
-}
 
 .TopicBlockStyle{
   display: flex;
@@ -275,4 +272,45 @@
 
 .breakerBlack{
   border : 1px solid black;
+}
+
+.SmallNewsTopicsStyle{
+  padding-left: 40px;
+  padding-top: 106px;
+  position: relative;
+}
+
+.NewsContainerStyle{
+  display: flex;
+  margin-top: 67px;
+  margin-left: 28px;
+
+}
+
+.NewsBlockStyle{
+  display: flexbox;
+  width: 388px;
+  height: 300px;
+  padding-left: 32px;
+
+
+}
+
+.NewsBlockStyle h3{
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+.NewsBlockStyle p{
+  font-size: 20px;
+  position: absolute;
+  bottom: -20px;
+  z-index: 1;
+}
+
+.yellowHighlight{
+  border : 5px solid #FFFF00;
+  position: absolute;
+  bottom: 0px;
+  width: 197px;
 }
