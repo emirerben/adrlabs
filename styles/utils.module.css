@@ -92,15 +92,66 @@
   background-color: white;
   width: 100%;
   height: 139px;
-  display: inline-block;
+}
 
+.linksStyle{
+  display: inline-block;
+  float: right;
+}
+
+.upperlinksStyle ul{
+  display: inline-flex;
+  float: right;
+  list-style-type: none;
+  margin-top: 50px;
+}
+.upperlinksStyle li{
+  margin-right: 40px;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.lowerlinksStyle ul{
+  display: inline-flex;
+  float: right;
+  list-style-type: none;
+  margin-top: 5px;
+
+}
+.lowerlinksStyle li{
+  margin-right: 40px;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.headerbreakerBlack_top{
+  border : 1px solid black;
+  position: absolute;
+  margin-top: 40px;
+  left: 40px;
+  width: 95%;
+}
+
+.headerbreakerBlack_middle{
+  border : 1px solid black;
+  position: absolute;
+  margin-top: 85px;
+  left: 40px;
+  width: 95%;
+}
+
+.headerbreakerBlack_bottom{
+  border : 1px solid black;
+  position: absolute;
+  margin-top: 125px;
+  left: 40px;
+  width: 95%;
 }
 
 .imageStyle{
   margin-left: 40px;
-  margin-top: 48.4px;
-  position: absolute;
-
+  float: left;
+  margin-top: 50px;
 }
 
 .adr_description{
@@ -146,7 +197,7 @@
 }
 
 .footerStyle{
-
+  margin-top: 120px;
   height: 453.48px;
 }
 
@@ -154,8 +205,17 @@
   object-fit: contain;
   width: 216.21px;
   height: auto;
-  margin-top: 100px;
+  margin-top: 170px;
   margin-left: 30px;
+}
+
+.taubman_footer{
+  margin-bottom: 10px;
+  margin-left: 47px;
+}
+
+.footerlogo_style{
+  display: inline-block;
 }
 
 .footer_text{
@@ -257,13 +317,37 @@
 .TopicBlockStyle p{
   position: relative;
   width: 360px;
-  display: inline;
-  float: right;
-  margin-left: 420px;
+
+  margin-left: 40%;
   font-size: 15px;
   font-weight: 200;
   line-height: 18px;
   
+}
+
+.researchImageStyle{
+  object-fit: cover;
+}
+.plus_style{
+  background-color: white;
+  position: relative;
+  margin-left: auto;
+  width: 54.16px;
+  height: 54.16px;
+}
+
+.moreinfoStyle{
+  padding-top: 100px;
+  margin-right: 200px;
+  display: flex;
+  
+}
+
+.moreinfoStyle p{
+  width: 360px;
+  float: right;
+  font-size: 15px;
+
 }
 
 .breakerWhite{
@@ -283,13 +367,13 @@
 .NewsContainerStyle{
   display: flex;
   margin-top: 67px;
-  margin-left: 28px;
+  margin-left: 0px;
 
 }
 
 .NewsBlockStyle{
   display: flexbox;
-  width: 388px;
+  width: 488px;
   height: 300px;
   padding-left: 32px;
 
@@ -298,6 +382,7 @@
 
 .NewsBlockStyle h3{
   font-size: 30px;
+  width: 300px;
   margin-top: -10px;
 }
 
