@@ -12,6 +12,8 @@ import SmallAboutUs from './SmallAboutUs';
 import SmallResearchTopics from './SmallResearchTopics';
 import SmallNews from './SmallNews';
 
+
+
 const name = 'ADR';
 export const siteTitle = 'ADR Labs';
 
@@ -25,6 +27,7 @@ const Layout = props => (
       <title>ADR Labs</title>
       <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/>
     </Head>
+    <div className={utilStyles.headerWhiteBackground}></div>
     <Header />
     <div className={utilStyles.contentStyle}>
       {props.children}
