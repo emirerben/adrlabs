@@ -310,6 +310,7 @@
   padding-right: 40px;
   padding-top: 87px;
   padding-bottom: 123px;
+  position: relative;
 
 }
 
@@ -428,13 +429,14 @@
 
 .AboutStyle{
   display:flexbox;
-  margin-top: 1000px;
+
+
 }
 .yellowblockStyle{
   background-color: #FFFF00;
   height: 565px;
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0px;
 }
 
@@ -473,4 +475,120 @@
   background-color: #FFFF00;
   height: 565px;
   position: absolute;
+}
+
+.firstWhiteBlock{
+  position: relative;
+  margin-bottom: 400px;
+  top: 168px;
+  height: 638px;
+  background-color: white;
+}
+
+.firstWhiteBlock p{
+  position: absolute;
+  top: 300px;
+  width: 460px;
+  right: 40px;
+}
+
+.Aboutus_first_imageStyle{
+  display: inline-block;
+  position: relative;
+  left: 40px;
+  bottom: -150px;
+  vertical-align:top;
+  object-fit:cover;
+}
+
+.teamBlock h3{
+  position: relative;
+  left: 40px;
+  bottom: 30px;
+  text-align: left;
+  font-weight: 100;
+  font-size: 35px;
+}
+
+.teamPictureContainer{
+  position: relative;
+  left: 40px;
+  display: inline-block;
+}
+
+.teamImageSquare{
+  width: 360px;
+  height: 360px;
+  margin-right: 6rem;
+  margin-bottom: 2rem;
+}
+
+.teamImage{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+/*display the block once hovered on the picture*/
+.teamImage:hover + .teamInfoBlock{
+  display: block;
+}
+
+.teamInfoBlock{
+  display: none;
+  position:absolute;
+  bottom: 0px;
+  background-color: #FFFF00;
+  width: 360px;
+}
+.teamInfoBlock h3{
+  height: max-content;
+
+  position: relative;
+  left: 10px;
+  top: 10px;
+  font-size: 15px;
+}
+
+.teamInfoBlock p{
+  position:relative;
+  left: 10px;
+  font-size: 10px;
+  bottom: 10px;
+}
+
+.upperArrow{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.secondWhiteBlock{
+  position: relative;
+  margin-bottom: 400px;
+  top: 168px;
+  height: 592px;
+  background-color: white;
+}
+
+.secondWhiteBlock h3{
+  position: relative;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 300;
+  width: 460px;
+  left: 40px;
+}
+.secondWhiteBlock p{
+  position: relative;
+  top: 50px;
+  width: 460px;
+  left: 40px;
+}
+
+.Aboutus_second_imageStyle{
+  position: absolute;
+  right: 100px;
+  top: 150px;
+  object-fit:cover;
 }

@@ -5,6 +5,8 @@ import Image from 'next/future/image'
 import styles from './layout.module.css';
 import Link from 'next/link';
 import SmallResearchTopics from './SmallResearchTopics';
+import mypic from '../public/images/AdR_About_Page_004.png'
+
 
 
 
@@ -15,12 +17,11 @@ const LayoutAbout = props => (
             <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/>
         </Head>
         <div className={utilStyles.headerYellowBackground}></div>
-
         <Header></Header>
         <div className={utilStyles.yellowblockStyle}>
             {props.children}    
         </div>
-        <SmallResearchTopics></SmallResearchTopics>
+        
         
     </div>
     
