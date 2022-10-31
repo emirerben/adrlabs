@@ -12,7 +12,7 @@ import adrlogo from '../public/images/ADR-Logo-01.png'
 import LayoutAbout from "../components/LayoutAbout";
 import SmallResearchTopics from "../components/SmallResearchTopics";
 import mypic from '../public/images/AdR_About_Page_004.png'
-import Arash from '../public/images/Arash-Headshot.png'
+import Arash from '../public/images/Arash.jpg'
 import upperArrow from '../public/images/ADR-GraphicElementsNoBoundary_y.png'
 
 
