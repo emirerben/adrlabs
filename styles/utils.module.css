@@ -284,6 +284,18 @@
   line-height: 36px;
 }
 
+.arrowAboutUs{
+  margin-top: -20px;
+  gap: 0px;
+}
+
+.arrowAboutUs p{
+  font-size: 20px;
+  width: 175px;
+  margin-top: 5px;
+}
+
+
 .SmallAboutUs_imageStyle{
   display: inline-block;
   position: relative;
@@ -389,8 +401,6 @@
   width: 488px;
   height: 300px;
   padding-left: 32px;
-
-
 }
 
 .NewsBlockStyle h3{
@@ -398,6 +408,7 @@
   width: 300px;
   margin-top: -10px;
 }
+
 
 .NewsBlockStyle p{
   font-size: 20px;
@@ -407,10 +418,15 @@
 }
 
 .yellowHighlight{
+  display: none;
   border : 5px solid #FFFF00;
   position: absolute;
   bottom: 0px;
   width: 197px;
+}
+
+.NewsContainerStyle:hover + .yellowHighlight{
+  display: block;
 }
 
 #circularcursor {
@@ -479,8 +495,8 @@
 
 .firstWhiteBlock{
   position: relative;
-  margin-bottom: 400px;
-  top: 168px;
+  margin-bottom: 200px;
+  top: 10px;
   height: 638px;
   background-color: white;
 }
@@ -501,6 +517,9 @@
   object-fit:cover;
 }
 
+.teamBlock{
+  margin-bottom: 80px;
+}
 .teamBlock h3{
   position: relative;
   left: 40px;
@@ -537,7 +556,7 @@
 .teamInfoBlock{
   display: none;
   position:absolute;
-  bottom: 0px;
+  bottom: 35px;
   background-color: #FFFF00;
   width: 360px;
 }
@@ -565,8 +584,8 @@
 
 .secondWhiteBlock{
   position: relative;
-  margin-bottom: 400px;
-  top: 168px;
+
+  top: 50px;
   height: 592px;
   background-color: white;
 }
@@ -591,4 +610,41 @@
   right: 100px;
   top: 150px;
   object-fit:cover;
+}
+
+.textArrow{
+  width: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 180px;
+
+}
+
+.textArrow p{
+  display: inline-block;
+  vertical-align: middle;
+  top: -5px;
+  font-size: 15px;
+}
+
+.smallUpperArrow{
+  transform: rotate(-45deg);
+  position: relative;
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+/*-----------Team Profiles [id].js--------------*/
+
+.teamContent{
+  position: relative;
+  margin-top: 125px;
+  padding-left: 40px;
+}
+.roleNameHeader{
+  display: block;
+  padding-top: 115px;
 }

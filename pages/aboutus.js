@@ -40,12 +40,13 @@ export default function About(){
             <h3>OUR TEAM</h3>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Image className={utilStyles.teamImage}
+                    <Link href='/team/arashadel'><Image className={utilStyles.teamImage}
                     src={Arash}
                     width={360}
                     height={360}
 
                     />
+                    </Link>
                     <div className={utilStyles.teamInfoBlock}>
                         <h3>Arash Adel</h3>
                         <p>Director</p>
@@ -163,6 +164,15 @@ export default function About(){
                 />
                 <h3>INTERDISCIPLINARY COLLABORATIONS</h3>
                 <p>ADR has a strong dedication to interdisciplinary research and connecting architecture, engineering and fabrication through new and evolving technologies. We seek to connect with collaborators across a variety of academic disciplines. </p>
+                <div className={utilStyles.textArrow}>
+                    <p>CONNECT</p>
+                    <Image className={utilStyles.smallUpperArrow}
+                        src={mainarrow}
+                        alt="Logo"
+                        width={40}
+                        height={40}
+                    />
+                </div>
         </div>
         <div className={utilStyles.secondWhiteBlock}>
                 <Image className={utilStyles.Aboutus_second_imageStyle}
@@ -173,6 +183,15 @@ export default function About(){
                 />
                 <h3>EDUCATION</h3>
                 <p>ADR’s robotic construction research and other core topics are integrated into the courses of the Digital and Material Technology Master of Science students at the University of Michigan. The program included a computational Design and Systems Engagement course taught by Dr. Arash Adel.</p>
+                <div className={utilStyles.textArrow}>
+                    <p>LEARN MORE</p>
+                    <Image className={utilStyles.smallUpperArrow}
+                        src={mainarrow}
+                        alt="Logo"
+                        width={40}
+                        height={40}
+                    />
+                </div>
         </div>
         <Footer></Footer>
         </>
