@@ -3,7 +3,7 @@ import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import Image from 'next/future/image'
+import Image from 'next/future/image';
 
 
 
@@ -25,15 +25,16 @@ export default function Team({ team }) {
                 <h1>{team.name}</h1>
                 <div className={utilStyles.yellowHighlightName}></div>
             </div>
-            <Image
-                src={`${basePath}/${team.img}`}
-                alt="Arash Adel"
-                width={540}
-                height={326}
+            <Image className={utilStyles.personalImage}
+                src={"/images/" + team.img}
+                alt={team.name}
+                width={420}
+                height={420}
             />
             <div className={utilStyles.textContent}>
                 <p>{team.main}</p>
                 <p id={utilStyles.lightSub}>{team.sub}</p>
+                
             </div>
         </div>
        <Footer></Footer>

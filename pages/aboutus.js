@@ -41,7 +41,7 @@ export default function About(){
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
                     <Link href='/team/arashadel'><Image className={utilStyles.teamImage}
-                    src={Arash}
+                    src={"/images/Arash.jpg"}
                     width={360}
                     height={360}
 
@@ -60,15 +60,16 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Image className={utilStyles.teamImage}
-                    src={Arash}
-                    width={360}
-                    height={360}
+                    <Link href='/team/salmamozaffari'><Image className={utilStyles.teamImage}
+                        src={"/images/Salma.jpg"}
+                        width={360}
+                        height={360}
 
-                    />
+                        />
+                    </Link>
                     <div className={utilStyles.teamInfoBlock}>
-                        <h3>Arash Adel</h3>
-                        <p>Director</p>
+                        <h3>Salma Mozaffari</h3>
+                        <p>Postdoctoral Researcher</p>
                         <Image className={utilStyles.upperArrow}
                             src={upperArrow}
                             width={30}
@@ -79,15 +80,16 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Image className={utilStyles.teamImage}
-                    src={Arash}
-                    width={360}
-                    height={360}
+                    <Link href='/team/danielruan'><Image className={utilStyles.teamImage}
+                        src={"/images/Daniel.jpg"}
+                        width={360}
+                        height={360}
 
-                    />
+                        />
+                    </Link>
                     <div className={utilStyles.teamInfoBlock}>
-                        <h3>Arash Adel</h3>
-                        <p>Director</p>
+                        <h3>Daniel Ruan</h3>
+                        <p>Ph.D. Student / Research Assistant</p>
                         <Image className={utilStyles.upperArrow}
                             src={upperArrow}
                             width={30}
@@ -98,15 +100,17 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Image className={utilStyles.teamImage}
-                    src={Arash}
-                    width={360}
-                    height={360}
+                    <Link href='/team/alirezafazel'>
+                        <Image className={utilStyles.teamImage}
+                        src={"/images/Alireza.jpg"}
+                        width={360}
+                        height={360}
 
-                    />
+                        />
+                    </Link>
                     <div className={utilStyles.teamInfoBlock}>
-                        <h3>Arash Adel</h3>
-                        <p>Director</p>
+                        <h3>Alireza Fazel</h3>
+                        <p>Ph.D. Student / Research Assistant</p>
                         <Image className={utilStyles.upperArrow}
                             src={upperArrow}
                             width={30}
@@ -117,15 +121,17 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Image className={utilStyles.teamImage}
-                    src={Arash}
-                    width={360}
-                    height={360}
+                    <Link href='/team/yunyanli'>
+                        <Image className={utilStyles.teamImage}
+                        src={"/images/Yunyan.jpg"}
+                        width={360}
+                        height={360}
 
-                    />
+                        />
+                    </Link>
                     <div className={utilStyles.teamInfoBlock}>
-                        <h3>Arash Adel</h3>
-                        <p>Director</p>
+                        <h3>Yunyan Li</h3>
+                        <p>Research Assistant</p>
                         <Image className={utilStyles.upperArrow}
                             src={upperArrow}
                             width={30}
@@ -136,15 +142,99 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Image className={utilStyles.teamImage}
-                    src={Arash}
-                    width={360}
-                    height={360}
+                    <Link href='/team/abdallahkamhawi'>
+                        <Image className={utilStyles.teamImage}
+                        src={"/images/Abdallah.jpg"}
+                        width={360}
+                        height={360}
 
-                    />
+                        />
+                    </Link>
                     <div className={utilStyles.teamInfoBlock}>
-                        <h3>Arash Adel</h3>
-                        <p>Director</p>
+                        <h3>Abdallah Kamhawi</h3>
+                        <p>Research Assistant</p>
+                        <Image className={utilStyles.upperArrow}
+                            src={upperArrow}
+                            width={30}
+                            height={30}
+                            />
+                    </div>
+                </div>
+            </div>
+            <div className={utilStyles.teamPictureContainer}>
+                <div className={utilStyles.teamImageSquare}>
+                    <Link href='/team/mohsenvatandoost'>
+                        <Image className={utilStyles.teamImage}
+                        src={"/images/Mohsen.jpg"}
+                        width={360}
+                        height={360}
+                        />
+                    </Link>
+                    <div className={utilStyles.teamInfoBlock}>
+                        <h3>Mohsen Vatandoost</h3>
+                        <p>Research Assistant</p>
+                        <Image className={utilStyles.upperArrow}
+                            src={upperArrow}
+                            width={30}
+                            height={30}
+                            />
+                    </div>
+                </div>
+            </div>
+            <div className={utilStyles.teamPictureContainer}>
+                <div className={utilStyles.teamImageSquare}>
+                    <Link href='/team/xiujinliu'>
+                        <Image className={utilStyles.teamImage}
+                        src={"/images/Xiujin.jpg"}
+                        width={360}
+                        height={360}
+                        />
+                    </Link>
+                    <div className={utilStyles.teamInfoBlock}>
+                        <h3>Xiujin Liu</h3>
+                        <p>Student Assistant</p>
+                        <Image className={utilStyles.upperArrow}
+                            src={upperArrow}
+                            width={30}
+                            height={30}
+                            />
+                    </div>
+                </div>
+            </div>
+            <div className={utilStyles.teamPictureContainer}>
+                <div className={utilStyles.teamImageSquare}>
+                    <Link href='/team/tharaneshvaradharajan'>
+                        <Image className={utilStyles.teamImage}
+                        src={"/images/Tharanesh.jpg"}
+                        width={360}
+                        height={360}
+
+                        />
+                    </Link>
+                    <div className={utilStyles.teamInfoBlock}>
+                        <h3>Tharanesh Varadharajan</h3>
+                        <p>DMT Fellow</p>
+                        <Image className={utilStyles.upperArrow}
+                            src={upperArrow}
+                            width={30}
+                            height={30}
+                            />
+                    </div>
+                </div>
+            </div>
+            <div className={utilStyles.teamPictureContainer}>
+                <div className={utilStyles.teamImageSquare}>
+                    <Link href='/team/rahakamravafar'>
+                        <Image className={utilStyles.teamImage}
+                        src={"/images/Raha.jpg"}
+                        width={360}
+                        height={360}
+
+                        />
+                    </Link>
+                    <div className={utilStyles.teamInfoBlock}>
+                        <h3>Raha Kamravafar</h3>
+                        <p>DMT Fellow</p>
                         <Image className={utilStyles.upperArrow}
                             src={upperArrow}
                             width={30}
@@ -198,3 +288,4 @@ export default function About(){
         
     );
 }
+
