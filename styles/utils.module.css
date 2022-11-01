@@ -201,11 +201,16 @@
   object-fit: cover;
 }
 
+.logoContainer{
+  width: 100%;
+  min-width: 1300px;
+  position: absolute;
+  top: 433px;
+}
 .logoHome_style{
   z-index: 2;
   position:absolute;
   right: 40px;
-  top: 433px;
   object-fit: contain;
   max-width:100%;
   height:auto;

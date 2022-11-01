@@ -20,12 +20,14 @@ export default function Home() {
           width={132.28}
           height={132.77}
         />
-        <Image className={utilStyles.logoHome_style}
-          src={adrlogo}
-          alt="Big logo"
-          width={600}
-          height={229.61}
-        />
+        <div className={utilStyles.logoContainer}>
+          <Image className={utilStyles.logoHome_style}
+            src={adrlogo}
+            alt="Big logo"
+            width={600}
+            height={229.61}
+          />
+        </div>
         <Image className={utilStyles.ImageHome_style}
           src={mainpic}
           alt="ADR pic"
