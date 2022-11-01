@@ -57,85 +57,83 @@ export default function SmallResearchTopics(){
  return (
     <div className={utilStyles.SmallResearchTopicsStyle}>
     
-    <h2>RESEARCH TOPICS</h2>
-    <div className={utilStyles.breakerWhite}></div>
-    <div className={utilStyles.TopicContainerStyle}>
-        <div className={utilStyles.TopicBlockStyle}>
-            <h3>Fabrication-Aware Computational Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <Image onClick={toggle1} className={utilStyles.plus_style}
-                src={!showMe1 ? plus_graphic : minus_graphic }
-                alt="Plus"
-            />
-        </div>
-        <div className={utilStyles.moreinfoStyle} style={{display:showMe1?"block":"none"}}>
-                <Image className={utilStyles.researchImageStyle}
-                    src={mypic}
-                    alt="Plus"
-                    width={540}
-                    height={334}
-                />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-        </div>
-        
+        <h2>RESEARCH TOPICS</h2>
         <div className={utilStyles.breakerWhite}></div>
-        <div className={utilStyles.TopicBlockStyle}>
-            <h3>Robotic Construction</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <Image onClick={toggle2} className={utilStyles.plus_style}
-                src={!showMe2 ? plus_graphic : minus_graphic }
-                alt="Plus"
-            />
-        </div>
-        <div className={utilStyles.moreinfoStyle} style={{display:showMe2?"block":"none"}}>
-                <Image className={utilStyles.researchImageStyle}
-                    src={mypic}
+        <div className={utilStyles.TopicContainerStyle}>
+            <div className={utilStyles.TopicBlockStyle}>
+                <h3>Fabrication-Aware Computational Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <Image onClick={toggle1} className={utilStyles.plus_style}
+                    src={!showMe1 ? plus_graphic : minus_graphic }
                     alt="Plus"
-                    width={540}
-                    height={334}
                 />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-        </div>
-        <div className={utilStyles.breakerWhite}></div>
-        <div className={utilStyles.TopicBlockStyle}>
-            <h3>Human-Robot Collaboration</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <Image onClick={toggle3} className={utilStyles.plus_style}
-                src={!showMe3 ? plus_graphic : minus_graphic }
-                alt="Plus"
-            />
-        </div>
-        <div className={utilStyles.moreinfoStyle} style={{display:showMe3?"block":"none"}}>
-                <Image className={utilStyles.researchImageStyle}
-                    src={mypic}
+            </div>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe1?"block":"none"}}>
+                    <Image className={utilStyles.researchImageStyle}
+                        src={mypic}
+                        alt="Plus"
+                        width={540}
+                        height={334}
+                    />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+            
+            <div className={utilStyles.breakerWhite}></div>
+            <div className={utilStyles.TopicBlockStyle}>
+                <h3>Robotic Construction</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <Image onClick={toggle2} className={utilStyles.plus_style}
+                    src={!showMe2 ? plus_graphic : minus_graphic }
                     alt="Plus"
-                    width={540}
-                    height={334}
                 />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-        </div>
-        <div className={utilStyles.breakerWhite}></div>
-        <div className={utilStyles.TopicBlockStyle}>
-            <h3>Design for Assembly, Disassembly, and Reuse </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <Image onClick={toggle4} className={utilStyles.plus_style}
-                src={!showMe4 ? plus_graphic : minus_graphic }
-                alt="Plus"
-            />
-        </div>
-        <div className={utilStyles.moreinfoStyle} style={{display:showMe4?"block":"none"}}>
-                <Image className={utilStyles.researchImageStyle}
-                    src={mypic}
+            </div>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe2?"block":"none"}}>
+                    <Image className={utilStyles.researchImageStyle}
+                        src={mypic}
+                        alt="Plus"
+                        width={540}
+                        height={334}
+                    />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+            <div className={utilStyles.breakerWhite}></div>
+            <div className={utilStyles.TopicBlockStyle}>
+                <h3>Human-Robot Collaboration</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <Image onClick={toggle3} className={utilStyles.plus_style}
+                    src={!showMe3 ? plus_graphic : minus_graphic }
                     alt="Plus"
-                    width={540}
-                    height={334}
                 />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe3?"block":"none"}}>
+                    <Image className={utilStyles.researchImageStyle}
+                        src={mypic}
+                        alt="Plus"
+                        width={540}
+                        height={334}
+                    />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+            <div className={utilStyles.breakerWhite}></div>
+            <div className={utilStyles.TopicBlockStyle}>
+                <h3>Design for Assembly, Disassembly, and Reuse </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <Image onClick={toggle4} className={utilStyles.plus_style}
+                    src={!showMe4 ? plus_graphic : minus_graphic }
+                    alt="Plus"
+                />
+            </div>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe4?"block":"none"}}>
+                    <Image className={utilStyles.researchImageStyle}
+                        src={mypic}
+                        alt="Plus"
+                        width={540}
+                        height={334}
+                    />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+            <div className={utilStyles.breakerWhite}></div>
         </div>
-        <div className={utilStyles.breakerWhite}></div>
     </div>
-    
-    
-</div>
 );
 }

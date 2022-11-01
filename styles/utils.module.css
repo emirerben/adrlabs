@@ -143,6 +143,7 @@
   margin-top: 40px;
   left: 40px;
   width: 95%;
+  min-width: 1200px;
 }
 
 .headerbreakerBlack_middle{
@@ -151,6 +152,7 @@
   margin-top: 85px;
   left: 40px;
   width: 95%;
+  min-width: 1200px;
 }
 
 .headerbreakerBlack_bottom{
@@ -159,6 +161,7 @@
   margin-top: 125px;
   left: 40px;
   width: 95%;
+  min-width: 1200px;
 }
 
 .imageStyle{
@@ -181,10 +184,9 @@
 
 .ImageHome_style{
   z-index: 1;
-
+  width: 100%;
   margin-top: 175px;
   object-fit: cover;
-  width: 100%;
   padding-left: 40px;
   padding-right: 40px;
   display: block;
@@ -237,7 +239,9 @@
   margin-left: 40px;
   margin-top: 47.3px;
 }
-
+.lastestWorkStyle{
+  width: 100%;
+}
 .lastestWorkStyle h3{
   font-size: 40px;
   line-height: 60px;
