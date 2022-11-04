@@ -22,7 +22,7 @@ const Footer = () => (
         
         <div className={utilStyles.lowerlinksStyle}>
             <ul>
-                <li>ABOUT</li>
+                <li><Link href="/aboutus">ABOUT</Link></li>
                 <li>CONTACT</li>
             </ul> 
         </div>
