@@ -22,12 +22,16 @@ export default function About(){
         <>
         <LayoutAbout>
             {/*trial */}
+            {/*This is the yellow section with the title*/}
             <div className={utilStyles.yellowTitle}>
                 <h1>ARCHITECTURE<br></br>COMPUTATIONAL DESIGN<br></br>ROBOTIC CONSTRUCTION</h1>
                 <h3>ABOUT US</h3>
             </div>
         </LayoutAbout>
+        
+        
         <div className={utilStyles.firstWhiteBlock}>
+            {/*This is the white section with the text and image*/}
                 <Image className={utilStyles.Aboutus_first_imageStyle}
                 src={mypic}
                 alt="Logo"
@@ -39,8 +43,11 @@ export default function About(){
         <div className={utilStyles.teamBlock}>
             <div className={utilStyles.headerbreakerBlack_top}></div>
             <h3>OUR TEAM</h3>
+            {/*The following container represents the picture for a team member*/}
             <div className={utilStyles.teamPictureContainer}>
+                {/*The following represents the image for a team member*/}
                 <div className={utilStyles.teamImageSquare}>
+                    {/*The href is the file which should lead to once clicked*/}
                     <Link href='/team/arashadel'><Image className={utilStyles.teamImage}
                     src={"/images/Arash.jpg"}
                     width={360}
@@ -48,6 +55,7 @@ export default function About(){
 
                     />
                     </Link>
+                    {/*The following represents the block that appears once the users hovers on the image*/}
                     <div className={utilStyles.teamInfoBlock}>
                         <h3>Arash Adel</h3>
                         <p>Director</p>
