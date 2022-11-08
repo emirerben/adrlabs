@@ -80,6 +80,7 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
+                    {/*trial */}
                     <Link href='/team/danielruan'><Image className={utilStyles.teamImage}
                         src={"/images/Daniel.jpg"}
                         width={360}
