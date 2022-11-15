@@ -33,14 +33,15 @@ export default function Team({ team }) {
                 height={420}
             />
             <div className={utilStyles.containerUserInfo}>
+                <div className={utilStyles.breakerTeam}></div>
                 <div className={utilStyles.containerLinks}>
-                    <p id={utilStyles.lightSub}>{team.email}</p>
+                    <p>{team.email}</p>
                     <a href={team.linkedin}>LinkedIn</a><br></br>
                     <a href={team.googlescholar}>Google Scholar</a><br></br>
                     <a href={team.researchgate}>Research Gate</a>
                 </div>
                 <div className={utilStyles.textContent}>
-                    <div className={utilStyles.breakerTeam}></div>
+                    
                     <p>{team.main}</p>
                     <p id={utilStyles.lightSub}>{team.sub}</p>
                     
