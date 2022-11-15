@@ -4,6 +4,7 @@ import utilStyles from '../../styles/utils.module.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Image from 'next/future/image';
+import Link from 'next/link';
 
 
 
@@ -31,10 +32,20 @@ export default function Team({ team }) {
                 width={420}
                 height={420}
             />
-            <div className={utilStyles.textContent}>
-                <p>{team.main}</p>
-                <p id={utilStyles.lightSub}>{team.sub}</p>
-                
+            <div className={utilStyles.containerUserInfo}>
+                <div className={utilStyles.containerLinks}>
+                    <p id={utilStyles.lightSub}>{team.email}</p>
+                    <a href={team.linkedin}>LinkedIn</a><br></br>
+                    <a href={team.googlescholar}>Google Scholar</a><br></br>
+                    <a href={team.researchgate}>Research Gate</a>
+                </div>
+                <div className={utilStyles.textContent}>
+                    <div className={utilStyles.breakerTeam}></div>
+                    <p>{team.main}</p>
+                    <p id={utilStyles.lightSub}>{team.sub}</p>
+                    
+                    
+                </div>
             </div>
         </div>
        <Footer></Footer>

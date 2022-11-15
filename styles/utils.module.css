@@ -667,13 +667,17 @@
   width: 420px;
 }
 
-.textContent{
+.containerUserInfo{
   display: block;
   width: 600px;
   position:absolute;
   right: 150px;
   height: 100%;
   top: 300px;
+}
+
+.textContent{
+  
 }
 
 .roleNameHeader h1{
@@ -695,4 +699,16 @@
   top: -110px;
   width: 300px;
   z-index: -1;
+}
+
+.breakerTeam{
+  border : 1px solid black;
+  position: absolute;
+  width: 110%;
+}
+
+.containerLinks{
+  display: block;
+  width: 600px;
+  position:relative;
 }
