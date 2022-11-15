@@ -45,7 +45,7 @@ export default function Team({ team }) {
 
 
 export async function getServerSideProps({ params }) {
-    const req = await fetch(`http://localhost:3000/${params.id}.json`);
+    const req = await fetch(`http://adrlabs.vercel.app/${params.id}.json`);
     const data = await req.json();
 
     return {
