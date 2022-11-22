@@ -722,3 +722,50 @@
   margin-bottom: 0px;
 
 }
+
+
+
+/*---------- News main ---------*/
+.TitleSection{
+  padding-top: 125px;
+  padding-left: 40px;
+  
+}
+
+.TitleSection h1{
+  font-size: 90px;
+  font-weight: 300;
+}
+
+.NewsContainer{
+  margin-bottom: 500px;
+  display: block;
+}
+
+.OneNews{
+
+
+}
+
+.BlockWithoutBreaker{
+  display: flex;
+  padding-top: 30px;
+  gap: 250px;
+}
+
+.BlockWithoutBreaker p{
+  font-size: 30px;
+  font-weight: 00;
+}
+
+.NewsTitlePart h3{
+  margin-top: 20px;
+  font-size: 39px;
+  font-weight: 400;
+  max-width: 600px;
+}
+
+.NewsTitlePart p{
+  font-size: 20px;
+  font-weight: 300;
+}
