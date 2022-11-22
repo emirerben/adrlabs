@@ -37,8 +37,12 @@ export default function Team({ team }) {
                 <div className={utilStyles.containerLinks}>
                     <p>{team.email}</p>
                     <a href={team.linkedin}>LinkedIn</a><br></br>
-                    <a href={team.googlescholar}>Google Scholar</a><br></br>
-                    <a href={team.researchgate}>Research Gate</a>
+                    {team.googlescholar != '' &&
+                    <><a href={team.googlescholar}>Google Scholar</a><br></br></>
+                    }
+                    {team.researchgate != '' &&
+                    <><a href={team.researchgate}>Research Gate</a></>
+                    }
                 </div>
                 <div className={utilStyles.textContent}>
                     
