@@ -32,6 +32,7 @@ export default function Team({ team }) {
                 width={420}
                 height={420}
             />
+            
             <div className={utilStyles.containerUserInfo}>
                 <div className={utilStyles.breakerTeam}></div>
                 <div className={utilStyles.containerLinks}>
@@ -45,11 +46,10 @@ export default function Team({ team }) {
                     }
                 </div>
                 <div className={utilStyles.textContent}>
-                    
                     <p>{team.main}</p>
-                    <p id={utilStyles.lightSub}>{team.sub}</p>
                     
-                    
+
+                    <div className={utilStyles.lightSub}>{team.sub}</div>
                 </div>
             </div>
         </div>

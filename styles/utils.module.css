@@ -653,7 +653,7 @@
   position: relative;
   margin-top: 125px;
   padding-left: 40px;
-  margin-bottom: 800px;
+  margin-bottom: 85px;
 }
 .roleNameHeader{
   display: block;
@@ -665,6 +665,7 @@
   position: relative;
   top: -40px;
   width: 420px;
+  margin-bottom: 200px;
 }
 
 .containerUserInfo{
@@ -673,12 +674,9 @@
   position:absolute;
   right: 150px;
   height: 100%;
-  top: 300px;
+  top: 300px;;
 }
 
-.textContent{
-  
-}
 
 .roleNameHeader h1{
   font-size: 60px;
@@ -687,17 +685,18 @@
   top: -40px;
 }
 
-#lightSub{
+.lightSub{
   margin-top: 70px;
   color: #707070;
   font-size: 16px;
+  position: relative;
 }
 
 .yellowHighlightName{
   border : 10px solid #FFFF00;
   position: relative;
   top: -110px;
-  width: 300px;
+  width: 110%;
   z-index: -1;
 }
 
@@ -713,6 +712,10 @@
   position:relative;
   font-size: 15px;
   margin-bottom: 45px;
+}
+
+.containerLinks a{
+  text-decoration-line: underline;
 }
 
 .containerLinks p{
