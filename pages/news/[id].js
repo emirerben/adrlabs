@@ -8,10 +8,10 @@ import Link from 'next/link';
 
 
 
-export default function Team({ team }) {
+export default function News({ news }) {
 
     const router = useRouter()
-    const basePath = '/public/images'
+    const basePath = '/public'
     const { id } = router.query
     return (<>
         <Head>
@@ -60,11 +60,11 @@ export default function Team({ team }) {
 }
 
 
-export async function getServerSideProps({ params }) {
-    const req = await fetch(`http://adrlabs.vercel.app/${params.id}.json`);
-    const data = await req.json();
+export const getStaticProps = async () => {
+    const res = await fetch(`http://adrlabs.vercel.app/news.json`);
+    const data = await res.json();
 
-    return {
-        props: { team: data },
+    return{
+        props: {news: data}
     }
 }

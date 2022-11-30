@@ -1,15 +1,15 @@
 [{
     "id": "1",
-    "title": "Abdallah Kamhawi",
-    "date": "Research Assistant",
+    "title": "Keynote Lecture International Manufacturing Forum Series 2021",
+    "date": "3/31/21",
     "content": "Abdallah Kamhawi is a dual degree student in Master of Science in Digital and Material Technologies and Master of Architecture at the University of Michigan’s Taubman College of Architecture and Urban Planning. He holds a Bachelor of Science in Architectural Engineering from Ain Shams University in Egypt. Abdallah has worked professionally with firms in the Middle East on various project types and scales. He is interested in exploring the potentials of computational design methods and digital fabrication technologies to improve the built environment.",
-    "link": "At ADR, Abdallah will be developing the human-robot collaborative assembly workcell, outfitting new hardware for increased safety, additional robot processes, and a more streamlined fabrication workflow. He will also be leading on-site construction efforts for future projects at ADR."
+    "link": "INSERT LINK"
 },
 {
-    "id": "1",
-    "title": "Abdallah Kamhawi",
+    "id": "2",
+    "title": "$1.58M NSF Grant to Explore Human–Robot Collaborative Construction",
     "date": "Research Assistant",
-    "content": "Abdallah Kamhawi is a dual degree student in Master of Science in Digital and Material Technologies and Master of Architecture at the University of Michigan’s Taubman College of Architecture and Urban Planning. He holds a Bachelor of Science in Architectural Engineering from Ain Shams University in Egypt. Abdallah has worked professionally with firms in the Middle East on various project types and scales. He is interested in exploring the potentials of computational design methods and digital fabrication technologies to improve the built environment.",
-    "link": "At ADR, Abdallah will be developing the human-robot collaborative assembly workcell, outfitting new hardware for increased safety, additional robot processes, and a more streamlined fabrication workflow. He will also be leading on-site construction efforts for future projects at ADR."
+    "content": "The National Science Foundation (NSF) has awarded a grant totalling $2 million to an interdisciplinary research team, which includes Taubman College faculty Wes McGee and Arash Adel, to explore robotic partnerships in construction work. The project, “Collaborative Research: Partnering Workers with Interactive Robot Assistants to Usher Transformation in Future Construction Work,” envisions that intelligent human-robot teams have the potential to increase productivity and streamline processes, thereby transforming the profile of future construction workers and resulting in new career opportunities and significant benefits to the industry.",
+    "link": ""
 }
 ]
