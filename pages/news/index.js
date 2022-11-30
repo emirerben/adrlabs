@@ -26,7 +26,9 @@ export default function News({news}){
                         <p>{news.date}</p>
                         <div className={utilStyles.NewsTitlePart}>
                             <h3>{news.title}</h3>
-                            <p>READ MORE</p>
+                            <Link href={'/news/' + news.id}>
+                                <p>READ MORE</p>
+                            </Link>
                         </div>
                     </div>
                     </div>
