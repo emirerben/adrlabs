@@ -29,25 +29,25 @@ export default function News({ news }) {
     )
 }
 
-export const getStaticPaths = async () => {
-    const res = await fetch(`http://adrlabs.vercel.app/news.json`);
-    const data = await res.json();
+// export const getStaticPaths = async () => {
+//     const res = await fetch(`http://adrlabs.vercel.app/news.json`);
+//     const data = await res.json();
 
-    const paths = data.map(news => {
-        return {
-            params: { id: news.id.toString()}
-        }
-    })
-    return{
-        paths: paths,
-        fallback: false
-    }
-}
+//     const paths = data.map(news => {
+//         return {
+//             params: { id: news.id.toString()}
+//         }
+//     })
+//     return{
+//         paths: paths,
+//         fallback: false
+//     }
+// }
 
 
 export const getStaticProps = async (context) => {
     const id = context.params.id;
-    const res = await fetch(`http://adrlabs.vercel.app/news.json/` + id);
+    const res = await fetch(`http://adrlabs.vercel.app/news.json/${id}.json`);
 
     const data = await res.json();
 
