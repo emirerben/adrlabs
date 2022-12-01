@@ -17,10 +17,9 @@ export default function News({ news }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            <p>{news.id}</p>
+            {/* <p>{news.id}</p> */}
         </div>
        
-        <p>{news.id}</p>
 
         
        <Footer></Footer>
@@ -45,18 +44,18 @@ export default function News({ news }) {
 // }
 
 
-export const getStaticProps = async (context) => {
-    const id = context.params.id;
-    const res = await fetch(`http://adrlabs.vercel.app/news.json/${id}.json`);
+// export const getStaticProps = async (context) => {
+//     const id = context.params.id;
+//     const res = await fetch(`http://adrlabs.vercel.app/news.json/${id}.json`);
 
-    const data = await res.json();
+//     const data = await res.json();
 
-    return{
-        props: { news: data }
-    }
+//     return{
+//         props: { news: data }
+//     }
 
 
-}
+// }
 
 
 
