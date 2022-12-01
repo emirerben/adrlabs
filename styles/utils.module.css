@@ -784,3 +784,9 @@
   font-size: 20px;
   font-weight: 300;
 }
+
+/*-------------News Pages----------*/
+.topContainerNews{
+  height: 320px;
+  padding-top: 125px;
+}
