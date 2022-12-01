@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 
 
-export default function News({ id }) {
+export default function News({ news }) {
 
     return (<>
         <Head>
@@ -17,10 +17,10 @@ export default function News({ id }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            <p>{id}</p>
+            <p>{news.id}</p>
         </div>
        
-
+        <p>{news.id}</p>
 
         
        <Footer></Footer>
@@ -32,7 +32,6 @@ export default function News({ id }) {
 export const getStaticPaths = async () => {
     const res = await fetch(`http://adrlabs.vercel.app/news.json`);
     const data = await res.json();
-    const newsarticle = Object.keys(data)
 
     const paths = data.map(news => {
         return {
@@ -47,14 +46,13 @@ export const getStaticPaths = async () => {
 
 
 export const getStaticProps = async (context) => {
-    const {id} = context.params;
-    const res = await fetch(`http://adrlabs.vercel.app/news.json/`);
+    const id = context.params.id;
+    const res = await fetch(`http://adrlabs.vercel.app/news.json/` + id);
 
     const data = await res.json();
-    const rows = data[id]
 
     return{
-        props: { id }
+        props: { news: data }
     }
 
 
