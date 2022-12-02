@@ -20,7 +20,7 @@ export default function News({news}){
         <div className={utilStyles.TitleSection}>
             <h1>NEWS</h1>
             <div className={utilStyles.NewsContainer}>
-                {/* {news.map(news => (
+                {news.map(news => (
                     <div key={news.id} className={utilStyles.OneNews}>
                          <div className={utilStyles.headerbreakerBlack_top}></div>
                     <div className={utilStyles.BlockWithoutBreaker}>
@@ -33,7 +33,7 @@ export default function News({news}){
                         </div>
                     </div>
                     </div>
-                ))} */}
+                ))}
                 {/* <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerBlack_top}></div>
                     <div className={utilStyles.BlockWithoutBreaker}>
@@ -54,11 +54,11 @@ export default function News({news}){
     );
 }
 
-// export const getStaticProps = async () => {
-//     const res = await fetch(`http://adrlabs.vercel.app/news.json`);
-//     const data = await res.json();
+export const getStaticProps = async () => {
+    const res = await fetch(`http://adrlabs.vercel.app/news.json`);
+    const data = await res.json();
 
-//     return{
-//         props: {news: data}
-//     }
-// }
+    return{
+        props: {news: data}
+    }
+}
