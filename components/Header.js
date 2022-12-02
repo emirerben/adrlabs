@@ -20,9 +20,9 @@ const Header = () => (
             <ul>
                 <li>RESEARCH</li>
                 <li>PROJECTS</li>
-                <li>TEACHINGS</li>
+                <li>TEACHING</li>
                 <li>PUBLICATIONS</li>
-                <li>NEWS</li>
+                <li><Link href="/news">NEWS</Link></li>
             </ul> 
         </div>
         

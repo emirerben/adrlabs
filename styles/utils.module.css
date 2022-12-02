@@ -527,6 +527,7 @@
   object-fit:cover;
 }
 
+
 .teamBlock{
   margin-bottom: 80px;
 }
@@ -653,7 +654,7 @@
   position: relative;
   margin-top: 125px;
   padding-left: 40px;
-  margin-bottom: 800px;
+  margin-bottom: 85px;
 }
 .roleNameHeader{
   display: block;
@@ -665,15 +666,31 @@
   position: relative;
   top: -40px;
   width: 420px;
+  margin-bottom: 200px;
 }
 
-.textContent{
+
+.containerUserInfo{
   display: block;
   width: 600px;
   position:absolute;
   right: 150px;
   height: 100%;
   top: 300px;
+
+}
+
+@media (max-width:600px){
+  .personalImage{
+    width: 300px;
+    height: auto;
+    margin-bottom: 400px;
+  }
+
+  .containerUserInfo{
+    right: 300px;
+  }
+
 }
 
 .roleNameHeader h1{
@@ -683,16 +700,93 @@
   top: -40px;
 }
 
-#lightSub{
+.lightSub{
   margin-top: 70px;
   color: #707070;
   font-size: 16px;
+  position: relative;
 }
 
 .yellowHighlightName{
   border : 10px solid #FFFF00;
   position: relative;
   top: -110px;
-  width: 300px;
+  width: 110%;
   z-index: -1;
+}
+
+.breakerTeam{
+  border : 1px solid black;
+  position: absolute;
+  width: 110%;
+}
+
+.containerLinks{
+  display: block;
+  width: 600px;
+  position:relative;
+  font-size: 15px;
+  margin-bottom: 45px;
+}
+
+.containerLinks a{
+  text-decoration-line: underline;
+}
+
+.containerLinks p{
+  margin-bottom: 0px;
+
+}
+
+
+
+/*---------- News main ---------*/
+.TitleSection{
+  padding-top: 125px;
+  padding-left: 40px;
+  
+}
+
+.TitleSection h1{
+  font-size: 90px;
+  font-weight: 300;
+}
+
+.NewsContainer{
+  margin-bottom: 500px;
+  display: block;
+}
+
+.OneNews{
+
+
+}
+
+.BlockWithoutBreaker{
+  display: flex;
+  padding-top: 30px;
+  gap: 250px;
+}
+
+.BlockWithoutBreaker p{
+  font-size: 30px;
+  font-weight: 00;
+}
+
+.NewsTitlePart h3{
+  margin-top: 20px;
+  font-size: 39px;
+  font-weight: 400;
+  max-width: 600px;
+}
+
+.NewsTitlePart p{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/*-------------News Pages----------*/
+.topContainerNews{
+  height: 320px;
+  padding-top: 125px;
 }

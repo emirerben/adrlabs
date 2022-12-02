@@ -1,19 +1,19 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import LayoutAboutUs from "../components/Header";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import LayoutAboutUs from "../../components/Header";
 import Head from 'next/head';
 import Image from 'next/future/image'
 import Link from 'next/link';
-import Layout, { siteTitle } from '../components/Layout';
-import utilStyles from '../styles/utils.module.css';
-import mainpic from '../public/images/AdR_HomePage_008-bw2.png'
-import mainarrow from '../public/images/ADR-GraphicElements_vcopy.png'
-import adrlogo from '../public/images/ADR-Logo-01.png'
-import LayoutAbout from "../components/LayoutAbout";
-import SmallResearchTopics from "../components/SmallResearchTopics";
-import mypic from '../public/images/AdR_About_Page_004.png'
-import Arash from '../public/images/Arash.jpg'
-import upperArrow from '../public/images/ADR-GraphicElementsNoBoundary_y.png'
+import Layout, { siteTitle } from '../../components/Layout';
+import utilStyles from '../../styles/utils.module.css';
+import mainpic from '../../public/images/AdR_HomePage_008-bw2.png'
+import mainarrow from '../../public/images/ADR-GraphicElements_vcopy.png'
+import adrlogo from '../../public/images/ADR-Logo-01.png'
+import LayoutAbout from "../../components/LayoutAbout";
+import SmallResearchTopics from "../../components/SmallResearchTopics";
+import mypic from '../../public/images/AdR_About_Page_004.png'
+import Arash from '../../public/images/Arash.jpg'
+import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
 
 
 
@@ -21,7 +21,7 @@ export default function About(){
     return(
         <>
         <LayoutAbout>
-            {/*trial */}
+
             {/*This is the yellow section with the title*/}
             <div className={utilStyles.yellowTitle}>
                 <h1>ARCHITECTURE<br></br>COMPUTATIONAL DESIGN<br></br>ROBOTIC CONSTRUCTION</h1>
@@ -48,7 +48,7 @@ export default function About(){
                 {/*The following represents the image for a team member*/}
                 <div className={utilStyles.teamImageSquare}>
                     {/*The href is the file which should lead to once clicked*/}
-                    <Link href='/team/arashadel'><Image className={utilStyles.teamImage}
+                    <Link href='/aboutus/arashadel'><Image className={utilStyles.teamImage}
                     src={"/images/Arash.jpg"}
                     width={360}
                     height={360}
@@ -69,7 +69,7 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Link href='/team/salmamozaffari'><Image className={utilStyles.teamImage}
+                    <Link href='/aboutus/salmamozaffari'><Image className={utilStyles.teamImage}
                         src={"/images/Salma.jpg"}
                         width={360}
                         height={360}
@@ -89,6 +89,7 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
+                    {/*trial */}
                     <Link href='/team/danielruan'><Image className={utilStyles.teamImage}
                         src={"/images/Daniel.jpg"}
                         width={360}
@@ -109,7 +110,7 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Link href='/team/alirezafazel'>
+                    <Link href='/aboutus/alirezafazel'>
                         <Image className={utilStyles.teamImage}
                         src={"/images/Alireza.jpg"}
                         width={360}
@@ -130,7 +131,7 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Link href='/team/yunyanli'>
+                    <Link href='/aboutus/yunyanli'>
                         <Image className={utilStyles.teamImage}
                         src={"/images/Yunyan.jpg"}
                         width={360}
@@ -151,7 +152,7 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Link href='/team/abdallahkamhawi'>
+                    <Link href='/aboutus/abdallahkamhawi'>
                         <Image className={utilStyles.teamImage}
                         src={"/images/Abdallah.jpg"}
                         width={360}
@@ -172,7 +173,7 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Link href='/team/mohsenvatandoost'>
+                    <Link href='/aboutus/mohsenvatandoost'>
                         <Image className={utilStyles.teamImage}
                         src={"/images/Mohsen.jpg"}
                         width={360}
@@ -192,7 +193,7 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Link href='/team/xiujinliu'>
+                    <Link href='/aboutus/xiujinliu'>
                         <Image className={utilStyles.teamImage}
                         src={"/images/Xiujin.jpg"}
                         width={360}
@@ -212,7 +213,7 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Link href='/team/tharaneshvaradharajan'>
+                    <Link href='/aboutus/tharaneshvaradharajan'>
                         <Image className={utilStyles.teamImage}
                         src={"/images/Tharanesh.jpg"}
                         width={360}
@@ -233,7 +234,7 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Link href='/team/rahakamravafar'>
+                    <Link href='/aboutus/rahakamravafar'>
                         <Image className={utilStyles.teamImage}
                         src={"/images/Raha.jpg"}
                         width={360}
