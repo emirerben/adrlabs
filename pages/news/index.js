@@ -20,7 +20,7 @@ export default function News({news}){
         <div className={utilStyles.TitleSection}>
             <h1>NEWS</h1>
             <div className={utilStyles.NewsContainer}>
-                {news.map(news => (
+                {/* {news.map(news => (
                     <div key={news.id} className={utilStyles.OneNews}>
                          <div className={utilStyles.headerbreakerBlack_top}></div>
                     <div className={utilStyles.BlockWithoutBreaker}>
@@ -33,18 +33,20 @@ export default function News({news}){
                         </div>
                     </div>
                     </div>
-                ))}
-                {/* <div className={utilStyles.OneNews}>
+                ))} */}
+                <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerBlack_top}></div>
                     <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>{news.date}</p>
+                        <p>3/31/21</p>
                         <div className={utilStyles.NewsTitlePart}>
                             <h3>Keynote Lecture International Manufacturing Forum Series 2021</h3>
-                            <p>READ MORE</p>
+                            <Link href={'/news/internationalmanufacturing'}>
+                                <p>READ MORE</p>
+                            </Link>
                         </div>
                     </div>   
                 </div>
-                */}
+                
             </div>
         </div>
 
@@ -54,11 +56,11 @@ export default function News({news}){
     );
 }
 
-export const getStaticProps = async () => {
-    const res = await fetch(`http://adrlabs.vercel.app/news.json`);
-    const data = await res.json();
+// export const getStaticProps = async () => {
+//     const res = await fetch(`http://adrlabs.vercel.app/news.json`);
+//     const data = await res.json();
 
-    return{
-        props: {news: data}
-    }
-}
+//     return{
+//         props: {news: data}
+//     }
+// }
