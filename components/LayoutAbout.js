@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Image from 'next/future/image'
 import styles from './layout.module.css';
 import Link from 'next/link';
-import SmallResearchTopics from './SmallResearchTopics';
+import SmallResearchTopics from './SmallAwards';
 import mypic from '../public/images/AdR_About_Page_004.png'
 
 

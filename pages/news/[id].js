@@ -9,7 +9,9 @@ import Link from 'next/link';
 
 
 export default function News({ news }) {
-
+    const router = useRouter()
+    const basePath = '/public/images'
+    const { id } = router.query
     return (<>
         <Head>
 
@@ -17,7 +19,7 @@ export default function News({ news }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            {/* <p>{news.id}</p> */}
+            <p>{news.id}</p>
         </div>
        
 
@@ -29,8 +31,18 @@ export default function News({ news }) {
 }
 
 // export async function getServerSideProps({ params }) {
-//     const req = await fetch(`http://adrlabs.vercel.app/${params.id}.json`);
-//     const data = await req.json();
+//     // const res = await fetch(`http://adrlabs.vercel.app/${params.id}.json`);
+//     // const data = await res.json(JSON.stringify(res))
+
+//     var res = await axios.get(
+//         `http://adrlabs.vercel.app/${params.id}.json`,
+//         {
+//           headers: {
+//             Accept: 'application/json, text/plain, */*',
+//             'User-Agent': '*',
+//           },
+//         }
+//       );
 
 //     return {
 //         props: { news: data },

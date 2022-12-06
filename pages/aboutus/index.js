@@ -10,7 +10,7 @@ import mainpic from '../../public/images/AdR_HomePage_008-bw2.png'
 import mainarrow from '../../public/images/ADR-GraphicElements_vcopy.png'
 import adrlogo from '../../public/images/ADR-Logo-01.png'
 import LayoutAbout from "../../components/LayoutAbout";
-import SmallResearchTopics from "../../components/SmallResearchTopics";
+import SmallAwards from "../../components/SmallAwards";
 import mypic from '../../public/images/AdR_About_Page_004.png'
 import Arash from '../../public/images/Arash.jpg'
 import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
@@ -253,7 +253,7 @@ export default function About(){
                 </div>
             </div>
         </div>
-        <SmallResearchTopics></SmallResearchTopics>
+        <SmallAwards></SmallAwards>
         <div className={utilStyles.secondWhiteBlock}>
                 <Image className={utilStyles.Aboutus_second_imageStyle}
                 src={mypic}
