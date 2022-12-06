@@ -271,7 +271,7 @@
   position: relative;
   left: 40px;
   margin-right: 60px;
-  object-fit:fill;
+  object-fit: cover;
 }
 
 .projectCardStyle p{

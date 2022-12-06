@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import firstpic from '../public/images/AdR_HomePage_006-Black-Core.png'
-import secondpic from '../public/images/AdR_HomePage_007-BW.png'
-import thirdpic from '../public/images/parallel-paths-BW.png'
-import fourthpic from '../public/images/AdR_HomePage_009-BW.png'
+import firstpic from '../public/images/latestwork1.jpeg'
+import secondpic from '../public/images/latestwork2.jpg'
+import thirdpic from '../public/images/latestwork3.jpg'
+import fourthpic from '../public/images/latestwork4.jpeg'
 import Image from 'next/future/image'
 import utilStyles from '../styles/utils.module.css';
 
@@ -20,7 +20,7 @@ const LatestWork = () => (
                     height={416}
                 />
             </Link>
-            <p>PROJECT NAME</p>
+            <p>Robotically Fabricated Structure 2.0</p>
         </div>
         <div className={utilStyles.projectCardStyle}>
             <Link href="/">
@@ -31,7 +31,7 @@ const LatestWork = () => (
                     height={254}
                 />
             </Link>
-            <p>PROJECT NAME</p>
+            <p>Robotically Fabricated Structure <br></br>(RFS)</p>
         </div>        
         <div className={utilStyles.projectCardStyle}>
             <Link href="/">
@@ -42,7 +42,7 @@ const LatestWork = () => (
                     height={391}
                 />
             </Link>
-            <p>PROJECT NAME</p>
+            <p>Muti-Robotic Timber Assembly</p>
         </div>
         <div className={utilStyles.projectCardStyle}>
             <Link href="/">
@@ -53,7 +53,7 @@ const LatestWork = () => (
                     height={287}
                 />
             </Link>
-            <p>PROJECT NAME</p> 
+            <p>DFAB House</p> 
         </div>          
     </div>
 </div>
