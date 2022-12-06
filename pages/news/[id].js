@@ -17,10 +17,9 @@ export default function News({ news }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            <p>{news.id}</p>
+            {/* <p>{news.id}</p> */}
         </div>
        
-        <p>{news.id}</p>
 
         
        <Footer></Footer>
@@ -29,34 +28,43 @@ export default function News({ news }) {
     )
 }
 
-export const getStaticPaths = async () => {
-    const res = await fetch(`http://adrlabs.vercel.app/news.json`);
-    const data = await res.json();
+// export async function getServerSideProps({ params }) {
+//     const req = await fetch(`http://adrlabs.vercel.app/${params.id}.json`);
+//     const data = await req.json();
 
-    const paths = data.map(news => {
-        return {
-            params: { id: news.id.toString()}
-        }
-    })
-    return{
-        paths: paths,
-        fallback: false
-    }
-}
+//     return {
+//         props: { news: data },
+//     }
+// }
 
+// export const getStaticPaths = async () => {
+//     const res = await fetch(`http://adrlabs.vercel.app/news.json`);
+//     const data = await res.json();
 
-export const getStaticProps = async (context) => {
-    const id = context.params.id;
-    const res = await fetch(`http://adrlabs.vercel.app/news/${id}.json`);
-
-    const data = await res.json();
-
-    return{
-        props: { news: data }
-    }
+//     const paths = data.map(news => {
+//         return {
+//             params: { id: news.id.toString()}
+//         }
+//     })
+//     return{
+//         paths: paths,
+//         fallback: false
+//     }
+// }
 
 
-}
+// export const getStaticProps = async (context) => {
+//     const id = context.params.id;
+//     const res = await fetch(`http://adrlabs.vercel.app/news/${id}.json`);
+
+//     const data = await res.json();
+
+//     return{
+//         props: { news: data }
+//     }
+
+
+// }
 
 
 
