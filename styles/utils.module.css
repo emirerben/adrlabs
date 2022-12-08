@@ -61,6 +61,8 @@
 .underline{
   text-decoration: underline;
 }
+
+
 .container{
     background-color: yellow;
     display: grid;
@@ -241,6 +243,21 @@
   display: inline-block;
 }
 
+.footerlogoleft_style{
+  position: absolute;
+  left: 40px;
+}
+
+
+
+.adrsocial_footer{
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+.adrsociallinkedin_footer{
+  margin-bottom: 12px;
+}
 .footer_text{
   font-size: 16px;
   line-height: 19px;
@@ -278,6 +295,19 @@
   top: 0px;
   left: 40px;
   position: relative;
+
+}
+
+.titleArrowLatestWork{
+  display: flexbox;
+  width: 100%;
+}
+
+.titleArrowLatestWork img{
+  position: relative;
+  justify-self: flex-end;
+  margin-top: -10px;
+  margin-left: 30px;
 }
 
 .SmallAboutUsStyle{

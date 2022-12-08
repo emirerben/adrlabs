@@ -20,7 +20,15 @@ const LatestWork = () => (
                     height={416}
                 />
             </Link>
-            <p>Robotically Fabricated Structure 2.0</p>
+            <div className={utilStyles.titleArrowLatestWork}>
+                <p>Robotically Fabricated Structure 2.0</p>
+                <Image className={utilStyles.smallUpperArrow}
+                    src={"/images/ADR-GraphicElements_vcopy.png"}
+                    alt="Logo"
+                    width={40}
+                    height={40}
+                />
+            </div>
         </div>
         <div className={utilStyles.projectCardStyle}>
             <Link href="/">
@@ -31,7 +39,15 @@ const LatestWork = () => (
                     height={254}
                 />
             </Link>
-            <p>Robotically Fabricated Structure <br></br>(RFS)</p>
+            <div className={utilStyles.titleArrowLatestWork}>
+                <p>Robotically Fabricated Structure <br></br>(RFS)</p>
+                <Image className={utilStyles.smallUpperArrow}
+                    src={"/images/ADR-GraphicElements_vcopy.png"}
+                    alt="Logo"
+                    width={40}
+                    height={40}
+                />
+            </div>
         </div>        
         <div className={utilStyles.projectCardStyle}>
             <Link href="/">
@@ -42,7 +58,15 @@ const LatestWork = () => (
                     height={391}
                 />
             </Link>
-            <p>Muti-Robotic Timber Assembly</p>
+            <div className={utilStyles.titleArrowLatestWork}>
+                <p>Muti-Robotic Timber Assembly</p>
+                <Image className={utilStyles.smallUpperArrow}
+                    src={"/images/ADR-GraphicElements_vcopy.png"}
+                    alt="Logo"
+                    width={40}
+                    height={40}
+                />
+            </div>
         </div>
         <div className={utilStyles.projectCardStyle}>
             <Link href="/">
@@ -53,7 +77,15 @@ const LatestWork = () => (
                     height={287}
                 />
             </Link>
-            <p>DFAB House</p> 
+            <div className={utilStyles.titleArrowLatestWork}>
+                <p>DFAB House</p>
+                <Image className={utilStyles.smallUpperArrow}
+                    src={"/images/ADR-GraphicElements_vcopy.png"}
+                    alt="Logo"
+                    width={40}
+                    height={40}
+                />
+            </div>
         </div>          
     </div>
 </div>

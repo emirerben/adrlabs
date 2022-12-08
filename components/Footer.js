@@ -5,6 +5,7 @@ import Image from 'next/future/image'
 import utilStyles from '../styles/utils.module.css';
 
 
+
 const Footer = () => (
 <div className={utilStyles.footerStyle}>
     <div className={utilStyles.headerbreakerBlack_top}></div>
@@ -12,6 +13,7 @@ const Footer = () => (
     <div className={utilStyles.linksStyle}>
         <div className={utilStyles.upperlinksStyle}>
             <ul>
+                <li style={{fontWeight: 800, fontSize: 16}} className={utilStyles.footerlogoleft_style}>© 2022 ADR</li> 
                 <li>RESEARCH</li>
                 <li>PROJECTS</li>
                 <li>TEACHING</li>
@@ -22,6 +24,43 @@ const Footer = () => (
         
         <div className={utilStyles.lowerlinksStyle}>
             <ul>
+                <li className={utilStyles.footerlogoleft_style}>
+                <Link href="https://www.instagram.com/adr_laboratory/">
+                    <Image className={utilStyles.adrsocial_footer}
+                        src={"/images/instagram-icon.png"}
+                        alt="ADR Instagram"
+                        height={21}
+                        width={21}
+                    />
+                </Link>
+                <Link href="https://www.linkedin.com/company/adr-laboratory/about/">
+                    <Image className={utilStyles.adrsociallinkedin_footer}
+                        src={"/images/linkedin.png"}
+                        alt="ADR LinkedIn"
+                        height={18}
+                        width={18}
+                    />
+                </Link>
+                
+
+{/*                 
+                <Link href="/">
+                    <Image className={utilStyles.adrsocial_footer}
+                        src={"/images/facebook.png"}
+                        alt="ADR Facebook"
+                        height={21}
+                        width={21}
+                    />
+                </Link>  
+                <Link href="/">
+                    <Image className={utilStyles.adrsocial_footer}
+                        src={"/images/twitter-icon.png"}
+                        alt="ADR Twitter"
+                        height={21}
+                        width={28}
+                    />
+                </Link>     */}
+                </li> 
                 <li><Link href="/aboutus">ABOUT</Link></li>
                 <li>CONTACT</li>
             </ul> 

@@ -19,7 +19,7 @@ export default function News({ news }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            <p>{news.id}</p>
+            {/* <p>{news.id}</p> */}
         </div>
        
 

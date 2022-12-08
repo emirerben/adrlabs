@@ -32,18 +32,22 @@ export default function Team({ team }) {
                 width={420}
                 height={420}
             />
-            
             <div className={utilStyles.containerUserInfo}>
                 <div className={utilStyles.breakerTeam}></div>
                 <div className={utilStyles.containerLinks}>
                     <p>{team.email}</p>
                     <a href={team.linkedin}>LinkedIn</a><br></br>
-                    {team.googlescholar != '' &&
+                    {team.googlescholar != '' ? <><a href={team.googlescholar}>Google Scholar</a><br></br></> : <p style={{marginTop:0}}>Google Scholar</p>}
+                    {team.researchgate != '' ?
+                    <><a href={team.researchgate}>Research Gate</a></> : <p style={{marginTop:0}}>Research Gate</p>
+                    }
+                    {/* the following is if we want to remove the text if no link exists */}
+                    {/* {team.googlescholar != '' &&
                     <><a href={team.googlescholar}>Google Scholar</a><br></br></>
                     }
                     {team.researchgate != '' &&
                     <><a href={team.researchgate}>Research Gate</a></>
-                    }
+                    } */}
                 </div>
                 <div className={utilStyles.textContent}>
                     <p>{team.main}</p>
