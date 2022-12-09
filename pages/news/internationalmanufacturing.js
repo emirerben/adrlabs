@@ -20,7 +20,7 @@ export default function News({ news }) {
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
             {/* <p>{news.id}</p> */}
-            ANAAAA
+            
         </div>
        
 
