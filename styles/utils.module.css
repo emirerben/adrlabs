@@ -407,7 +407,7 @@
 
   margin-right: 80px;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 130px;
 
 }
 
@@ -415,10 +415,12 @@
   position: relative;
   
   float: right;
-  right: 340px;
+
 
   top: -20px;
   font-size: 15px;
+  max-width: 500px;
+
 
 }
 
@@ -427,7 +429,7 @@
 }
 
 .breakerBlack{
-  border : 1px solid black;
+  border : 1px solid blçack;
 }
 
 .SmallNewsTopicsStyle{
@@ -825,11 +827,13 @@
 
 /*-------------News Pages----------*/
 .topContainerNews{
+
   height: 1500px;
   padding-top: 125px;
   padding-left: 40px;
   padding-right: 40px;
 }
+
 
 .topContainerNews h2{
   position: relative;
