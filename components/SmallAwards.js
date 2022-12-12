@@ -70,7 +70,7 @@ export default function SmallResearchTopics(){
             </div>
             <div className={utilStyles.moreinfoStyle} style={{display:showMe1?"block":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
-                        src={mypic}
+                        src='/images/awards1.jpeg'
                         alt="Plus"
                         width={540}
                         height={334}
@@ -91,7 +91,7 @@ export default function SmallResearchTopics(){
             </div>
             <div className={utilStyles.moreinfoStyle} style={{display:showMe2?"block":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
-                        src={mypic}
+                        src='/images/awards2.jpg'
                         alt="Plus"
                         width={540}
                         height={334}
@@ -109,7 +109,7 @@ export default function SmallResearchTopics(){
             </div>
             <div className={utilStyles.moreinfoStyle} style={{display:showMe3?"block":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
-                        src={mypic}
+                        src='/images/awards3.jpeg'
                         alt="Plus"
                         width={540}
                         height={334}
@@ -129,7 +129,7 @@ export default function SmallResearchTopics(){
             </div>
             <div className={utilStyles.moreinfoStyle} style={{display:showMe4?"block":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
-                        src={mypic}
+                        src='/images/awards4.jpeg'
                         alt="Plus"
                         width={540}
                         height={334}

@@ -404,16 +404,20 @@
 }
 
 .moreinfoStyle{
-  padding-top: 100px;
-  margin-right: 200px;
+
+  margin-right: 80px;
   display: flex;
-  height: 750px;
-  
+  margin-bottom: 50px;
+
 }
 
 .moreinfoStyle p{
-  width: 360px;
+  position: relative;
+  
   float: right;
+  right: 340px;
+
+  top: -20px;
   font-size: 15px;
 
 }
@@ -787,7 +791,7 @@
 }
 
 .NewsContainer{
-  margin-bottom: 500px;
+
   display: block;
 }
 
@@ -821,6 +825,28 @@
 
 /*-------------News Pages----------*/
 .topContainerNews{
-  height: 320px;
+  height: 1500px;
   padding-top: 125px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.topContainerNews h2{
+  position: relative;
+  top: -250px;
+  float: right;
+}
+
+.newsBody{
+  position: relative;
+  float: right;
+  right: 60px;
+  max-width: 780px;
+  color: #707070;
+  margin-top: 50px;
+}
+
+.newsImage{
+  margin-top: 35px;
+  margin-bottom: 30px;
 }

@@ -3,7 +3,7 @@ import Image from 'next/future/image'
 import utilStyles from '../styles/utils.module.css';
 import plus_graphic from '../public/images/ADR-GraphicElements_white.png'
 import minus_graphic from '../public/images/ADR-GraphicElements_M_white.png'
-import mypic from '../public/images/AdR_About_Page_004.png'
+
 import { useState } from "react";
 
 
@@ -70,7 +70,7 @@ export default function SmallResearchTopics(){
             </div>
             <div className={utilStyles.moreinfoStyle} style={{display:showMe1?"block":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
-                        src={mypic}
+                        src='/images/Picture1-publications.png'
                         alt="Plus"
                         width={540}
                         height={334}
@@ -89,7 +89,7 @@ export default function SmallResearchTopics(){
             </div>
             <div className={utilStyles.moreinfoStyle} style={{display:showMe2?"block":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
-                        src={mypic}
+                        src='/images/Picture2-publications.png'
                         alt="Plus"
                         width={540}
                         height={334}
@@ -107,7 +107,7 @@ export default function SmallResearchTopics(){
             </div>
             <div className={utilStyles.moreinfoStyle} style={{display:showMe3?"block":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
-                        src={mypic}
+                        src='/images/Picture3-publications.png'
                         alt="Plus"
                         width={540}
                         height={334}
@@ -125,7 +125,7 @@ export default function SmallResearchTopics(){
             </div>
             <div className={utilStyles.moreinfoStyle} style={{display:showMe4?"block":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
-                        src={mypic}
+                        src='/images/Picture4-publications.png'
                         alt="Plus"
                         width={540}
                         height={334}

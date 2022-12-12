@@ -37,16 +37,51 @@ export default function News({news}){
                 <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerBlack_top}></div>
                     <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>3/31/21</p>
+                        <p>10/31/22</p>
                         <div className={utilStyles.NewsTitlePart}>
-                            <h3>Keynote Lecture International Manufacturing Forum Series 2021</h3>
-                            <Link href={'/news/internationalmanufacturing'}>
+                            <h3>Robotically Fabricated Structure (RFS) Receives Global Future Design Award</h3>
+                            <Link href={'/news/globaldesignaward'}>
                                 <p>READ MORE</p>
                             </Link>
                         </div>
                     </div>   
                 </div>
-                
+                <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p>10/05/22</p>
+                        <div className={utilStyles.NewsTitlePart}>
+                            <h3>Robotically Fabricated Structure (RFS) Awarded the Honorable Mention for the Loop Design Awards 2022</h3>
+                            <Link href={'/news/loopdesignawards'}>
+                                <p>READ MORE</p>
+                            </Link>
+                        </div>
+                    </div>   
+                </div>
+                <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p>08/29/22</p>
+                        <div className={utilStyles.NewsTitlePart}>
+                            <h3>Robotically Fabricated Structure (RFS) Nominated for the LOOP Design Awards 2022 People's Choice</h3>
+                            <Link href={'/news/peopleschoice'}>
+                                <p>READ MORE</p>
+                            </Link>
+                        </div>
+                    </div>   
+                </div>
+                <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p>8/11/22</p>
+                        <div className={utilStyles.NewsTitlePart}>
+                            <h3>Robotically Fabricated Structure (RFS) Longlisted for Dezeen Awards 2022</h3>
+                            <Link href={'/news/dezeenawards'}>
+                                <p>READ MORE</p>
+                            </Link>
+                        </div>
+                    </div>   
+                </div>
             </div>
         </div>
 
