@@ -1,3 +1,4 @@
+
 .heading2Xl {
     font-size: 2.5rem;
     line-height: 1.2;
@@ -56,6 +57,10 @@
   
   .logo{
     background-color: black;
+  }
+
+  .whitetext{
+    color: white;
   }
 
 .underline{
@@ -415,13 +420,9 @@
   position: relative;
   
   float: right;
-
-
   top: -20px;
   font-size: 15px;
   max-width: 500px;
-
-
 }
 
 .breakerWhite{
@@ -805,7 +806,7 @@
 .BlockWithoutBreaker{
   display: flex;
   padding-top: 30px;
-  gap: 250px;
+  gap: 100px;
 }
 
 .BlockWithoutBreaker p{
@@ -853,4 +854,54 @@
 .newsImage{
   margin-top: 35px;
   margin-bottom: 30px;
+}
+
+
+/*-------PUBLICATIONS------*/
+.headerbreakerBlack_top_short{
+  border : 1px solid black;
+  margin-left: 160px;
+  width: 205%;
+  max-width: 1183px;
+}
+
+@media (max-width:600px){
+  .headerbreakerBlack_top_short{
+    max-width: 1050px;
+  }
+}
+
+.linksPublications{
+  display: flex;
+  gap: 20px;
+}
+
+.publicationsImages{
+  object-fit:cover;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.PublicationsTitlePart{
+  margin-left: -40px;
+}
+
+.PublicationsTitlePart h1{
+  margin-top: 0px;
+  font-size: 39px;
+  font-weight: 400;
+  max-width: 600px;
+}
+
+.PublicationsTitlePart h3{
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.PublicationsTitlePart p{
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 300;
 }
