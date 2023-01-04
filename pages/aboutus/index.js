@@ -21,7 +21,7 @@ export default function About(){
     return(
         <>
         <LayoutAbout>
-            {/*trial */}
+
             {/*This is the yellow section with the title*/}
             <div className={utilStyles.yellowTitle}>
                 <h1>ARCHITECTURE<br></br>COMPUTATIONAL DESIGN<br></br>ROBOTIC CONSTRUCTION</h1>
@@ -89,7 +89,8 @@ export default function About(){
             </div>
             <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
-                    <Link href='/aboutus/danielruan'><Image className={utilStyles.teamImage}
+                    {/*trial */}
+                    <Link href='/team/danielruan'><Image className={utilStyles.teamImage}
                         src={"/images/Daniel.jpg"}
                         width={360}
                         height={360}
