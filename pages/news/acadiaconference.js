@@ -19,8 +19,8 @@ export default function News({ news }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>Robotically Fabricated Structure (RFS) Longlisted for Dezeen Awards 2022</h3>
-            <h2 style={{fontSize:30, fontWeight:300}}>08/11/22</h2>
+            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>Research Paper Presentation at the ACADIA Conference</h3>
+            <h2 style={{fontSize:30, fontWeight:300}}>11/03/21</h2>
             <div className={utilStyles.imageBlock}>
                 <div className={utilStyles.breakerBlack}></div>
                 <Image className={utilStyles.newsImage}
@@ -33,12 +33,8 @@ export default function News({ news }) {
             </div>
             
             <div className={utilStyles.newsBody}>
-            <p>
-            Our project, Robotically Fabricated Structure (RFS), is one of twenty-nine projects longlisted for the Architecture Small Building category in this year’s Dezeen Awards. <br></br><br></br>
-Dezeen Awards is an annual awards program organized by the influential architecture and design website Dezeen. These awards serve to highlight international design excellence with projects that benefit users and the environment in addition to being beautiful and innovative, with over 5,400 entries submitted to Dezeen Awards 2022 from 90 countries.<br></br><br></br>
-Article Link：<a href='https://www.dezeen.com/awards/2022/longlists/robotically-fabricated-structure/'>https://www.dezeen.com/awards/2022/longlists/robotically-fabricated-structure/ </a>
-
-            </p>
+            <p>We will present our recent research paper, Cocoon: 3D Printed Clay Formwork for Concrete Casting, at the ACADIA conference this Friday, November 5, 2021, at 5:30pm EST. <br></br><br></br>
+                Conference Link：<a href='https://2021.acadia.org/'>https://2021.acadia.org/</a></p>
             </div>
         </div>
         

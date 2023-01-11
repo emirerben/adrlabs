@@ -880,18 +880,22 @@
   object-fit:cover;
   margin-top: 40px;
   margin-bottom: 40px;
+  width: 250px;
 }
+
 
 
 .PublicationsTitlePart{
   margin-left: -40px;
+  margin-bottom: 20px;
 }
 
 .PublicationsTitlePart h1{
-  margin-top: 0px;
+  margin: 0px;
   font-size: 39px;
   font-weight: 400;
-  max-width: 600px;
+  max-width: 700px;
+  line-height: 50px
 }
 
 .PublicationsTitlePart h3{
@@ -901,7 +905,29 @@
 }
 
 .PublicationsTitlePart p{
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   font-size: 20px;
   font-weight: 300;
+  letter-spacing: 1px;
+  max-width: 800px;
+}
+
+/* .FirstBlockWithoutBreaker{
+  display: flex;
+  margin-left: 20px;
+  padding-top: 30px;
+  gap: 100px;
+} */
+
+
+/*-----------Teachings--------*/
+.TeachingBlock{
+  display: block;
+  padding-top: 30px;
+  gap: 100px;
+}
+
+.TeachingBlock h3{
+  font-size: 30px;
+  font-weight: 10;
 }

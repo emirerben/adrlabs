@@ -16,7 +16,7 @@ const Footer = () => (
                 <li style={{fontWeight: 800, fontSize: 16}} className={utilStyles.footerlogoleft_style}>© 2022 ADR</li> 
                 <li>RESEARCH</li>
                 <li>PROJECTS</li>
-                <li>TEACHING</li>
+                <li><Link href="/teachings">TEACHINGS</Link></li>
                 <li><Link href="/publications">PUBLICATIONS</Link></li>
                 <li><Link href="/news">NEWS</Link></li>
             </ul> 

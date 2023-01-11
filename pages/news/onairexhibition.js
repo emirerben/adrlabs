@@ -19,8 +19,8 @@ export default function News({ news }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>Robotically Fabricated Structure (RFS) Longlisted for Dezeen Awards 2022</h3>
-            <h2 style={{fontSize:30, fontWeight:300}}>08/11/22</h2>
+            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>On Air Exhibition</h3>
+            <h2 style={{fontSize:30, fontWeight:300, marginTop:200}}>03/30/22</h2>
             <div className={utilStyles.imageBlock}>
                 <div className={utilStyles.breakerBlack}></div>
                 <Image className={utilStyles.newsImage}
@@ -33,12 +33,8 @@ export default function News({ news }) {
             </div>
             
             <div className={utilStyles.newsBody}>
-            <p>
-            Our project, Robotically Fabricated Structure (RFS), is one of twenty-nine projects longlisted for the Architecture Small Building category in this year’s Dezeen Awards. <br></br><br></br>
-Dezeen Awards is an annual awards program organized by the influential architecture and design website Dezeen. These awards serve to highlight international design excellence with projects that benefit users and the environment in addition to being beautiful and innovative, with over 5,400 entries submitted to Dezeen Awards 2022 from 90 countries.<br></br><br></br>
-Article Link：<a href='https://www.dezeen.com/awards/2022/longlists/robotically-fabricated-structure/'>https://www.dezeen.com/awards/2022/longlists/robotically-fabricated-structure/ </a>
-
-            </p>
+            <p>Robotically Fabricated Structure (RFS) 2.0 is on display at the On Air exhibition in Ann Arbor, Michigan. RFS 2.0 is an extension of the ongoing research conducted by ADR Laboratory on robotic timber construction and human-robot collaborative construction processes. RFS 1.0 was a timber pavilion, sited on the Matthaei Botanical Gardens in Ann Arbor, serving as an open-air event, gathering, and exhibition space and offering opportunities for holding music, dance, and other performances as well as temporary exhibitions and open-air classrooms. RFS 2.0 builds upon that project and advances the research by developing a robotically fabricated construction system that could work as multi-story structures to facilitate sustainable housing solutions. <br></br><br></br>
+                Article Link：<a href='https://taubmancollege.umich.edu/events/2022/03/25/on-air-faculty-work-2020-2022'>https://taubmancollege.umich.edu/events/2022/03/25/on-air-faculty-work-2020-2022</a></p>
             </div>
         </div>
         

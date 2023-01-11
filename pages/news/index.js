@@ -73,7 +73,7 @@ export default function News({news}){
                 <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerBlack_top}></div>
                     <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>8/11/22</p>
+                        <p>08/11/22</p>
                         <div className={utilStyles.NewsTitlePart}>
                             <h3>Robotically Fabricated Structure (RFS) Longlisted for Dezeen Awards 2022</h3>
                             <Link href={'/news/dezeenawards'}>
@@ -82,6 +82,45 @@ export default function News({news}){
                         </div>
                     </div>   
                 </div>
+                <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p>08/10/22</p>
+                        <div className={utilStyles.NewsTitlePart}>
+                            <h3>Adel Announced as Juror for ACSA 2022 Timber Competition</h3>
+                            <Link href={'/news/acsa'}>
+                                <p>READ MORE</p>
+                            </Link>
+                        </div>
+                    </div>   
+                </div>
+                <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p>03/30/22</p>
+                        <div className={utilStyles.NewsTitlePart}>
+                            <h3>On Air Exhibition</h3>
+                            <Link href={'/news/onairexhibition'}>
+                                <p>READ MORE</p>
+                            </Link>
+                        </div>
+                    </div>   
+                </div>
+                <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p>11/03/21</p>
+                        <div className={utilStyles.NewsTitlePart}>
+                            <h3>Research Paper Presentation at the ACADIA Conference</h3>
+                            <Link href={'/news/acadiaconference'}>
+                                <p>READ MORE</p>
+                            </Link>
+                        </div>
+                    </div>   
+                </div>
+
+
+                
             </div>
         </div>
 

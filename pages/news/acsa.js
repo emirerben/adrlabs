@@ -19,8 +19,8 @@ export default function News({ news }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>Robotically Fabricated Structure (RFS) Longlisted for Dezeen Awards 2022</h3>
-            <h2 style={{fontSize:30, fontWeight:300}}>08/11/22</h2>
+            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>Adel Announced as Juror for ACSA 2022 Timber Competition</h3>
+            <h2 style={{fontSize:30, fontWeight:300}}>10/31/22</h2>
             <div className={utilStyles.imageBlock}>
                 <div className={utilStyles.breakerBlack}></div>
                 <Image className={utilStyles.newsImage}
@@ -33,12 +33,11 @@ export default function News({ news }) {
             </div>
             
             <div className={utilStyles.newsBody}>
-            <p>
-            Our project, Robotically Fabricated Structure (RFS), is one of twenty-nine projects longlisted for the Architecture Small Building category in this year’s Dezeen Awards. <br></br><br></br>
-Dezeen Awards is an annual awards program organized by the influential architecture and design website Dezeen. These awards serve to highlight international design excellence with projects that benefit users and the environment in addition to being beautiful and innovative, with over 5,400 entries submitted to Dezeen Awards 2022 from 90 countries.<br></br><br></br>
-Article Link：<a href='https://www.dezeen.com/awards/2022/longlists/robotically-fabricated-structure/'>https://www.dezeen.com/awards/2022/longlists/robotically-fabricated-structure/ </a>
-
-            </p>
+            <p>Our director, Dr. Arash Adel, has been selected as one of five jurors for the 2022 Timber Competition hosted by the ACSA.<br></br><br></br>
+                The competition, titled TIMBER IN THE CITY 4: Urban Habitats Competition, is the fourth competition of the series, and according to the ACSA website, “focuses this year on the interrelationship between housing, urban transit infrastructure, equitable living, and climate change. The program is intended to engage students, working individually or in teams, to imagine the transformation of our existing cities through sustainable buildings from renewable resources, offering expedient affordable construction, innovating with new and traditional wooden materials, and designing healthy living and working environments.”<br></br><br></br>
+                Dr. Adel will be contributing his extensive knowledge of timber construction to the jury panel, having worked on numerous projects coupling novel computational design methods with robotic assembly techniques for manufacturing nonstandard timber structures and buildings. These projects include the widely-published DFAB HOUSE located in Dubendorf, Switzerland, and more recently, the Robotically Fabricated Structure (RFS) timber pavilion sited at the Matthaei Botanical Gardens in Ann Arbor, Michigan, USA.<br></br><br></br>
+                
+                ACSA 2022 Timber Competition Link：<a href='https://www.acsa-arch.org/competitions/2022-timber-competition/'>https://www.acsa-arch.org/competitions/2022-timber-competition/</a></p>
             </div>
         </div>
         
