@@ -41,7 +41,7 @@ export default function News({news}){
                         <div className={utilStyles.NewsTitlePart}>
                             <h3>Robotically Fabricated Structure (RFS) Receives Global Future Design Award</h3>
                             <Link href={'/news/globaldesignaward'}>
-                                <p>READ MORE</p>
+                                READ MORE
                             </Link>
                         </div>
                     </div>   
@@ -53,7 +53,7 @@ export default function News({news}){
                         <div className={utilStyles.NewsTitlePart}>
                             <h3>Robotically Fabricated Structure (RFS) Awarded the Honorable Mention for the Loop Design Awards 2022</h3>
                             <Link href={'/news/loopdesignawards'}>
-                                <p>READ MORE</p>
+                                READ MORE
                             </Link>
                         </div>
                     </div>   
@@ -65,7 +65,7 @@ export default function News({news}){
                         <div className={utilStyles.NewsTitlePart}>
                             <h3>Robotically Fabricated Structure (RFS) Nominated for the LOOP Design Awards 2022 People's Choice</h3>
                             <Link href={'/news/peopleschoice'}>
-                                <p>READ MORE</p>
+                                READ MORE
                             </Link>
                         </div>
                     </div>   
@@ -77,7 +77,7 @@ export default function News({news}){
                         <div className={utilStyles.NewsTitlePart}>
                             <h3>Robotically Fabricated Structure (RFS) Longlisted for Dezeen Awards 2022</h3>
                             <Link href={'/news/dezeenawards'}>
-                                <p>READ MORE</p>
+                                READ MORE
                             </Link>
                         </div>
                     </div>   
@@ -89,7 +89,7 @@ export default function News({news}){
                         <div className={utilStyles.NewsTitlePart}>
                             <h3>Adel Announced as Juror for ACSA 2022 Timber Competition</h3>
                             <Link href={'/news/acsa'}>
-                                <p>READ MORE</p>
+                                READ MORE
                             </Link>
                         </div>
                     </div>   
@@ -101,7 +101,7 @@ export default function News({news}){
                         <div className={utilStyles.NewsTitlePart}>
                             <h3>On Air Exhibition</h3>
                             <Link href={'/news/onairexhibition'}>
-                                <p>READ MORE</p>
+                                READ MORE
                             </Link>
                         </div>
                     </div>   
@@ -113,7 +113,7 @@ export default function News({news}){
                         <div className={utilStyles.NewsTitlePart}>
                             <h3>Research Paper Presentation at the ACADIA Conference</h3>
                             <Link href={'/news/acadiaconference'}>
-                                <p>READ MORE</p>
+                                READ MORE
                             </Link>
                         </div>
                     </div>   
