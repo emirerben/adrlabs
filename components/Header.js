@@ -29,7 +29,7 @@ const Header = () => (
         <div className={utilStyles.lowerlinksStyle}>
             <ul>
                 <li><Link href="/aboutus">ABOUT</Link></li>
-                <li>CONTACT</li>
+                <li><Link href="/contactus">CONTACT</Link></li>
             </ul> 
         </div>
     </div>
