@@ -283,7 +283,7 @@ export default function About(){
                 <h3>TEACHING</h3>
                 <p>ADR’s robotic construction research and other core topics are integrated into the courses of the Ph.D. in Architecture and the Digital and Material Technology Master of Science programs at the University of Michigan. </p>
                 <div className={utilStyles.textArrow}>
-                    <p>LEARN MORE</p>
+                    <p><Link href="/teachings">LEARN MORE</Link></p>
                     <Image className={utilStyles.smallUpperArrow}
                         src={mainarrow}
                         alt="Logo"

@@ -14,9 +14,9 @@ const Footer = () => (
         <div className={utilStyles.upperlinksStyle}>
             <ul>
                 <li style={{fontWeight: 800, fontSize: 16}} className={utilStyles.footerlogoleft_style}>© 2022 ADR</li> 
-                <li>RESEARCH</li>
-                <li>PROJECTS</li>
-                <li><Link href="/teachings">TEACHINGS</Link></li>
+                <li><Link href="/research">RESEARCH</Link></li>
+                <li><Link href="/projects">PROJECTS</Link></li>
+                <li><Link href="/teachings">TEACHING</Link></li>
                 <li><Link href="/publications">PUBLICATIONS</Link></li>
                 <li><Link href="/news">NEWS</Link></li>
             </ul> 
@@ -62,7 +62,7 @@ const Footer = () => (
                 </Link>     */}
                 </li> 
                 <li><Link href="/aboutus">ABOUT</Link></li>
-                <li>CONTACT</li>
+                <li><Link href="/contactus">CONTACT</Link></li>
             </ul> 
         </div>
     </div>

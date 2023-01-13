@@ -24,7 +24,7 @@ export default function Teachings(){
         <Header></Header>
 
         <div className={utilStyles.TitleSection}>
-            <h1>TEACHINGS</h1>
+            <h1>TEACHING</h1>
             <div className={utilStyles.NewsContainer}>
                 {/* {news.map(news => (
                     <div key={news.id} className={utilStyles.OneNews}>
