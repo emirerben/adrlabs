@@ -18,8 +18,8 @@ const Header = () => (
     <div className={utilStyles.linksStyle}>
         <div className={utilStyles.upperlinksStyle}>
             <ul>
-                <li>RESEARCH</li>
-                <li>PROJECTS</li>
+                <li><Link href="/research">RESEARCH</Link></li>
+                <li><Link href="/projects">PROJECTS</Link></li>
                 <li><Link href="/teachings">TEACHINGS</Link></li>
                 <li><Link href="/publications">PUBLICATIONS</Link></li>
                 <li><Link href="/news">NEWS</Link></li>

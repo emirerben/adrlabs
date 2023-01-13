@@ -967,8 +967,14 @@
   min-width: 1340px;
 }
 .form{
-  margin-top: 40px;
+  
   margin-left: 40px;
+}
+
+.formContainer{
+  display: flex;
+  margin-top: 40px;
+  gap: 100px;
 }
 .input {
   display: block;
@@ -982,4 +988,19 @@
 .input[type=text] {
   padding-left: 26px;
   position: relative;
+}
+
+.submit{
+  border: none;
+  
+  font-size: 20px;
+  background-color: white;
+}
+
+.bottomContainer{
+  margin-top: 100px;
+  position: relative;
+  width: 500px;
+  left: 850px;
+
 }
