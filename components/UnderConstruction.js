@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 
 
 const UnderConstruction = () => (
-    <p style={{textAlign: 'center', padding: 70}}>Under construction</p>
+    <p style={{textAlign: 'center', padding: 70}}>Under Construction...</p>
     
 );
 

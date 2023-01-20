@@ -118,6 +118,42 @@ export default function News({news}){
                         </div>
                     </div>   
                 </div>
+                <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p>10/20/21</p>
+                        <div className={utilStyles.NewsTitlePart}>
+                            <h3>Timber Pavilion Opening at the Matthaei Botanical Gardens</h3>
+                            <Link href={'/news/timberpavilionopening'}>
+                                READ MORE
+                            </Link>
+                        </div>
+                    </div>   
+                </div>
+                <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p>08/31/21</p>
+                        <div className={utilStyles.NewsTitlePart}>
+                            <h3>$1.58M NSF Grant to Explore Human–Robot Collaborative Construction</h3>
+                            <Link href={'/news/nsfgrant'}>
+                                READ MORE
+                            </Link>
+                        </div>
+                    </div>   
+                </div>
+                <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p>03/31/21</p>
+                        <div className={utilStyles.NewsTitlePart}>
+                            <h3>Keynote Lecture International Manufacturing Forum Series 2021</h3>
+                            <Link href={'/news/internationalmanufacturing'}>
+                                READ MORE
+                            </Link>
+                        </div>
+                    </div>   
+                </div>
 
 
                 

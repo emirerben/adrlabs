@@ -19,8 +19,8 @@ export default function News({ news }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>Keynote Lecture International Manufacturing Forum Series 2021</h3>
-            <h2 style={{fontSize:30, fontWeight:300}}>03/31/21</h2>
+            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>$1.58M NSF Grant to Explore Human–Robot Collaborative Construction</h3>
+            <h2 style={{fontSize:30, fontWeight:300}}>08/31/21</h2>
             <div className={utilStyles.imageBlock}>
                 <div className={utilStyles.breakerBlack}></div>
                 <Image className={utilStyles.newsImage}
@@ -34,11 +34,10 @@ export default function News({ news }) {
             
             <div className={utilStyles.newsBody}>
             <p>
-            Our Director, Prof. Arash Adel, has been invited to speak at The International Manufacturing Forum Series 2021. On April 1, 2021, at 8:45am EST (1:45pm WET), he will be giving a keynote lecture titled Robotically Assembled [Timber] Architecture. <br></br><br></br>
+            We are honored to announce that The National Science Foundation (NSF) has awarded a <a href='https://nsf.gov/awardsearch/showAward?AWD_ID=2128623&HistoricalAwards=false'>$1.58 million grant</a> to an interdisciplinary research team, which includes ADR Founder,<a href='https://adeldesignresearch.org/arash-adel'>Arash Adel</a>, to explore robotic partnerships in construction work through the project, “Collaborative Research: Partnering Workers with Interactive Robot Assistants to Usher Transformation in Future Construction Work.” <br></br><br></br>
 
             Article Link：<br></br>
-            <a href='https://imfs.ipleiria.pt/april/'>https://imfs.ipleiria.pt/april/</a><br></br>
-            <a href='https://imfs.ipleiria.pt/register/'>https://imfs.ipleiria.pt/register/</a></p>
+            <a href='https://taubmancollege.umich.edu/news/2021/08/31/faculty-secure-2m-nsf-grant-humanrobot-collaborative-construction'>https://taubmancollege.umich.edu/news/2021/08/31/faculty-secure-2m-nsf-grant-humanrobot-collaborative-construction</a>.</p>
             </div>
         </div>
        

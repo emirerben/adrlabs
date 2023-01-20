@@ -19,8 +19,8 @@ export default function News({ news }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>Keynote Lecture International Manufacturing Forum Series 2021</h3>
-            <h2 style={{fontSize:30, fontWeight:300}}>03/31/21</h2>
+            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>Timber Pavilion Opening at the Matthaei Botanical Gardens</h3>
+            <h2 style={{fontSize:30, fontWeight:300}}>10/20/21</h2>
             <div className={utilStyles.imageBlock}>
                 <div className={utilStyles.breakerBlack}></div>
                 <Image className={utilStyles.newsImage}
@@ -34,11 +34,12 @@ export default function News({ news }) {
             
             <div className={utilStyles.newsBody}>
             <p>
-            Our Director, Prof. Arash Adel, has been invited to speak at The International Manufacturing Forum Series 2021. On April 1, 2021, at 8:45am EST (1:45pm WET), he will be giving a keynote lecture titled Robotically Assembled [Timber] Architecture. <br></br><br></br>
+            Join us for the public opening of the Robotically Fabricated Structure (RFS) at the Matthaei Botanical Gardens. Brief remarks by Dean Jonathan Massey and project lead Arash Adel will be followed by a ribbon cutting to open this state-of-the-art timber structure. <br></br><br></br>
+            RFS is a robotically fabricated timber pavilion that explores new responsible and precise ways of creating our built environment. Contributing to outlooks for sustainable and low-carbon construction, RFS was built and sited on the Matthaei Botanical Gardens in Ann Arbor through robot and human collaboration using standard off-the-shelf lumber that was regionally sourced. The structure was designed and fabricated by ADR Laboratory and students in Taubman College’s master’s program in digital and material technologies, employing Taubman College's state-of-the-art robotic fabrication facilities. This outdoor structure offers new public gathering points while maintaining an open-air condition marked by pandemic times. <br></br><br></br>
+            Completing RFS elevated the ongoing research in robotic timber construction to the scale and complexities of full and complete building systems beyond the laboratory. Join us to learn more and to be among the first to visit the pavilion.<br></br><br></br>
 
-            Article Link：<br></br>
-            <a href='https://imfs.ipleiria.pt/april/'>https://imfs.ipleiria.pt/april/</a><br></br>
-            <a href='https://imfs.ipleiria.pt/register/'>https://imfs.ipleiria.pt/register/</a></p>
+            RSVP Link：<br></br>
+            <a href='https://umich.formstack.com/forms/Timber'>https://umich.formstack.com/forms/Timber</a>.</p>
             </div>
         </div>
        
