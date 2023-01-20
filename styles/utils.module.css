@@ -152,7 +152,7 @@
   position: absolute;
   margin-top: 40px;
   left: 40px;
-  width: 95%;
+  right: 40px;
   min-width: 1220px;
 }
 
@@ -161,7 +161,7 @@
   position: absolute;
   margin-top: 85px;
   left: 40px;
-  width: 95%;
+  right: 40px;
   min-width: 1220px;
 }
 
@@ -170,7 +170,7 @@
   position: absolute;
   margin-top: 125px;
   left: 40px;
-  width: 95%;
+  right: 40px;
   min-width: 1220px;
 }
 
