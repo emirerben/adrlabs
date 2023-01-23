@@ -14,11 +14,16 @@ import SmallAwards from "../../components/SmallAwards";
 import mypic from '../../public/images/AdR_About_Page_004.png'
 import Arash from '../../public/images/Arash.jpg'
 import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
+import { useMemo } from "react";
+import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api";
 
 
 
 export default function ContactUs(){
-
+    const {isLoaded} = useLoadScript({
+        googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+    })
+    if(!isLoaded) return <div>Loading...</div>
     async function handleOnSubmit(e){
         e.preventDefault();
         const formData = {}
@@ -57,12 +62,18 @@ export default function ContactUs(){
                 </div>
                 
             </form>
-            <Image 
+            {/* <Image 
                 src={"/images/Map.png"}
                 width={360}
                 height={435}
                 paddingTop={40}
-            />
+            /> */}
+            <GoogleMap className={utilStyles.mapContactUs} zoom={13} center={{lat: 42.289558, lng: -83.717043}}>
+                <Marker position={{lat: 42.289558, lng: -83.717043}} />
+                bacground
+                bacgroundbacgroundbacground
+            </GoogleMap>
+
         </div>
         <div className={utilStyles.headerbreakerBlack_top}></div>
         <div className={utilStyles.bottomContainer}>
@@ -101,3 +112,10 @@ export default function ContactUs(){
     );
 }
 
+function Map(){
+    const center = useMemo(() => ({lat: 44, lng: -88}), []);
+    return <GoogleMap zoom={10} center={center}>
+        <Marker position={center} />
+    </GoogleMap>
+
+}
