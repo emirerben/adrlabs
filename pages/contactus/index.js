@@ -18,6 +18,20 @@ import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
 
 
 export default function ContactUs(){
+
+    async function handleOnSubmit(e){
+        e.preventDefault();
+        const formData = {}
+        Array.from(e.currentTarget.elements).forEach(field => {
+            if( !field.name) return;
+            formData[field.name] = field.value;
+        });
+        fetch('/api/contact', {
+            method:'post',
+            body: JSON.stringify(formData)
+        })
+        console.log(formData);
+    }
     return(
         <>
         <LayoutAbout>
@@ -28,7 +42,7 @@ export default function ContactUs(){
             </div>
         </LayoutAbout>
         <div className={utilStyles.formContainer}>
-            <form className={utilStyles.form} action="/api/event" method="post">
+            <form className={utilStyles.form} onSubmit={handleOnSubmit} method="post">
                 <input className={utilStyles.input} required type="text" id="name" name="name" placeholder="Enter  name"></input>
                 <input className={utilStyles.input} required type="text" id="email" name="email" placeholder="Enter email"></input>
                 <input style={{height: 195}} className={utilStyles.input} required type="text" id="message" name="message" placeholder="Enter message"></input>
