@@ -14,12 +14,13 @@ export default (req, res) => {
 
   const data={
     to: 'info@adeldesignresearch.org',
-    from: 'adeldesignresearch.org',
+    from: 'info@adeldesignresearch.org',
     subject: 'New message from adeldesignresearch.org!',
     text: message,
     html: message.replace(/\r\n/g, '<br>')
 
   };
-  mail.send(data);
+  // mail.send(data);
   res.status(200).json({status: 'Ok'});
+  console.log(res.status)
 }

@@ -14,29 +14,39 @@ import SmallAwards from "../../components/SmallAwards";
 import mypic from '../../public/images/AdR_About_Page_004.png'
 import Arash from '../../public/images/Arash.jpg'
 import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api";
 
 
 
 export default function ContactUs(){
+    const [isError, setIsError] = useState(null);
     const {isLoaded} = useLoadScript({
         googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
     })
     if(!isLoaded) return <div>Loading...</div>
-    async function handleOnSubmit(e){
-        e.preventDefault();
+    
+    
+
+
+    async function handleOnSubmit(event){
+        event.preventDefault();
         const formData = {}
-        Array.from(e.currentTarget.elements).forEach(field => {
+        Array.from(event.currentTarget.elements).forEach(field => {
             if( !field.name) return;
             formData[field.name] = field.value;
         });
         fetch('/api/contact', {
             method:'post',
             body: JSON.stringify(formData)
-        })
+        }).then((res) => {
+            console.log("Response received");
+            setIsError(false);
+          }).catch(() => {setIsError(true)});
         console.log(formData);
+        event.target.reset();
     }
+
     return(
         <>
         <LayoutAbout>
@@ -60,7 +70,19 @@ export default function ContactUs(){
                         height={40}
                     />
                 </div>
+                {/* if there is an error with the submission, show an error notification */}
+                { isError === true && (
+
+                <div>Error!</div>
+                ) }
+                {/* if there is no error with the submission, show a block that says success */}
+                { isError === false && (
+
+                <div className={utilStyles.sucessfulSubmissionBlock}>
                 
+                </div>
+                
+                ) }
             </form>
             {/* <Image 
                 src={"/images/Map.png"}

@@ -1010,3 +1010,12 @@
   height: 435px;
   padding-top: 40px;
 }
+
+.sucessfulSubmissionBlock{
+  width: 720px;
+  height: 500px;
+  background-color: black;
+  z-index: 10;
+  transition: 5.5s;
+  transform: translateY(0);
+}
