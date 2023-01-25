@@ -1,4 +1,6 @@
-
+.underlineYellow{
+  text-decoration: underline 10px yellow;
+}
 .heading2Xl {
     font-size: 2.5rem;
     line-height: 1.2;
@@ -689,6 +691,16 @@
   vertical-align: middle;
 }
 
+.smallLeftArrow{
+  transform: rotate(-180deg);
+  position: relative;
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+
+
 /*-----------Team Profiles [id].js--------------*/
 
 .teamContent{
@@ -1012,10 +1024,42 @@
 }
 
 .sucessfulSubmissionBlock{
+  position: absolute;
+  margin-top: -450px;
   width: 720px;
-  height: 500px;
+  height: 480px;
   background-color: black;
-  z-index: 10;
-  transition: 5.5s;
-  transform: translateY(0);
+  z-index: 0;
+  animation: openBox 2s;
+}
+.sucessfulSubmissionBlock p{
+  color: grey;
+  position: relative;
+  text-align: center;
+
+  top: 40%;
+}
+@keyframes openBox {
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+/* Under construction */
+
+.backHome{
+  display: flex;
+}
+
+.backHome p{
+  font-size: 24px;
 }
