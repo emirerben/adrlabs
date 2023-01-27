@@ -1,4 +1,24 @@
 
+.body{
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.underlineYellow{
+  text-decoration: underline 10px yellow;
+}
 .heading2Xl {
     font-size: 2.5rem;
     line-height: 1.2;
@@ -75,13 +95,16 @@
     flex-wrap: wrap;
 }
 
-.video {   
+.landingVideo{
+  width: 100%;
+  height: 100vh;
+}
+
+.landingVideo video {   
   object-fit: cover;   
   width: 100%;
   height: 100%;
-  position: fixed;
-  z-index: 1; 
-  background-color: black;
+  
 }
 
 .contentStyle{
@@ -413,6 +436,9 @@
   margin-right: 80px;
   display: flex;
   margin-bottom: 130px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 
 }
 
@@ -689,6 +715,16 @@
   vertical-align: middle;
 }
 
+.smallLeftArrow{
+  transform: rotate(-180deg);
+  position: relative;
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+
+
 /*-----------Team Profiles [id].js--------------*/
 
 .teamContent{
@@ -932,7 +968,17 @@
   font-weight: 10;
 }
 
-
+.blockLineContainer{
+  width: 100%;
+  padding-right: 40px;
+  padding-top: 80px;
+}
+.headerbreakerRelative{
+  border : 1px solid black;
+  position: relative;
+  width: 100%;
+  left: 0;
+}
 
 /*---------Contact Us------*/
 
@@ -1012,10 +1058,45 @@
 }
 
 .sucessfulSubmissionBlock{
+  position: absolute;
+  margin-top: -450px;
   width: 720px;
-  height: 500px;
+  height: 480px;
   background-color: black;
-  z-index: 10;
-  transition: 5.5s;
-  transform: translateY(0);
+  z-index: 0;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+.sucessfulSubmissionBlock p{
+  color: grey;
+  position: relative;
+  text-align: center;
+
+  top: 40%;
+}
+@keyframes openBox {
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+/* Under construction */
+
+.backHome{
+  display: flex;
+}
+
+.backHome p{
+  font-size: 24px;
+}
+

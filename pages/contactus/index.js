@@ -79,7 +79,7 @@ export default function ContactUs(){
                 { isError === false && (
 
                 <div className={utilStyles.sucessfulSubmissionBlock}>
-                
+                    <p>Thank you for reaching out, <br></br>We will get back to you soon!</p>
                 </div>
                 
                 ) }
