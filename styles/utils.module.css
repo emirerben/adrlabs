@@ -1,24 +1,4 @@
 
-.body{
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-
-
-@keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-   }
-}
-
-.underlineYellow{
-  text-decoration: underline 10px yellow;
-}
 .heading2Xl {
     font-size: 2.5rem;
     line-height: 1.2;
@@ -1061,6 +1041,7 @@
   position: absolute;
   margin-top: -450px;
   width: 720px;
+  height: 480px;
   height: 480px;
   background-color: black;
   z-index: 0;
