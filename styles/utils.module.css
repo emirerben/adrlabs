@@ -75,9 +75,18 @@
     flex-wrap: wrap;
 }
 
+
+
 .landingVideo{
   width: 100%;
   height: 100vh;
+  display: flex;
+}
+
+@media (max-width:600px){
+  .landingVideo{
+    width: ;
+  }
 }
 
 .landingVideo video {   
@@ -86,6 +95,47 @@
   height: 100%;
   
 }
+
+.videoCover{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 35%;
+  z-index: 1;
+  position: absolute;
+}
+
+.textLandingPage{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  gap: 5rem;
+  height: 100%;
+  z-index: 4;
+}
+
+.textLandingPage p{
+  width: 450px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: left;
+  opacity: 100%;
+}
+
+.adrWhiteLogo{
+  
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+
 
 .contentStyle{
   flex: 1;

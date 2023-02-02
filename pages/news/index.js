@@ -7,11 +7,23 @@ import Layout, { siteTitle } from '../../components/Layout';
 import utilStyles from '../../styles/utils.module.css';
 import adrlogo from '../../public/images/ADR-Logo-01.png'
 import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
+import fsPromises from 'fs/promises';
+import path from 'path'
+import { useState } from 'react';
+
+export async function getStaticProps() {
+    const filePath = path.join(process.cwd(), '/json/news.json');
+    const jsonData = await fsPromises.readFile(filePath);
+    const objectData = JSON.parse(jsonData);
+  
+    return {
+      props: objectData
+    }
+  }
 
 
-
-
-export default function News({news}){
+export default function News(props){
+    const news = props.news;
     return(
         <>
         {/*This is the section with the title*/}
@@ -20,21 +32,40 @@ export default function News({news}){
         <div className={utilStyles.TitleSection}>
             <h1>NEWS</h1>
             <div className={utilStyles.NewsContainer}>
-                {/* {news.map(news => (
-                    <div key={news.id} className={utilStyles.OneNews}>
-                         <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>{news.date}</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>{news.title}</h3>
-                            <Link href={'/news/' + news.id}>
-                                <p>READ MORE</p>
-                            </Link>
-                        </div>
-                    </div>
-                    </div>
-                ))} */}
-                <div className={utilStyles.OneNews}>
+        {/* {news.map(new =>
+        <div key={new.id} className={utilStyles.OneNews}>
+                <div className={utilStyles.headerbreakerBlack_top}></div>
+        <div className={utilStyles.BlockWithoutBreaker}>
+            <p>{news.date}</p>
+            <div className={utilStyles.NewsTitlePart}>
+                <h3>{news.title}</h3>
+                <Link href={'/news/' + news.id}>
+                    <p>READ MORE</p>
+                </Link>
+            </div>
+        </div>
+        </div>
+        )} */}
+            </div>
+        </div>
+
+        <Footer></Footer>
+        </>
+        
+    );
+}
+
+// export const getStaticProps = async () => {
+//     const res = await fetch(`http://adrlabs.vercel.app/news.json`);
+//     const data = await res.json();
+
+//     return{
+//         props: {news: data}
+//     }
+// }
+
+
+{/* <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerBlack_top}></div>
                     <div className={utilStyles.BlockWithoutBreaker}>
                         <p>10/31/22</p>
@@ -153,24 +184,4 @@ export default function News({news}){
                             </Link>
                         </div>
                     </div>   
-                </div>
-
-
-                
-            </div>
-        </div>
-
-        <Footer></Footer>
-        </>
-        
-    );
-}
-
-// export const getStaticProps = async () => {
-//     const res = await fetch(`http://adrlabs.vercel.app/news.json`);
-//     const data = await res.json();
-
-//     return{
-//         props: {news: data}
-//     }
-// }
+                </div> */}
