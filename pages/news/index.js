@@ -32,10 +32,141 @@ export default function News(props){
         <div className={utilStyles.TitleSection}>
             <h1>NEWS</h1>
             <div className={utilStyles.NewsContainer}>
-        {news.map(news =>
+            <div className={utilStyles.headerbreakerBlack_top}></div>        
+            <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p style={{position:'absolute'}}>2022</p>
+                        <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>10/31/22</p>
+                        <Image className={utilStyles.publicationsImages}
+                        
+                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        width={189}
+                        height={187}
+                        />
+                        <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
+                            <h1>Robotically Fabricated Structure (RFS) Receives Global Future Design Award</h1>
+                            <Link style={{paddingBottom:20}} href={'/news/globaldesignaward'}>READ MORE</Link>
+                        </div>
+                        
+                    </div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>10/05/22</p>
+                        <Image className={utilStyles.publicationsImages}
+                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        width={189}
+                        height={187}
+                        />
+                        <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
+                            <h1>Robotically Fabricated Structure (RFS) Awarded the Honorable Mention for the Loop Design Awards 2022</h1>
+                            <Link style={{paddingBottom:20}} href={'/news/loopdesignawards'}>READ MORE</Link>
+                        </div>
+                    </div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>08/29/22</p>
+                        <Image className={utilStyles.publicationsImages}
+                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        width={189}
+                        height={187}
+                        />
+                        <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
+                            <h1>Robotically Fabricated Structure (RFS) Nominated for the LOOP Design Awards 2022 People's Choice</h1>
+                            <Link style={{paddingBottom:20}} href={'/news/peopleschoice'}>READ MORE</Link>
+                        </div>
+                    </div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>08/11/22</p>
+                        <Image className={utilStyles.publicationsImages}
+                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        width={189}
+                        height={187}
+                        />
+                        <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
+                            <h1>Robotically Fabricated Structure (RFS) Longlisted for Dezeen Awards 2022</h1>
+                            <Link style={{paddingBottom:20}} href={'/news/dezeenawards'}>READ MORE</Link>
+                        </div>
+                    </div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>08/10/22</p>
+                        <Image className={utilStyles.publicationsImages}
+                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        width={189}
+                        height={187}
+                        />
+                        <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
+                            <h1>Adel Announced as Juror for ACSA 2022 Timber Competition</h1>
+                            <Link style={{paddingBottom:20}} href={'/news/acsa'}>READ MORE</Link>
+                        </div>
+                    </div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>03/30/22</p>
+                        <Image className={utilStyles.publicationsImages}
+                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        width={189}
+                        height={187}
+                        />
+                        <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
+                            <h1>On Air Exhibition</h1>
+                            <Link style={{paddingBottom:20}} href={'/news/onairexhibition'}>READ MORE</Link>
+                        </div>
+                    </div>
+                    </div>
+                    <div className={utilStyles.headerbreakerBlack_top}></div>        
+                    <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p style={{position:'absolute'}}>2021</p>
+                        <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>11/03/21</p>
+                        <Image className={utilStyles.publicationsImages}
+                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        width={189}
+                        height={187}
+                        />
+                        <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
+                            <h1>Research Paper Presentation at the ACADIA Conference</h1>
+                            <Link style={{paddingBottom:20}} href={'/news/acadiaconference'}>READ MORE</Link>
+                        </div>
+                    </div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>10/20/21</p>
+                        <Image className={utilStyles.publicationsImages}
+                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        width={189}
+                        height={187}
+                        />
+                        <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
+                            <h1>Timber Pavilion Opening at the Matthaei Botanical Gardens</h1>
+                            <Link style={{paddingBottom:20}} href={'/news/timberpavilionopening'}>READ MORE</Link>
+                        </div>
+                    </div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>08/31/21</p>
+                        <Image className={utilStyles.publicationsImages}
+                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        width={189}
+                        height={187}
+                        />
+                        <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
+                            <h1>$1.58M NSF Grant to Explore Human–Robot Collaborative Construction</h1>
+                            <Link style={{paddingBottom:20}} href={'/news/nsfgrant'}>READ MORE</Link>
+                        </div>
+                    </div>
+                    <div className={utilStyles.BlockWithoutBreaker}>
+                        <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>03/31/21</p>
+                        <Image className={utilStyles.publicationsImages}
+                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        width={189}
+                        height={187}
+                        />
+                        <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
+                            <h1>Keynote Lecture International Manufacturing Forum Series 2021</h1>
+                            <Link style={{paddingBottom:20}} href={'/news/internationalmanufacturing'}>READ MORE</Link>
+                        </div>
+                    </div>
+                    </div>
+
+                
+        {/* {news.map(news =>
         <div key={news.id} className={utilStyles.OneNews}>
-                <div className={utilStyles.headerbreakerBlack_top}></div>
-        <div className={utilStyles.BlockWithoutBreaker}>
             <p>{news.date}</p>
             <div className={utilStyles.NewsTitlePart}>
                 <h3>{news.title}</h3>
@@ -44,9 +175,9 @@ export default function News(props){
                 </Link>
             </div>
         </div>
+        )} */}
         </div>
-        )}
-            </div>
+
         </div>
 
         <Footer></Footer>
@@ -64,124 +195,15 @@ export default function News(props){
 //     }
 // }
 
+// {news.map(news =>
+//     <div key={news.id} className={utilStyles.OneNews}>
+//         <p>{news.date}</p>
+//         <div className={utilStyles.NewsTitlePart}>
+//             <h3>{news.title}</h3>
+//             <Link href={'/news/' + news.id}>
+//                 <p>READ MORE</p>
+//             </Link>
+//         </div>
+//     </div>
+//     )}
 
-{/* <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>10/31/22</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>Robotically Fabricated Structure (RFS) Receives Global Future Design Award</h3>
-                            <Link href={'/news/globaldesignaward'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                </div>
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>10/05/22</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>Robotically Fabricated Structure (RFS) Awarded the Honorable Mention for the Loop Design Awards 2022</h3>
-                            <Link href={'/news/loopdesignawards'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                </div>
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>08/29/22</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>Robotically Fabricated Structure (RFS) Nominated for the LOOP Design Awards 2022 People's Choice</h3>
-                            <Link href={'/news/peopleschoice'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                </div>
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>08/11/22</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>Robotically Fabricated Structure (RFS) Longlisted for Dezeen Awards 2022</h3>
-                            <Link href={'/news/dezeenawards'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                </div>
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>08/10/22</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>Adel Announced as Juror for ACSA 2022 Timber Competition</h3>
-                            <Link href={'/news/acsa'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                </div>
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>03/30/22</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>On Air Exhibition</h3>
-                            <Link href={'/news/onairexhibition'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                </div>
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>11/03/21</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>Research Paper Presentation at the ACADIA Conference</h3>
-                            <Link href={'/news/acadiaconference'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                </div>
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>10/20/21</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>Timber Pavilion Opening at the Matthaei Botanical Gardens</h3>
-                            <Link href={'/news/timberpavilionopening'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                </div>
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>08/31/21</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>$1.58M NSF Grant to Explore Human–Robot Collaborative Construction</h3>
-                            <Link href={'/news/nsfgrant'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                </div>
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>03/31/21</p>
-                        <div className={utilStyles.NewsTitlePart}>
-                            <h3>Keynote Lecture International Manufacturing Forum Series 2021</h3>
-                            <Link href={'/news/internationalmanufacturing'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                </div> */}
