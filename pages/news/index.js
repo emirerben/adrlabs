@@ -7,23 +7,23 @@ import Layout, { siteTitle } from '../../components/Layout';
 import utilStyles from '../../styles/utils.module.css';
 import adrlogo from '../../public/images/ADR-Logo-01.png'
 import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
-import fsPromises from 'fs/promises';
+// import fsPromises from 'fs/promises';
 import path from 'path'
 import { useState } from 'react';
 
-export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), '/json/news.json');
-    const jsonData = await fsPromises.readFile(filePath);
-    const objectData = JSON.parse(jsonData);
+// export async function getStaticProps() {
+//     const filePath = path.join(process.cwd(), '/json/news.json');
+//     const jsonData = await fsPromises.readFile(filePath);
+//     const objectData = JSON.parse(jsonData);
   
-    return {
-      props: objectData
-    }
-  }
+//     return {
+//       props: objectData
+//     }
+//   }
 
 
 export default function News(props){
-    const news = props.news;
+    // const news = props.news;
     return(
         <>
         {/*This is the section with the title*/}
