@@ -32,8 +32,8 @@ export default function News(props){
         <div className={utilStyles.TitleSection}>
             <h1>NEWS</h1>
             <div className={utilStyles.NewsContainer}>
-        {/* {news.map(new =>
-        <div key={new.id} className={utilStyles.OneNews}>
+        {news.map(news =>
+        <div key={news.id} className={utilStyles.OneNews}>
                 <div className={utilStyles.headerbreakerBlack_top}></div>
         <div className={utilStyles.BlockWithoutBreaker}>
             <p>{news.date}</p>
@@ -45,7 +45,7 @@ export default function News(props){
             </div>
         </div>
         </div>
-        )} */}
+        )}
             </div>
         </div>
 
