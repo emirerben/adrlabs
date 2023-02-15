@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 
 const SmallNews = () => (
 <div className={utilStyles.SmallNewsTopicsStyle}>
-    <h2>NEWS</h2>
+    <h2 style={{fontWeight: "500"}}>NEWS</h2>
     <div className={utilStyles.breakerBlack}></div>
     <div className={utilStyles.NewsContainerStyle}>
         <div className={utilStyles.breakerBlack}></div>

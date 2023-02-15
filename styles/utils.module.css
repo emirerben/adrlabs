@@ -83,11 +83,7 @@
   display: flex;
 }
 
-@media (max-width:600px){
-  .landingVideo{
-    width: ;
-  }
-}
+
 
 .landingVideo video {   
   object-fit: cover;   
@@ -423,19 +419,18 @@
   padding-top: 87px;
   padding-bottom: 123px;
   position: relative;
-
 }
 
 .TopicBlockStyle h3{
   width: 240px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 25px;
 }
 
 .SmallResearchTopicsStyle h2{
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 400;
 
   letter-spacing:-1px;
 }
@@ -511,8 +506,9 @@
 
 .NewsBlockStyle h3{
   font-size: 30px;
-  width: 300px;
+  width: 350px;
   margin-top: -10px;
+  font-weight: 400;
 }
 
 
@@ -584,7 +580,7 @@
 }
 
 .yellowTitle h1{
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .yellowTitle h3{
@@ -592,7 +588,7 @@
   left: 40px;
   bottom: 30px;
   text-align: left;
-  font-weight: 100;
+  font-weight: 400;
 }
 .topContainer{
   background-color: #FFFF00;
@@ -670,7 +666,7 @@
 }
 .teamInfoBlock h3{
   height: max-content;
-
+  font-weight: 400;
   position: relative;
   left: 10px;
   top: 10px;
@@ -682,6 +678,7 @@
   left: 10px;
   font-size: 10px;
   bottom: 10px;
+  font-weight: 300;
 }
 
 .upperArrow{
@@ -788,6 +785,8 @@
 }
 
 @media (max-width:600px){
+
+  
   .personalImage{
     width: 300px;
     height: auto;
@@ -1017,7 +1016,7 @@
 
 .TeachingBlock h3{
   font-size: 30px;
-  font-weight: 10;
+  font-weight: 400;
 }
 
 .blockLineContainer{
