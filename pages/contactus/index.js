@@ -96,7 +96,7 @@ export default function ContactUs(){
                 bacgroundbacgroundbacground
             </GoogleMap>
             <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUhN1T8oolA1LOY4VXA7pS-SnojWeDkV8"
+            src="https://maps.googleapis.com/maps/api/js?key=${googleMapsApiKey}"
             defer
             ></script>
         </div>
