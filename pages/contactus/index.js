@@ -95,7 +95,10 @@ export default function ContactUs(){
                 bacground
                 bacgroundbacgroundbacground
             </GoogleMap>
-
+            <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUhN1T8oolA1LOY4VXA7pS-SnojWeDkV8"
+            defer
+            ></script>
         </div>
         <div className={utilStyles.headerbreakerBlack_top}></div>
         <div className={utilStyles.bottomContainer}>
