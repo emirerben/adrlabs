@@ -58,7 +58,7 @@ export default function News(props){
                         height={187}
                         />
                         <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
-                            <h1>Robotically Fabricated Structure (RFS) Awarded the Honorable Mention for the Loop Design Awards 2022</h1>
+                            <h1>RFS Awarded the Honorable Mention for the Loop Design Awards 2022</h1>
                             <Link style={{paddingBottom:20}} href={'/news/loopdesignawards'}>READ MORE</Link>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ export default function News(props){
                         height={187}
                         />
                         <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
-                            <h1>Robotically Fabricated Structure (RFS) Nominated for the LOOP Design Awards 2022 People's Choice</h1>
+                            <h1>RFS Nominated for the LOOP Design Awards 2022 People's Choice</h1>
                             <Link style={{paddingBottom:20}} href={'/news/peopleschoice'}>READ MORE</Link>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ export default function News(props){
                         />
                         <div style={{marginTop:20}}className={utilStyles.newsTitlePart}>
                             <h1>Robotically Fabricated Structure (RFS) Longlisted for Dezeen Awards 2022</h1>
-                            <Link style={{paddingBottom:20}} href={'/news/dezeenawards'}>READ MORE</Link>
+                            <Link style={{paddingBottom:20, width:10}} href={'/news/dezeenawards'}>READ MORE</Link>
                         </div>
                     </div>
                     <div className={utilStyles.BlockWithoutBreaker}>

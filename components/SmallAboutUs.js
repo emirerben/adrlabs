@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import mypic from '../public/images/AdR_About_Page_004.png'
+import mypic from '../public/images/05.jpeg'
 import Image from 'next/future/image'
 import utilStyles from '../styles/utils.module.css';
 import mainarrow from '../public/images/ADR-GraphicElements_vcopy.png'
@@ -16,7 +16,7 @@ const SmallAboutUs = () => (
         height={334}
     />
     <div className={utilStyles.arrowAboutUs}>
-        <p>LEARN MORE</p>
+        <a>LEARN MORE</a>
         <Image className={utilStyles.smallUpperArrow}
             src={mainarrow}
             alt="Logo"

@@ -3,7 +3,7 @@ import Image from 'next/future/image'
 import Link from 'next/link';
 import Layout, { siteTitle } from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
-import mainpic from '../public/images/AdR_HomePage_008-bw2.png'
+import mainpic from '../public/images/011.jpeg'
 import mainarrow from '../public/images/ADR-GraphicElements_vcopy.png'
 import adrlogo from '../public/images/ADR-Logo-01.png'
 import React from 'react';
@@ -55,6 +55,8 @@ export default function Home() {
         <Image className={utilStyles.ImageHome_style}
           src={mainpic}
           alt="ADR pic"
+          width={1200}
+          height={577}
         />
         
       

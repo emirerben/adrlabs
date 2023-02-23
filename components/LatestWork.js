@@ -68,7 +68,7 @@ const LatestWork = () => (
                 />
             </div>
         </div>
-        <div className={utilStyles.projectCardStyle}>
+        {/* <div className={utilStyles.projectCardStyle}>
             <Link href="/">
                 <Image className={utilStyles.projectImageStyle}
                     src={fourthpic}
@@ -86,7 +86,7 @@ const LatestWork = () => (
                     height={40}
                 />
             </div>
-        </div>          
+        </div>           */}
     </div>
 </div>
 );
