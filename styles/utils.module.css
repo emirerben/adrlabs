@@ -147,19 +147,20 @@
 
   
   .landingVideo{
-    width: 1300px;
+    width: 600px;
   }
   
   .landingVideo video {   
     object-fit: cover;   
-    width: 1300px;
+    width: 600px;
     height: 100%;
   }
   .textLandingPage{
-    width: 1300px;
+    width: 600px;
   }
   .videoCover{
-    width: 1300px;
+    width: 600px;
+
   }
 }
 
