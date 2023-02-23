@@ -99,8 +99,10 @@
   object-fit: cover;   
   width: 100%;
   height: 100%;
-  
 }
+
+
+
 
 .videoCover{
   width: 100%;
@@ -141,7 +143,25 @@
   position: relative;
 }
 
+@media (max-width:600px){
 
+  
+  .landingVideo{
+    width: 1300px;
+  }
+  
+  .landingVideo video {   
+    object-fit: cover;   
+    width: 1300px;
+    height: 100%;
+  }
+  .textLandingPage{
+    width: 1300px;
+  }
+  .videoCover{
+    width: 1300px;
+  }
+}
 
 .contentStyle{
   flex: 1;
@@ -659,16 +679,7 @@
   margin-bottom: 2rem;
 }
 
-@media (max-width:600px){
 
-  
-  .teamImageSquare{
-    width: 300px;
-    margin-right: 7rem;
-
-  }
-
-}
 
 .teamImage{
   width: 100%;
@@ -703,6 +714,20 @@
   font-size: 10px;
   bottom: 10px;
   font-weight: 300;
+}
+
+@media (max-width:600px){
+
+  
+  .teamImageSquare{
+    width: 300px;
+    margin-right: 7rem;
+
+  }
+  .teamInfoBlock{
+    width: 300px;
+  }
+
 }
 
 .upperArrow{
