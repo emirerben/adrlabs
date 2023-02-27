@@ -47,7 +47,7 @@ export default function About(){
                         <p>2021</p>
                         <Image className={utilStyles.publicationsImages}
                         
-                        src={"/images/Parallel Paths of Inquiry.jpg"}
+                        src={"/images/ParallelPaths.jpg"}
                         width={250}
                         height={250}
                         />
@@ -68,7 +68,7 @@ export default function About(){
                     <div className={utilStyles.BlockWithoutBreaker}>
                         <p className={utilStyles.whitetext}>2021</p>
                         <Image className={utilStyles.publicationsImages}
-                            src={"/images/Robotic Timber Construction.JPG"}
+                            src={"/images/RoboticTimber.jpg"}
                             width={250}
                             height={250}
                             />
@@ -85,7 +85,7 @@ export default function About(){
                     <div className={utilStyles.BlockWithoutBreaker}>
                         <p className={utilStyles.whitetext}>2021</p>
                         <Image className={utilStyles.publicationsImages}
-                            src={"/images/Picture1-publications.png"}
+                            src={"/images/Cocoon.jpg"}
                             width={250}
                             height={250}
                         />
@@ -105,7 +105,7 @@ export default function About(){
                     <div className={utilStyles.BlockWithoutBreaker}>
                         <p>2020</p>
                         <Image className={utilStyles.publicationsImages}
-                            src={"/images/Computational design for cooperative....jpg"}
+                            src={"/images/ComputationalDesign.jpg"}
                             width={250}
                             height={250}
                         />
@@ -127,7 +127,7 @@ export default function About(){
                     <div className={utilStyles.BlockWithoutBreaker}>
                         <p className={utilStyles.whitetext}>2020</p>
                         <Image className={utilStyles.publicationsImages}
-                            src={"/images/Engrained Performance.JPG"}
+                            src={"/images/Engrained.png"}
                             width={250}
                             height={250}
                         />
@@ -153,7 +153,7 @@ export default function About(){
                     <div className={utilStyles.BlockWithoutBreaker}>
                         <p>2018</p>
                         <Image className={utilStyles.publicationsImages}
-                            src={"/images/RoboticFabrication of Bespoke.JPG"}
+                            src={"/images/RoboticFabrication.png"}
                             width={250}
                             height={250}
                         />
@@ -176,7 +176,7 @@ export default function About(){
                     <div className={utilStyles.BlockWithoutBreaker}>
                         <p className={utilStyles.whitetext}>2018</p>
                         <Image className={utilStyles.publicationsImages}
-                            src={"/images/DesignofRoboticallyFabricatedTimber.JPG"}
+                            src={"/images/DesignofRobotically.jpg"}
                             width={250}
                             height={250}
                         />
