@@ -14,7 +14,7 @@ import SmallAwards from "../../components/SmallAwards";
 import mypic from '../../public/images/AdR_About_Page_004.png'
 import Arash from '../../public/images/Arash.jpg'
 import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
-
+import CustomCursor from "../../components/Cursor";
 
 
 export default function About(){
@@ -22,7 +22,7 @@ export default function About(){
         <>
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
-
+        <CustomCursor />
         <div className={utilStyles.TitleSection}>
             <h1>PUBLICATIONS</h1>
             <div className={utilStyles.NewsContainer}>

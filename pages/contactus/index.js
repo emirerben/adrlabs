@@ -16,7 +16,7 @@ import Arash from '../../public/images/Arash.jpg'
 import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
 import { useMemo, useState } from "react";
 import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api";
-
+import CustomCursor from "../../components/Cursor";
 
 
 export default function ContactUs(){
@@ -50,6 +50,7 @@ export default function ContactUs(){
     return(
         <>
         <LayoutAbout>
+        <CustomCursor />
             {/*trial */}
             {/*This is the yellow section with the title*/}
             <div className={utilStyles.yellowContactUsTitle}>
@@ -144,3 +145,4 @@ function Map(){
     </GoogleMap>
 
 }
+

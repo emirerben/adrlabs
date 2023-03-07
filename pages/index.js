@@ -9,6 +9,8 @@ import adrlogo from '../public/images/ADR-Logo-01.png'
 import React from 'react';
 import openingVideo from '../public/images/RFS_10sec.mp4';
 import { useState } from 'react';
+import CustomCursor from '../components/Cursor'
+
 
 
 
@@ -37,6 +39,7 @@ export default function Home() {
     
 </div>) : (
     <Layout>  
+      <CustomCursor />
         <h3 className={utilStyles.adr_description}>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</h3>
         <Image className={utilStyles.arrowHome_style}
           src={mainarrow}

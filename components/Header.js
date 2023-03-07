@@ -2,7 +2,6 @@ import Link from 'next/link';
 import mypic from '../public/images/ADR-Logo-01.png'
 import Image from 'next/future/image'
 import utilStyles from '../styles/utils.module.css';
-
 const Header = () => (
 <div className={utilStyles.headerStyle}>
     <div className={utilStyles.headerbreakerBlack_top}></div>

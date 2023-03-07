@@ -5,6 +5,8 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Image from 'next/future/image';
 import Link from 'next/link';
+import CustomCursor from '../../components/Cursor';
+
 
 
 
@@ -17,6 +19,7 @@ export default function Team({ team }) {
         <Head>
             <title>{team.id}</title>
         </Head>
+        <CustomCursor />
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         

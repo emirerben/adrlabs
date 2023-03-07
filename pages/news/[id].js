@@ -5,7 +5,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Image from 'next/future/image';
 import Link from 'next/link';
-
+import CustomCursor from '../../components/Cursor';
 
 
 export default function News({ news }) {
@@ -13,6 +13,7 @@ export default function News({ news }) {
     const basePath = '/public/images'
     const { id } = router.query
     return (<>
+        <CustomCursor />
         <Head>
 
         </Head>
@@ -20,7 +21,7 @@ export default function News({ news }) {
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
             {/* <p>{news.id}</p> */}
-            ANAAAA
+            ADRLAB
         </div>
        
 

@@ -5,7 +5,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Image from 'next/future/image';
 import Link from 'next/link';
-
+import CustomCursor from '../../components/Cursor';
 
 
 export default function News({ news }) {
@@ -16,15 +16,16 @@ export default function News({ news }) {
         <Head>
 
         </Head>
+        <CustomCursor />
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            <h3 style={{fontSize:39, fontWeight:300, width:550, marginTop: 100}}>Adel Announced as Juror for ACSA 2022 Timber Competition</h3>
+            <h3 style={{fontSize:39, fontWeight:400, width:550, marginTop: 100}}>Adel Announced as Juror for ACSA 2022 Timber Competition</h3>
             <h2 style={{fontSize:30, fontWeight:300}}>10/31/22</h2>
             <div className={utilStyles.imageBlock}>
                 <div className={utilStyles.breakerBlack}></div>
                 <Image className={utilStyles.newsImage}
-                    src={"/images/" + 'newspic.png'}
+                    src={"/images/news5.jpg"}
                     alt={'newsimage'}
                     width={840}
                     height={472}

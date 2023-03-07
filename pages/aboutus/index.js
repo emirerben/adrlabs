@@ -14,12 +14,13 @@ import SmallAwards from "../../components/SmallAwards";
 import mypic from '../../public/images/AdR_About_Page_004.png'
 import Arash from '../../public/images/Arash.jpg'
 import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
-
+import CustomCursor from "../../components/Cursor";
 
 
 export default function About(){
     return(
         <>
+        <CustomCursor />
         <LayoutAbout>
             {/*trial */}
             {/*This is the yellow section with the title*/}
@@ -33,7 +34,7 @@ export default function About(){
         <div className={utilStyles.firstWhiteBlock}>
             {/*This is the white section with the text and image*/}
                 <Image className={utilStyles.Aboutus_first_imageStyle}
-                src={mypic}
+                src={"/images/aboutus1.jpeg"}
                 alt="Logo"
                 width={720}
                 height={472}
@@ -256,7 +257,7 @@ export default function About(){
         <SmallAwards></SmallAwards>
         <div className={utilStyles.secondWhiteBlock}>
                 <Image className={utilStyles.Aboutus_second_imageStyle}
-                src={mypic}
+                src={"/images/aboutus2.jpeg"}
                 alt="Logo"
                 width={540}
                 height={326}
@@ -275,7 +276,7 @@ export default function About(){
         </div>
         <div className={utilStyles.secondWhiteBlock}>
                 <Image className={utilStyles.Aboutus_second_imageStyle}
-                src={mypic}
+                src={"/images/aboutus3.jpg"}
                 alt="Logo"
                 width={540}
                 height={326}
