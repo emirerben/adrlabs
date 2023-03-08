@@ -1,5 +1,5 @@
 
-
+/* /* the min-width is causing issue in responsive, so m oving forward, that has to be removeed and each page must be updated accordingly. */
 html{
   padding: 0;
   margin: 0;

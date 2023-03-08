@@ -145,16 +145,14 @@
 
 @media (max-width:600px){
 
-  body.test{
-    min-width: none!important;
-    width: 100%;
-  }
+  
+
   .landingVideo{
-    max-width: 100%;
+    max-width: 600px;
   }
   
   .landingVideo video {   
-    object-fit: unset;   
+    object-fit: cover;   
     width: 100%;
     height: 100%;
   }
