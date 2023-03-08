@@ -160,6 +160,7 @@
     width: 100%;
     font-size: small;
     gap: 4rem;
+    margin-left: 80px;
   }
   .textLandingPage img{
     width: 200px;
