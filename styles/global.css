@@ -1,6 +1,22 @@
 
 
-html,
+html{
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, Inter,BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  width: 100%;
+  min-width: 1300px;
+  scroll-behavior: smooth;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  cursor: none;
+} 
+
+
 body {
   padding: 0;
   margin: 0;

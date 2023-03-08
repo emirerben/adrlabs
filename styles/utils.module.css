@@ -145,21 +145,34 @@
 
 @media (max-width:600px){
 
-  
+  body.test{
+    min-width: none!important;
+    width: 100%;
+  }
   .landingVideo{
-    width: 600px;
+    max-width: 100%;
   }
   
   .landingVideo video {   
-    object-fit: cover;   
-    width: 600px;
+    object-fit: unset;   
+    width: 100%;
     height: 100%;
   }
   .textLandingPage{
-    width: 600px;
+    width: 100%;
+    font-size: small;
+    gap: 4rem;
+  }
+  .textLandingPage img{
+    width: 200px;
+  }
+  .textLandingPage p{
+    width: 1000px;
+    font-size: 12px;
   }
   .videoCover{
-    width: 600px;
+    width: 100%;
+    opacity: 0;
 
   }
 }

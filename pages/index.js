@@ -23,6 +23,7 @@ export default function Home() {
 
   return show ?(<div className={utilStyles.landingVideo} onClick={handleClick}>
     <video src={require('../public/images/RFS_LandingPage.mp4')} autoPlay loop muted/>
+    <div className={utilStyles.test}>
     <div className={utilStyles.textLandingPage}>
       <Image className={utilStyles.adrWhiteLogo}
           src={"/images/ADRWhite.png"}
@@ -31,6 +32,7 @@ export default function Home() {
           height={114}
         />
       <p>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</p>
+    </div>
     </div>
     <div className={utilStyles.videoCover}>
       
