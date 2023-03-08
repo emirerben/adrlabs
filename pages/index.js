@@ -22,7 +22,7 @@ export default function Home() {
   }
 
   return show ?(<div className={utilStyles.landingVideo} onClick={handleClick}>
-    <video src={require('../public/images/RFS_10sec.mp4')} autoPlay loop muted/>
+    <video src={require('../public/images/RFS_LandingPage.mp4')} autoPlay loop muted/>
     <div className={utilStyles.textLandingPage}>
       <Image className={utilStyles.adrWhiteLogo}
           src={"/images/ADRWhite.png"}

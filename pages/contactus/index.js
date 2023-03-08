@@ -17,7 +17,7 @@ import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
 import { useMemo, useState } from "react";
 import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api";
 import CustomCursor from "../../components/Cursor";
-
+import Script from "next/script";
 
 export default function ContactUs(){
     const [isError, setIsError] = useState(null);
