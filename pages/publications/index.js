@@ -85,7 +85,7 @@ export default function About(){
                     <div className={utilStyles.BlockWithoutBreaker}>
                         <p className={utilStyles.whitetext}>2021</p>
                         <Image className={utilStyles.publicationsImages}
-                            src={"/images/Cocoon.jpg"}
+                            src={"/images/Cocoon_BW.jpg"}
                             width={250}
                             height={250}
                         />
