@@ -28,9 +28,9 @@ export default function News(props){
     return(
         <>
         {/*This is the section with the title*/}
+        <CustomCursor />
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
-        <CustomCursor />
         <div className={utilStyles.TitleSection}>
             <h1>NEWS</h1>
             <div className={utilStyles.NewsContainer}>

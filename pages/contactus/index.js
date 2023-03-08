@@ -49,8 +49,8 @@ export default function ContactUs(){
 
     return(
         <>
-        <LayoutAbout>
         <CustomCursor />
+        <LayoutAbout>
             {/*trial */}
             {/*This is the yellow section with the title*/}
             <div className={utilStyles.yellowContactUsTitle}>

@@ -16,10 +16,11 @@ export default function Team({ team }) {
     const basePath = '/public/images'
     const { id } = router.query
     return (<>
+        <CustomCursor />
         <Head>
             <title>{team.id}</title>
         </Head>
-        <CustomCursor />
+        
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         

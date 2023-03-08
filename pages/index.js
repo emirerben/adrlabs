@@ -38,8 +38,8 @@ export default function Home() {
     </div>
     
 </div>) : (
-    <Layout>  
-      <CustomCursor />
+    <Layout>
+        <CustomCursor />  
         <h3 className={utilStyles.adr_description}>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</h3>
         <Image className={utilStyles.arrowHome_style}
           src={mainarrow}

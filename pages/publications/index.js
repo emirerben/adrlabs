@@ -20,9 +20,9 @@ import CustomCursor from "../../components/Cursor";
 export default function About(){
     return(
         <>
+        <CustomCursor />
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
-        <CustomCursor />
         <div className={utilStyles.TitleSection}>
             <h1>PUBLICATIONS</h1>
             <div className={utilStyles.NewsContainer}>

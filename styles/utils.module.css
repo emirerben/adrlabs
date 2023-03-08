@@ -577,17 +577,7 @@
   display: block;
 }
 
-#circularcursor {
-  background-color: transparent;
-  border:1px solid black;    
-  height:20px;
-  width:20px;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
-  position: absolute;
-  z-index: 1;
-}
+
 
 /*---------------------ABOUT US PAGE--------------------*/
 
@@ -1139,7 +1129,7 @@
   min-width: 1340px;
 }
 .form{
-  
+
   margin-left: 40px;
 }
 
@@ -1155,6 +1145,7 @@
   background-color: #EDEDEE;
   border: none;
   margin-bottom: 24px;
+  cursor: none;
 }
 
 .input[type=text] {
