@@ -60,7 +60,9 @@ export default function Home() {
           alt="ADR pic"
           width={1200}
           height={577}
-        />
+              />
+
+
         
       
     </Layout>
@@ -68,3 +70,4 @@ export default function Home() {
   ;
 }
 
+//commenting to check if committing works
