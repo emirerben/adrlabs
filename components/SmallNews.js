@@ -23,7 +23,7 @@ const SmallNews = () => (
         <div className={utilStyles.breakerBlack}></div>
         <div className={utilStyles.NewsBlockStyle}>
         <h3>RFS Nominated for the LOOP Design Awards 2022 People's Choice</h3>
-            <p className={utilStyles.underlineHover}>08/29/22 <br></br><br></br><Link href={'/news/peopleschoice'} className={utilStyles.underlineHover}>READ MORE</Link></p>
+            <p>08/29/22 <br></br><br></br><Link href={'/news/peopleschoice'} className={utilStyles.underlineHover}>READ MORE</Link></p>
         </div>
         
     </div>
