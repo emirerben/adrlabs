@@ -50,6 +50,22 @@ a:hover {
 
 }
 
+button {
+  border-bottom: 5px solid transparent;
+  text-decoration: none;
+  color: black;
+  cursor: none;
+
+}
+
+button:hover {
+  border-bottom: 5px solid yellow;
+  box-shadow:
+  inset 0 -0.2em yellow;
+  display: inline;
+
+}
+
 .cursor {
   
   cursor: hide;
