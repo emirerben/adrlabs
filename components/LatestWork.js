@@ -8,7 +8,7 @@ import utilStyles from '../styles/utils.module.css';
 
 
 const LatestWork = () => (
-<div className={utilStyles.lastestWorkStyle}>
+<div className={utilStyles.latestWorkStyle}>
     <h3 style={{fontWeight: 400}}>OUR LATEST WORK</h3>
     <div className={utilStyles.projectsScrollStyle}>
         <div className={utilStyles.projectCardStyle}>
@@ -16,8 +16,8 @@ const LatestWork = () => (
                 <Image className={utilStyles.projectImageStyle}
                     src={firstpic}
                     alt="project"
-                    width={488}
-                    height={416}
+                    width={400}
+                    height={280}
                 />
             </Link>
             <div className={utilStyles.titleArrowLatestWork}>
@@ -35,8 +35,8 @@ const LatestWork = () => (
                 <Image className={utilStyles.projectImageStyle}
                     src={secondpic}
                     alt="project"
-                    width={300}
-                    height={254}
+                    width={400}
+                    height={280}
                 />
             </Link>
             <div className={utilStyles.titleArrowLatestWork}>
@@ -54,8 +54,8 @@ const LatestWork = () => (
                 <Image className={utilStyles.projectImageStyle}
                     src={thirdpic}
                     alt="project"
-                    width={300}
-                    height={391}
+                    width={400}
+                    height={280}
                 />
             </Link>
             <div className={utilStyles.titleArrowLatestWork}>

@@ -361,50 +361,64 @@
   margin-left: 40px;
   margin-top: 47.3px;
 }
-.lastestWorkStyle{
-  width: 100%;
+.latestWorkStyle{
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 100%;
 }
-.lastestWorkStyle h3{
+.latestWorkStyle h3{
   font-size: 40px;
   line-height: 60px;
   font-weight: 300;
   padding-top: 100px;
-  padding-left: 40px;
 }
 
 
 
 .projectsScrollStyle{
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
+  flex-wrap: wrap;
+
   padding-bottom: 100px;
+  justify-content: space-between;
 }
 
 .projectImageStyle{
   position: relative;
-  left: 40px;
+
   margin-right: 60px;
   object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  width: auto;
 }
 
+/* update the width below and the width under images in the projects section to update image and block size */
+/* margin bottom determines the margin between the rows of projects */
+.projectCardStyle{
+  height: auto;
+  max-width: 400px;
+  margin-bottom: 3rem;
+}
 .projectCardStyle p{
   top: 0px;
-  left: 40px;
   position: relative;
+  max-width: 100%;
 
 }
 
 .titleArrowLatestWork{
-  display: flexbox;
-  width: 100%;
+  display: flex;
+  max-width: inherit;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
+/* allows the arrow to start with the first line of the project title */
 .titleArrowLatestWork img{
-  position: relative;
-  justify-self: flex-end;
-  margin-top: -10px;
-  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .SmallAboutUsStyle{
@@ -790,7 +804,6 @@
   transform: rotate(-45deg);
   position: relative;
   display: inline-block;
-
   vertical-align: middle;
 }
 

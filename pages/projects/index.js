@@ -19,15 +19,15 @@ export default function Projects(){
             <h1>PROJECTS</h1>
             <p style={{letterSpacing:-1, fontSize: 30, width: 600, fontWeight: 300, }}>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</p>
         </div>
-        <div style={{paddingLeft:40, marginTop:100}} className={utilStyles.lastestWorkStyle}>
-            <div style={{gap:60}} className={utilStyles.projectsScrollStyle}>
+        <div style={{ marginTop:100, paddingLeft: 40, paddingRight:40}} className={utilStyles.lastestWorkStyle}>
+            <div className={utilStyles.projectsScrollStyle}>
                 <div className={utilStyles.projectCardStyle}>
                     <Link href="/">
                         <Image className={utilStyles.projectImageStyle}
                             src={firstpic}
                             alt="project"
-                            width={360}
-                            height={784}
+                            width={400}
+                            height={280}
                         />
                     </Link>
                     <div className={utilStyles.titleArrowLatestWork}>
@@ -38,6 +38,7 @@ export default function Projects(){
                             width={40}
                             height={40}
                         />
+                        
                     </div>
                 </div>
                 <div className={utilStyles.projectCardStyle}>
@@ -45,12 +46,12 @@ export default function Projects(){
                         <Image className={utilStyles.projectImageStyle}
                             src={secondpic}
                             alt="project"
-                            width={300}
-                            height={254}
+                            width={400}
+                            height={280}
                         />
                     </Link>
                     <div className={utilStyles.titleArrowLatestWork}>
-                        <p>Robotically Fabricated Structure <br></br>(RFS)</p>
+                        <p>Robotically Fabricated Structure (RFS)</p>
                         <Image className={utilStyles.smallUpperArrow}
                             src={"/images/ADR-GraphicElements_vcopy.png"}
                             alt="Logo"
@@ -64,8 +65,8 @@ export default function Projects(){
                         <Image className={utilStyles.projectImageStyle}
                             src={thirdpic}
                             alt="project"
-                            width={300}
-                            height={391}
+                            width={400}
+                            height={280}
                         />
                     </Link>
                     <div className={utilStyles.titleArrowLatestWork}>
@@ -78,6 +79,9 @@ export default function Projects(){
                         />
                     </div>
                 </div>
+              
+                
+                
                 {/* <div className={utilStyles.projectCardStyle}>
                     <Link href="/">
                         <Image className={utilStyles.projectImageStyle}
