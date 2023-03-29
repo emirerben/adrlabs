@@ -10,6 +10,13 @@ import React from 'react';
 import openingVideo from '../public/images/RFS_10sec.mp4';
 import { useState } from 'react';
 import CustomCursor from '../components/Cursor'
+import Header from '../components/Header';
+import LatestWork from '../components/LatestWork';
+import SmallAboutUs from '../components/SmallAboutUs';
+import SmallNews from '../components/SmallNews';
+import Footer from '../components/Footer';
+import SmallResearchTopics from '../components/SmallResearchTopics';
+
 
 
 
@@ -38,34 +45,47 @@ export default function Home() {
     </div>
     
 </div>) : (
-    <Layout>
+  <>
         <CustomCursor />  
-        <h3 className={utilStyles.adr_description}>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</h3>
-        <Image className={utilStyles.arrowHome_style}
-          src={mainarrow}
-          alt="arrow upside"
-          width={132.28}
-          height={132.77}
-        />
-        <div className={utilStyles.logoContainer}>
-          <Image className={utilStyles.logoHome_style}
-            src={adrlogo}
-            alt="Big logo"
-            width={600}
-            height={229.61}
+        <div className={utilStyles.layoutStyle}>
+        <Head>
+        <title>ADR Labs</title>
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/>
+        </Head>
+
+        <Header></Header>
+        <div className={utilStyles.headerWhiteBackground}></div>
+        <div className={utilStyles.contentStyle}>
+          <h3 className={utilStyles.adr_description}>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</h3>
+          <Image className={utilStyles.arrowHome_style}
+            src={mainarrow}
+            alt="arrow upside"
+            width={132.28}
+            height={132.77}
           />
+          <div className={utilStyles.logoContainer}>
+            <Image className={utilStyles.logoHome_style}
+              src={adrlogo}
+              alt="Big logo"
+              width={600}
+              height={229.61}
+            />
+          </div>
+          <Image className={utilStyles.ImageHome_style}
+            src={mainpic}
+            alt="ADR pic"
+            width={1200}
+            height={577}
+                />
         </div>
-        <Image className={utilStyles.ImageHome_style}
-          src={mainpic}
-          alt="ADR pic"
-          width={1200}
-          height={577}
-              />
-
-
+        <LatestWork />
+        <SmallAboutUs />
+        <SmallResearchTopics />
+        <SmallNews />
+        <Footer />
+        </div>
         
-      
-    </Layout>
+</>
     )
   ;
 }

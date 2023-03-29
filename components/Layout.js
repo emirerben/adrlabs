@@ -22,13 +22,17 @@ export const siteTitle = 'ADR Labs';
 
 
 const Layout = props => (
+
   <div className={utilStyles.layoutStyle}>
     <Head>
       <title>ADR Labs</title>
       <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/>
     </Head>
+
+    <div style={{marginTop:-100}}>
+    <Header></Header>
+    </div>
     <div className={utilStyles.headerWhiteBackground}></div>
-    <Header />
     <div className={utilStyles.contentStyle}>
       {props.children}
     </div>

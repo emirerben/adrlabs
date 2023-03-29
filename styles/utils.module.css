@@ -182,7 +182,7 @@
   align-items: "center";
   margin-left: auto;
   margin-right: auto;
-  margin-top: 260px;
+  padding-top: 155px;
 }
 
 .layoutStyle{
@@ -194,7 +194,7 @@
 .headerWhiteBackground{
   background-color: white;
   width: 100%;
-  height: 125px;
+  height: 130px;
   position: fixed;
   z-index: 3;
   top: 0px;
@@ -206,6 +206,16 @@
   position: fixed;
   z-index: 3;
   top: 0px;
+}
+
+.newheaderStyle{
+  width: 100%;
+  position: fixed;
+  height: 125px;
+  z-index: 4;
+  display: block;
+  padding-top: 40px;
+  font-size: 14px;
 }
 
 
@@ -239,14 +249,21 @@
   font-size: 14px;
 }
 
+.headerResponsive{
+  border : 1px solid black;
+  position: absolute;
+  left: 40px;
+  right: 40px;
+}
+
 .headerbreakerBlack_top{
   border : 1px solid black;
   position: absolute;
   margin-top: 40px;
   left: 40px;
   right: 40px;
-  min-width: 1220px;
 }
+
 
 .headerbreakerBlack_middle{
   border : 1px solid black;
@@ -319,16 +336,16 @@
 }
 
 .footerStyle{
-  margin-top: 120px;
-  height: 453.48px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+
+  font-size: 14px;
 }
 
 .adrlogo_footer{
   object-fit: contain;
   width: 216.21px;
   height: auto;
-  margin-top: 170px;
-  margin-left: 30px;
 }
 
 .taubman_footer{
@@ -338,6 +355,8 @@
 
 .footerlogo_style{
   display: inline-block;
+  padding-left: 30px;
+  padding-top: 60px;
 }
 
 .footerlogoleft_style{
@@ -358,8 +377,8 @@
 .footer_text{
   font-size: 16px;
   line-height: 19px;
-  margin-left: 40px;
   margin-top: 47.3px;
+  margin-left: 10px;
 }
 .latestWorkStyle{
   padding-left: 40px;
@@ -605,13 +624,13 @@
   width: 100%;
   position: relative;
   top: 0px;
-  min-width: 1340px;
+
 }
 
 .headerYellowBackground{
   background-color: #FFFF00;
   width: 100%;
-  height: 125px;
+  height: 130px;
   position: fixed;
   z-index: 3;
   top: 0px;
@@ -1026,7 +1045,7 @@
 .headerbreakerBlack_top_short{
   border : 1px solid black;
   margin-left: 160px;
-  width: 205%;
+
   max-width: 1183px;
 }
 
@@ -1176,7 +1195,7 @@
   margin-top: 100px;
   position: relative;
   width: 500px;
-  left: 850px;
+  padding-left: 40px;
 
 }
 
@@ -1239,4 +1258,16 @@
   margin-top: 40px;
   margin-bottom: 40px;
 
+}
+
+
+/* projects */
+
+.projectMainImageStyle{
+  max-height: 548px !important;
+
+}
+
+.projectDescription{
+  padding: 120px 40px 40px 40px;
 }

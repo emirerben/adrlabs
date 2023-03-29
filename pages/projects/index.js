@@ -8,6 +8,7 @@ import secondpic from '../../public/images/latestwork2.jpg'
 import thirdpic from '../../public/images/latestwork3.jpg'
 import fourthpic from '../../public/images/latestwork4.jpeg'
 import Image from "next/image";
+import Footer from "../../components/Footer";
 
 export default function Projects(){
     return(
@@ -42,7 +43,7 @@ export default function Projects(){
                     </div>
                 </div>
                 <div className={utilStyles.projectCardStyle}>
-                    <Link href="/">
+                    <Link href='/projects/RFS1'>
                         <Image className={utilStyles.projectImageStyle}
                             src={secondpic}
                             alt="project"
@@ -103,6 +104,7 @@ export default function Projects(){
                 </div>           */}
             </div>
         </div>
+        <Footer></Footer>
         </>
     );
 

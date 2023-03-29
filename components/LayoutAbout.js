@@ -16,8 +16,8 @@ const LayoutAbout = props => (
             <title>ADR Labs</title>
             <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/>
         </Head>
-        <div className={utilStyles.headerYellowBackground}></div>
         <Header></Header>
+        <div className={utilStyles.headerYellowBackground}></div>
         <div className={utilStyles.yellowblockStyle}>
             {props.children}    
         </div>
