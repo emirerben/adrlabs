@@ -219,6 +219,27 @@
   font-size: 14px;
 }
 
+.headerUpperBar{
+  gap: 35px;
+}
+
+.headerLowerBar{
+  gap: 35px;
+}
+
+@media (max-width:600px){
+  .newheaderStyle{
+    font-size: 8px;
+  }
+  .headerUpperBar{
+    gap: 7px;
+  }
+  .headerLowerBar{
+    gap: 7px;
+  }
+}
+
+
 
 .linksStyle{
   display: inline-block;
@@ -292,15 +313,27 @@
 
 .adr_description{
 
-  width: 480px;
-  margin-left: 100px;
+  width: 50%;
+  padding-left: 100px;
   margin-top: 113px;
+  padding-right: 10px;
   font-size: 30px;
   font-weight: 300;
   height: 138px;
   line-height: 36px;
   letter-spacing: -10;
 }
+
+@media (max-width:600px){
+  .adr_description{
+
+    padding-left: 40px;
+    width: 70%;
+    font-size: 18px;
+    padding-right: 10px;
+  }
+}
+
 
 .ImageHome_style{
   z-index: 1;
@@ -318,7 +351,7 @@
   transform: rotate(-45deg);
   object-fit: cover;
   margin-top: 80px;
-  margin-left: 0px;
+  margin-left: -40px;
 }
 
 .logoContainer{
@@ -326,6 +359,8 @@
   display: flex;
   position: absolute;
   justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
   
   /* top: 433px; */
 }
@@ -338,15 +373,20 @@
 
 @media (max-width:600px){
   .logoHome_style{
-    max-width: 300px;
+    max-width: 200px;
+    margin-top: 80px;
   }
 }
 
 .footerStyle{
   padding-top: 100px;
   padding-bottom: 40px;
-
   font-size: 14px;
+}
+@media (max-width:600px){
+  .footerStyle{
+    display: none;
+  }
 }
 
 .adrlogo_footer{
@@ -452,15 +492,37 @@
   height: max-content;
   padding-top: 120px;
   padding-right: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 40px;
 }
 
 .SmallAboutUsStyle p{
   width: 480px;
-  margin-left: 40px;
   display: inline-block;
   vertical-align:top;
   font-size: 30px;
   line-height: 36px;
+}
+
+.SmallAboutUs_imageStyle{
+  display: inline-block;
+  position: relative;
+
+  vertical-align:top;
+  object-fit:cover;
+  height: 50%;
+  max-width: 100%;
+}
+@media (max-width:900px){
+  .SmallAboutUsStyle{
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .SmallAboutUsStyle p{
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
 
 .arrowAboutUs{
@@ -480,24 +542,33 @@
 }
 
 
-.SmallAboutUs_imageStyle{
-  display: inline-block;
-  position: relative;
 
-  vertical-align:top;
-  object-fit:cover;
-  height: auto;
-  max-width: 50%;
-}
 
 
 
 
 .TopicBlockStyle{
   display: flex;
+  flex-wrap: wrap;
   margin-top: 30px;
   margin-bottom: 30px;
+  justify-content: space-between;
+
 }
+
+.descriptionandplus{
+  display: flex;
+  gap: 168px;
+
+}
+
+@media (max-width:1300px){
+  .descriptionandplus{
+    width: 100%;
+    gap: 1rem;
+  }
+}
+
 
 .SmallResearchTopicsStyle{
   background-color: black;
@@ -527,8 +598,6 @@
 .TopicBlockStyle p{
   position: relative;
   width: 360px;
-
-  margin-left: 40%;
   font-size: 15px;
   font-weight: 200;
   line-height: 18px;
@@ -537,6 +606,7 @@
 
 .researchImageStyle{
   object-fit: cover;
+  max-width: 100%;
 }
 .plus_style{
   position: relative;
@@ -547,20 +617,23 @@
 
 .moreinfoStyle{
 
-  margin-right: 80px;
+
   display: flex;
   margin-bottom: 130px;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  align-items: center;
+  gap: 120px;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 
 }
 
 .moreinfoStyle p{
   position: relative;
-  
-  float: right;
-  top: -20px;
+
   font-size: 15px;
   max-width: 500px;
   font-weight: 200;
@@ -576,6 +649,7 @@
 
 .SmallNewsTopicsStyle{
   padding-left: 40px;
+  padding-right: 40px;
   padding-top: 106px;
   position: relative;
 }
@@ -588,29 +662,37 @@
 }
 
 .NewsBlockStyle{
-  display: flexbox;
+  display: flex;
+  gap: 20px;
   max-width: 488px;
-  height: 300px;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
 }
 
 .NewsBlockStyle h3{
   font-size: 30px;
   width: 90%;
-  margin-top: -10px;
+
   font-weight: 400;
 }
 
 
 .NewsBlockStyle p{
   font-size: 20px;
-  position: absolute;
-  bottom: -20px;
   z-index: 1;
 }
 
-@media (max-width:1000px){
+@media (max-width:800px){
   .NewsBlockStyle h3{
-    font-size: 20px !important;
+    font-size: 12px !important;
+  }
+  .NewsBlockStyle p{
+    font-size: 10px !important;
+
   }
 }
 

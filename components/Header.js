@@ -14,7 +14,7 @@ const Header = () => (
                     height={29.61}
                 />
             </Link>
-            <div style={{display: 'flex', gap:35, marginTop:5}}>
+            <div className={utilStyles.headerUpperBar} style={{display: 'flex', marginTop:5}}>
                 <Link href="/research">RESEARCH</Link>
                 <Link href="/projects">PROJECTS</Link>
                 <Link href="/teachings">TEACHING</Link>
@@ -24,7 +24,7 @@ const Header = () => (
         </div>
         <div className={utilStyles.headerResponsive}></div>
         <div style={{paddingRight:40, height: 45, display: 'flex', justifyContent: 'space-between', flexWrap:'nowrap', alignItems:'center', flexDirection:'row-reverse'}}>
-            <div style={{display: 'flex', gap:35, marginTop:5}}>
+            <div className={utilStyles.headerLowerBar} style={{display: 'flex', marginTop:5}}>
                 <Link href="/aboutus">ABOUT</Link>
                 <Link href="/contactus">CONTACT</Link>
             </div>

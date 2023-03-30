@@ -62,13 +62,16 @@ export default function SmallResearchTopics(){
         <div className={utilStyles.TopicContainerStyle}>
             <div className={utilStyles.TopicBlockStyle}>
                 <h3>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h3>
-                <p>By combining two historic and widely used materials, clay and concrete, our proposed novel process, Cocoon integrates robotic clay three-dimensional (3D) printing as the primary formwork and incrementally casting concrete into this formwork to fabricate nonstandard concrete elements.</p>
-                <Image onClick={toggle1} className={utilStyles.plus_style}
-                    src={!showMe1 ? plus_graphic : minus_graphic }
-                    alt="Plus"
-                />
+                <div className={utilStyles.descriptionandplus}>
+                    <p>By combining two historic and widely used materials, clay and concrete, our proposed novel process, Cocoon integrates robotic clay three-dimensional (3D) printing as the primary formwork and incrementally casting concrete into this formwork to fabricate nonstandard concrete elements.</p>
+                    <Image onClick={toggle1} className={utilStyles.plus_style}
+                        src={!showMe1 ? plus_graphic : minus_graphic }
+                        alt="Plus"
+                    />
+                </div>
+                
             </div>
-            <div className={utilStyles.moreinfoStyle} style={{display:showMe1?"block":"none"}}>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe1?"flex":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
                         src='/images/06.jpg'
                         alt="Plus"
@@ -81,13 +84,15 @@ export default function SmallResearchTopics(){
             <div className={utilStyles.breakerWhite}></div>
             <div className={utilStyles.TopicBlockStyle}>
                 <h3> Robotic Timber Construction: A Case Study Structure</h3>
-                <p>We present a novel and transferable process for the robotic fabrication of bespoke timber subassemblies made of off-the-shelf standard timber elements. A nonstandard timber structure and a Zollinger roof structure, acts as the case study for the research and validates the feasibility of the proposed process.</p>
-                <Image onClick={toggle2} className={utilStyles.plus_style}
-                    src={!showMe2 ? plus_graphic : minus_graphic }
-                    alt="Plus"
-                />
+                <div className={utilStyles.descriptionandplus}>
+                    <p>We present a novel and transferable process for the robotic fabrication of bespoke timber subassemblies made of off-the-shelf standard timber elements. A nonstandard timber structure and a Zollinger roof structure, acts as the case study for the research and validates the feasibility of the proposed process.</p>
+                    <Image onClick={toggle2} className={utilStyles.plus_style}
+                        src={!showMe2 ? plus_graphic : minus_graphic }
+                        alt="Plus"
+                    />
+                </div>
             </div>
-            <div className={utilStyles.moreinfoStyle} style={{display:showMe2?"block":"none"}}>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe2?"flex":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
                         src='/images/07.jpg'
                         alt="Plus"
@@ -99,13 +104,15 @@ export default function SmallResearchTopics(){
             <div className={utilStyles.breakerWhite}></div>
             <div className={utilStyles.TopicBlockStyle}>
                 <h3>Parallel Paths of Inquiry: Detailing for DFAB HOUSE</h3>
-                <p>DFAB  HOUSE,  a  multi-technology  demonstrator  of  digital fabrication in architecture, integrates six full-scale novel con-struction  technologies  into  a  three-story  residential  building  for the first time. This  account  focuses  on  the  co-development  of  its  most  interrelated  subsystems:  Spatial  Timber Assemblies and the Lightweight Translucent Facade.</p>
-                <Image onClick={toggle3} className={utilStyles.plus_style}
-                    src={!showMe3 ? plus_graphic : minus_graphic }
-                    alt="Plus"
-                />
+                <div className={utilStyles.descriptionandplus}>
+                    <p>DFAB  HOUSE,  a  multi-technology  demonstrator  of  digital fabrication in architecture, integrates six full-scale novel con-struction  technologies  into  a  three-story  residential  building  for the first time. This  account  focuses  on  the  co-development  of  its  most  interrelated  subsystems:  Spatial  Timber Assemblies and the Lightweight Translucent Facade.</p>
+                    <Image onClick={toggle3} className={utilStyles.plus_style}
+                        src={!showMe3 ? plus_graphic : minus_graphic }
+                        alt="Plus"
+                    />
+                </div>
             </div>
-            <div className={utilStyles.moreinfoStyle} style={{display:showMe3?"block":"none"}}>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe3?"flex":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
                         src='/images/08.jpg'
                         alt="Plus"
@@ -117,13 +124,15 @@ export default function SmallResearchTopics(){
             <div className={utilStyles.breakerWhite}></div>
             <div className={utilStyles.TopicBlockStyle}>
                 <h3>Engrained Performance: Performance-Driven Computational Design of a Robotically Assembled Shingle Facade System</h3>
-                <p>This project presents a novel fabrication-aware and performance-driven computational design method that facilitates the design and robotic fabrication of a wood shingle facade system.The research merges computational design, robotic fabrication, and building facade optimization into a seamless digital design-to-fabrication workflow.</p>
-                <Image onClick={toggle4} className={utilStyles.plus_style}
-                    src={!showMe4 ? plus_graphic : minus_graphic }
-                    alt="Plus"
-                />
+                <div className={utilStyles.descriptionandplus}>
+                    <p>This project presents a novel fabrication-aware and performance-driven computational design method that facilitates the design and robotic fabrication of a wood shingle facade system.The research merges computational design, robotic fabrication, and building facade optimization into a seamless digital design-to-fabrication workflow.</p>
+                    <Image onClick={toggle4} className={utilStyles.plus_style}
+                        src={!showMe4 ? plus_graphic : minus_graphic }
+                        alt="Plus"
+                    />
+                </div>
             </div>
-            <div className={utilStyles.moreinfoStyle} style={{display:showMe4?"block":"none"}}>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe4?"flex":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
                         src='/images/09.png'
                         alt="Plus"
