@@ -57,13 +57,14 @@ export default function Home() {
         <div className={utilStyles.headerWhiteBackground}></div>
         <div className={utilStyles.contentStyle}>
           <h3 className={utilStyles.adr_description}>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</h3>
+          
+          <div className={utilStyles.logoContainer}>
           <Image className={utilStyles.arrowHome_style}
             src={mainarrow}
             alt="arrow upside"
             width={132.28}
             height={132.77}
           />
-          <div className={utilStyles.logoContainer}>
             <Image className={utilStyles.logoHome_style}
               src={adrlogo}
               alt="Big logo"

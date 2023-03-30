@@ -7,6 +7,7 @@ import mainarrow from '../public/images/ADR-GraphicElements_vcopy.png'
 
 
 const SmallAboutUs = () => (
+    <>
 <div className={utilStyles.SmallAboutUsStyle}>
     <p>ADR was launched in January 2021 by Dr. Arash Adel who specializes in the intersection of computational design and architectural technology.</p>
     <Image className={utilStyles.SmallAboutUs_imageStyle}
@@ -15,7 +16,8 @@ const SmallAboutUs = () => (
         width={540}
         height={334}
     />
-    <div className={utilStyles.arrowAboutUs}>
+</div>
+<div className={utilStyles.arrowAboutUs}>
         <a>LEARN MORE</a>
         <Image className={utilStyles.smallUpperArrow}
             src={mainarrow}
@@ -24,7 +26,7 @@ const SmallAboutUs = () => (
             height={40}
         />
     </div>
-</div>
+    </>
 );
 
 export default SmallAboutUs;

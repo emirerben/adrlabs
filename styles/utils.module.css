@@ -159,11 +159,12 @@
   .textLandingPage{
     width: 100%;
     font-size: small;
-    gap: 4rem;
-    margin-left: 80px;
+    gap: 1rem;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .textLandingPage img{
-    width: 200px;
+    width: 230px;
   }
   .textLandingPage p{
     width: 1000px;
@@ -304,6 +305,7 @@
 .ImageHome_style{
   z-index: 1;
   width: 100%;
+  height: auto;
   margin-top: 175px;
   object-fit: cover;
   padding-left: 40px;
@@ -313,26 +315,31 @@
 
 .arrowHome_style{
   z-index: 2;
-  position:absolute;
-  left: 10px;
-  top: 520px;
   transform: rotate(-45deg);
   object-fit: cover;
+  margin-top: 80px;
+  margin-left: 0px;
 }
 
 .logoContainer{
   width: 100%;
-  min-width: 1300px;
+  display: flex;
   position: absolute;
-  top: 433px;
+  justify-content: space-between;
+  
+  /* top: 433px; */
 }
 .logoHome_style{
   z-index: 2;
-  position:absolute;
-  right: 40px;
   object-fit: contain;
-  max-width:100%;
-  height:auto;
+  max-width:600px;
+  height: auto;
+}
+
+@media (max-width:600px){
+  .logoHome_style{
+    max-width: 300px;
+  }
 }
 
 .footerStyle{
@@ -441,10 +448,10 @@
 }
 
 .SmallAboutUsStyle{
-  display: block;
+  display: flex;
   height: max-content;
   padding-top: 120px;
-  padding-bottom: 147px;
+  padding-right: 40px;
 }
 
 .SmallAboutUsStyle p{
@@ -457,8 +464,11 @@
 }
 
 .arrowAboutUs{
-  margin-top: -20px;
+
   gap: 0px;
+  position: relative;
+  padding-bottom: 5rem;
+
 }
 
 .arrowAboutUs a{
@@ -473,10 +483,11 @@
 .SmallAboutUs_imageStyle{
   display: inline-block;
   position: relative;
-  left: 200px;
-  top: 1rem;
+
   vertical-align:top;
   object-fit:cover;
+  height: auto;
+  max-width: 50%;
 }
 
 
@@ -578,14 +589,13 @@
 
 .NewsBlockStyle{
   display: flexbox;
-  width: 488px;
+  max-width: 488px;
   height: 300px;
-  padding-left: 32px;
 }
 
 .NewsBlockStyle h3{
   font-size: 30px;
-  width: 350px;
+  width: 90%;
   margin-top: -10px;
   font-weight: 400;
 }
@@ -597,6 +607,14 @@
   bottom: -20px;
   z-index: 1;
 }
+
+@media (max-width:1000px){
+  .NewsBlockStyle h3{
+    font-size: 20px !important;
+  }
+}
+
+
 
 .yellowHighlight{
   display: none;
