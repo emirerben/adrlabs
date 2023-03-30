@@ -10,10 +10,12 @@ html,body{
   width: 100%;
   /* min-width: 1300px; */
   scroll-behavior: smooth;
+
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   cursor: none;
+  
 } 
 
 

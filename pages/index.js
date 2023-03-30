@@ -53,8 +53,8 @@ export default function Home() {
         <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/>
         </Head>
 
-        <Header></Header>
-        <div className={utilStyles.headerWhiteBackground}></div>
+        {/* <Header></Header> */}
+        {/* <div className={utilStyles.headerWhiteBackground}></div> */}
         <div className={utilStyles.contentStyle}>
           <h3 className={utilStyles.adr_description}>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</h3>
           
