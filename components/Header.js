@@ -5,9 +5,9 @@ import utilStyles from '../styles/utils.module.css';
 const Header = () => (
     <div className={utilStyles.newheaderStyle}>
         <div className={utilStyles.headerResponsive}></div>
-        <div style={{paddingRight:40, height: 45, display: 'flex', justifyContent: 'space-between', flexWrap:'nowrap', alignItems:'center'}}>
+        <div style={{height: 45, display: 'flex', justifyContent: 'space-between', flexWrap:'nowrap', alignItems:'center'}}>
             <Link href="/">
-                <Image style={{marginLeft:40, float: 'left'}}
+                <Image style={{float: 'left'}}
                     src={mypic}
                     alt="Logo"
                     width={77.38}
@@ -23,7 +23,7 @@ const Header = () => (
             </div>
         </div>
         <div className={utilStyles.headerResponsive}></div>
-        <div style={{paddingRight:40, height: 45, display: 'flex', justifyContent: 'space-between', flexWrap:'nowrap', alignItems:'center', flexDirection:'row-reverse'}}>
+        <div style={{height: 45, display: 'flex', justifyContent: 'space-between', flexWrap:'nowrap', alignItems:'center', flexDirection:'row-reverse'}}>
             <div className={utilStyles.headerLowerBar} style={{display: 'flex', marginTop:5}}>
                 <Link href="/aboutus">ABOUT</Link>
                 <Link href="/contactus">CONTACT</Link>

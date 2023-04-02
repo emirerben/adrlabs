@@ -16,9 +16,7 @@ import SmallAboutUs from '../components/SmallAboutUs';
 import SmallNews from '../components/SmallNews';
 import Footer from '../components/Footer';
 import SmallResearchTopics from '../components/SmallResearchTopics';
-
-
-
+import Typewriter from "typewriter-effect";
 
 
 export default function Home() {
@@ -36,8 +34,22 @@ export default function Home() {
           alt="Big logo"
           width={298}
           height={114}
+      />
+      <div className={utilStyles.titleLandingPage}>
+      <Typewriter 
+  
+        onInit={(typewriter)=> {
+
+        typewriter
+        
+        .typeString("ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.")
+          
+        .pauseFor(1000)
+        // .deleteAll()
+        .start();
+        }}
         />
-      <p>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</p>
+      </div>
     </div>
     <div className={utilStyles.videoCover}>
       
@@ -53,8 +65,8 @@ export default function Home() {
         <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/>
         </Head>
 
-        {/* <Header></Header> */}
-        {/* <div className={utilStyles.headerWhiteBackground}></div> */}
+        <Header></Header>
+        <div className={utilStyles.headerWhiteBackground}></div>
         <div className={utilStyles.contentStyle}>
           <h3 className={utilStyles.adr_description}>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</h3>
           

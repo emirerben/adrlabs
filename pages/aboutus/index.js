@@ -256,41 +256,49 @@ export default function About(){
         </div>
         <SmallAwards></SmallAwards>
         <div className={utilStyles.secondWhiteBlock}>
-                <Image className={utilStyles.Aboutus_second_imageStyle}
-                src={"/images/aboutus2.jpeg"}
-                alt="Logo"
-                width={540}
-                height={326}
-                />
                 <h3>INTERDISCIPLINARY COLLABORATIONS</h3>
-                <p>ADR has a strong dedication to interdisciplinary research and connecting architecture, engineering and fabrication through new and evolving technologies. We seek to connect with collaborators across a variety of academic disciplines. </p>
-                <div className={utilStyles.textArrow}>
-                    <p>CONNECT</p>
-                    <Image className={utilStyles.smallUpperArrow}
-                        src={mainarrow}
+                <div>
+                    <div  style={{display: 'flex', gap:'20%', alignItems: 'center', flexWrap: 'wrap', paddingBlockEnd: 40}}>
+                        <Image className={utilStyles.Aboutus_second_imageStyle}
+                        src={"/images/aboutus2.jpeg"}
                         alt="Logo"
-                        width={40}
-                        height={40}
-                    />
+                        width={540}
+                        height={326}
+                        />
+                        <p>ADR has a strong dedication to interdisciplinary research and connecting architecture, engineering and fabrication through new and evolving technologies. We seek to connect with collaborators across a variety of academic disciplines. </p>
+                    </div>
+                    <div className={utilStyles.textArrow}>
+                        <p>CONNECT</p>
+                        <Image className={utilStyles.smallUpperArrow}
+                            src={mainarrow}
+                            alt="Logo"
+                            width={40}
+                            height={40}
+                        />
+                    </div>
                 </div>
         </div>
         <div className={utilStyles.secondWhiteBlock}>
-                <Image className={utilStyles.Aboutus_second_imageStyle}
-                src={"/images/aboutus3.jpg"}
-                alt="Logo"
-                width={540}
-                height={326}
-                />
                 <h3>TEACHING</h3>
-                <p>ADR’s robotic construction research and other core topics are integrated into the courses of the Ph.D. in Architecture and the Digital and Material Technology Master of Science programs at the University of Michigan. </p>
-                <div className={utilStyles.textArrow}>
-                    <p><Link href="/teachings">LEARN MORE</Link></p>
-                    <Image className={utilStyles.smallUpperArrow}
-                        src={mainarrow}
+                <div>
+                    <div  style={{display: 'flex', gap:'20%', alignItems: 'center', flexWrap: 'wrap', paddingBlockEnd: 40}}>
+                        <Image className={utilStyles.Aboutus_second_imageStyle}
+                        src={"/images/aboutus3.jpg"}
                         alt="Logo"
-                        width={40}
-                        height={40}
-                    />
+                        width={540}
+                        height={326}
+                        />
+                        <p>ADR’s robotic construction research and other core topics are integrated into the courses of the Ph.D. in Architecture and the Digital and Material Technology Master of Science programs at the University of Michigan. </p>
+                    </div>
+                    <div className={utilStyles.textArrow}>
+                        <p><Link href="/teachings">LEARN MORE</Link></p>
+                        <Image className={utilStyles.smallUpperArrow}
+                            src={mainarrow}
+                            alt="Logo"
+                            width={40}
+                            height={40}
+                        />
+                    </div>
                 </div>
         </div>
         <Footer></Footer>
