@@ -851,10 +851,11 @@
 
 .teamBlock{
   margin-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .teamBlock h3{
   position: relative;
-  left: 40px;
   bottom: 30px;
   text-align: left;
   font-weight: 400;
@@ -863,15 +864,20 @@
 
 .teamPictureContainer{
   position: relative;
-  left: 40px;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 40px;
 }
 
 .teamImageSquare{
   width: 360px;
   height: 360px;
-  margin-right: 6rem;
-  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 
@@ -912,15 +918,8 @@
 }
 
 @media (max-width:600px){
-
-  
-  .teamImageSquare{
-    width: 300px;
-    margin-right: 7rem;
-
-  }
   .teamInfoBlock{
-    width: 300px;
+    width: 100%;
   }
 
 }
@@ -944,11 +943,10 @@
   line-height: 40px;
   font-size: 40px;
   font-weight: 300;
-  width: 460px;
+  width: 50%;
 }
 .secondWhiteBlock p{
   position: relative;
-  width: 460px;
 }
 
 .Aboutus_second_imageStyle{
@@ -960,6 +958,9 @@
   .Aboutus_second_imageStyle{
     width: 100%;
     object-fit:cover;
+  }
+  .secondWhiteBlock h3{
+    font-size: 30px;
   }
 }
 .textArrow{

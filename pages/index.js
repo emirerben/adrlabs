@@ -15,7 +15,7 @@ import LatestWork from '../components/LatestWork';
 import SmallAboutUs from '../components/SmallAboutUs';
 import SmallNews from '../components/SmallNews';
 import Footer from '../components/Footer';
-import SmallResearchTopics from '../components/SmallResearchTopics';
+import LatestPublications from '../components/LatestPublications';
 import Typewriter from "typewriter-effect";
 
 
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
         <LatestWork />
         <SmallAboutUs />
-        <SmallResearchTopics />
+        <LatestPublications />
         <SmallNews />
         <Footer />
         </div>

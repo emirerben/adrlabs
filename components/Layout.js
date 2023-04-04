@@ -9,7 +9,7 @@ import Footer from "./Footer";
 import Body from './Body';
 import LatestWork from './LatestWork';
 import SmallAboutUs from './SmallAboutUs';
-import SmallResearchTopics from './SmallResearchTopics';
+import SmallResearchTopics from './LatestPublications';
 import SmallNews from './SmallNews';
 
 

@@ -67,8 +67,6 @@ export default function About(){
                             />
                     </div>
                 </div>
-            </div>
-            <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
                     <Link href='/aboutus/salmamozaffari'><Image className={utilStyles.teamImage}
                         src={"/images/Salma.jpg"}
@@ -87,8 +85,6 @@ export default function About(){
                             />
                     </div>
                 </div>
-            </div>
-            <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
                     <Link href='/aboutus/danielruan'><Image className={utilStyles.teamImage}
                         src={"/images/Daniel.jpg"}
@@ -107,8 +103,6 @@ export default function About(){
                             />
                     </div>
                 </div>
-            </div>
-            <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
                     <Link href='/aboutus/alirezafazel'>
                         <Image className={utilStyles.teamImage}
@@ -128,8 +122,6 @@ export default function About(){
                             />
                     </div>
                 </div>
-            </div>
-            <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
                     <Link href='/aboutus/yunyanli'>
                         <Image className={utilStyles.teamImage}
@@ -149,8 +141,6 @@ export default function About(){
                             />
                     </div>
                 </div>
-            </div>
-            <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
                     <Link href='/aboutus/abdallahkamhawi'>
                         <Image className={utilStyles.teamImage}
@@ -170,8 +160,6 @@ export default function About(){
                             />
                     </div>
                 </div>
-            </div>
-            <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
                     <Link href='/aboutus/mohsenvatandoost'>
                         <Image className={utilStyles.teamImage}
@@ -190,8 +178,6 @@ export default function About(){
                             />
                     </div>
                 </div>
-            </div>
-            <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
                     <Link href='/aboutus/xiujinliu'>
                         <Image className={utilStyles.teamImage}
@@ -210,8 +196,6 @@ export default function About(){
                             />
                     </div>
                 </div>
-            </div>
-            <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
                     <Link href='/aboutus/tharaneshvaradharajan'>
                         <Image className={utilStyles.teamImage}
@@ -231,8 +215,6 @@ export default function About(){
                             />
                     </div>
                 </div>
-            </div>
-            <div className={utilStyles.teamPictureContainer}>
                 <div className={utilStyles.teamImageSquare}>
                     <Link href='/aboutus/rahakamravafar'>
                         <Image className={utilStyles.teamImage}
