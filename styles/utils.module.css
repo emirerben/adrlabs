@@ -200,9 +200,9 @@
   position: fixed;
   z-index: 3;
   top: 0px;
+  box-sizing: border-box;
 }
 .headerStyle{
-
   width: 100%;
   height: 125px;
   position: fixed;
@@ -211,6 +211,7 @@
 }
 
 .newheaderStyle{
+  box-sizing: border-box;
   width: 100%;
   position: fixed;
   height: 125px;
@@ -231,6 +232,17 @@
   gap: 35px;
 }
 
+@media (max-width:800px){
+  .newheaderStyle{
+    font-size: 12px;
+  }
+  .headerUpperBar{
+    gap: 10px;
+  }
+  .headerLowerBar{
+    gap: 10px;
+  }
+}
 @media (max-width:600px){
   .newheaderStyle{
     font-size: 8px;
@@ -240,6 +252,10 @@
   }
   .headerLowerBar{
     gap: 7px;
+  }
+  .newheaderStyle img{
+    width: 50px;
+    height: auto;
   }
 }
 
@@ -330,11 +346,11 @@
 
 
 
-@media (max-width:600px){
+@media (max-width:800px){
   .adr_description{
 
     padding-left: 40px;
-    width: 70%;
+    width: 80%;
     font-size: 18px;
     padding-right: 10px;
   }
@@ -377,7 +393,7 @@
   height: auto;
 }
 
-@media (max-width:600px){
+@media (max-width:800px){
   .logoHome_style{
     max-width: 200px;
     margin-top: 80px;
@@ -436,7 +452,6 @@
 .latestWorkStyle{
   padding-left: 40px;
   padding-right: 40px;
-  max-width: 100%;
 }
 .latestWorkStyle h3{
   font-size: 40px;
@@ -450,15 +465,12 @@
 .projectsScrollStyle{
   display: flex;
   flex-wrap: wrap;
-
-  padding-bottom: 100px;
   justify-content: space-between;
 }
 
 .projectImageStyle{
   position: relative;
 
-  margin-right: 60px;
   object-fit: cover;
   max-width: 100%;
   height: auto;
@@ -656,13 +668,12 @@
 .SmallNewsTopicsStyle{
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 106px;
+  padding-top: 40px;
   position: relative;
 }
 
 .NewsContainerStyle{
   display: flex;
-  margin-top: 67px;
   margin-left: 0px;
 
 }
