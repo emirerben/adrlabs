@@ -1255,7 +1255,9 @@
 .PublicationsTitlePart{
   margin-left: -40px;
   margin-bottom: 20px;
+  width: 100%;
 }
+
 
 .PublicationsTitlePart h1{
   margin: 0px;
@@ -1301,7 +1303,7 @@
 
 .blockLineContainer{
   width: 100%;
-  padding-right: 40px;
+  /* padding-right: 40px; */
   padding-top: 80px;
 }
 .headerbreakerRelative{
@@ -1309,6 +1311,74 @@
   position: relative;
   width: 100%;
   left: 0;
+}
+
+.teachingClassesContainer{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 100px;
+  width: 70%;
+  padding-top: 120px;
+
+}
+.levelBlockContainer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+.teachingClassText{
+  width: 100%;
+}
+
+.teachingClassText h1{
+  margin: 0px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 50px
+}
+
+.teachingClassText h3{
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.teachingClassText p{
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width:730px){
+  /* .levelBlockContainer{
+    gap: 70px;
+  } */
+  .teachingClassesContainer{
+    padding-top: 0px;
+    width: 100%;
+    gap: 40px;
+  }
+  .teachingClassText h1{
+    font-size: 18px;
+  }
+  .teachingClassText h3{
+    font-size: 18px;
+  }
+  .teachingClassText p{
+    font-size: 12px;
+  }
+  .TitleSection p{
+    width: 100%;
+  }
+  .TeachingBlock h3{
+    font-size: 26px;
+    width: 100%;
+  }
 }
 
 /*---------Contact Us------*/
