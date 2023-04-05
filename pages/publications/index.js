@@ -41,7 +41,7 @@ export default function About(){
                     </div>
                 ))} */}
                 {/* 2021 */}
-                <div className={utilStyles.OneNews}>
+                {/* <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerBlack_top}></div>
                     <div className={utilStyles.BlockWithoutBreaker}>
                         <p>2021</p>
@@ -98,7 +98,113 @@ export default function About(){
                             </Link>
                         </div>
                     </div>   
+                </div> */}
+                <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerRelative}></div>
+
+                    <div className={utilStyles.yearBlockContainer}>
+                            <p style={{marginTop: 0}}>2021</p>
+                            <div className={utilStyles.sameyearPublicationsContainer}>
+                                <div className={utilStyles.publicationBlock}>
+                                    <Image className={utilStyles.researchImages}
+                            
+                                    src={"/images/ParallelPaths.jpg"}
+                                    width={540}
+                                    height={228}
+                                    />
+                                    <div className={utilStyles.PublicationsTitlePart}>
+
+                                        {/* <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
+                                        <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
+                                        <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
+                                            READ MORE
+                                        </Link> */}
+                                        <p>K. Graser, A. Adel, M. Baur, A. Thoma and D. Sanz Pont</p>
+                                        <h1>Parallel Paths of Inquiry: Detailing for DFAB HOUSE</h1>
+                                        <p style={{marginBottom:10}}>Technology | Architecture + Design, vol. 5, no. 1, pp. 38-43, 2021</p>
+                                        <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
+                                            READ MORE
+                                        </Link>
+                                        
+
+                                    </div>
+                                </div>
+                                <div className={utilStyles.publicationBlock}>
+                                    <Image className={utilStyles.researchImages}
+                            
+                                    src={"/images/RoboticTimber.jpg"}
+                                    width={540}
+                                    height={228}
+                                    />
+                                    <div className={utilStyles.PublicationsTitlePart}>
+                                        <p>A. Adel, E. Augustynowicz and T. Wehrle</p>
+                                        <h1>Robotic Timber Construction: A Case Study Structure</h1>
+                                        <p style={{marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41st Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA), 2021</p>
+                                        <Link href={'https://drive.google.com/file/d/1Q4hzXtLFFQp-vT_kAObbLKv1_cykyM-9/view'}>
+                                            READ MORE
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className={utilStyles.publicationBlock}>
+                                    <Image className={utilStyles.researchImages}
+                            
+                                    src={"/images/Cocoon_BW.jpg"}
+                                    width={540}
+                                    height={228}
+                                    />
+                                    <div className={utilStyles.PublicationsTitlePart}>
+                                        <p>M. Bruce, G. Clune, R. Xie, S. Mozaffari and A. Adel</p>
+                                        <h1>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
+                                        <p style={{marginBottom:10}}> Realignments: Toward Critical Computation: Proceedings Catalog of the 41st Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA), 2021</p>
+                                        <Link href={'https://www.researchgate.net/publication/364639955_Cocoon_3D_Printed_Clay_Formwork_for_Concrete_Casting'}>
+                                            READ MORE
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    {/* <div className={utilStyles.headerbreakerBlack_top} style={{marginTop: -5}}></div> */}
+                    
+                    <div className={utilStyles.researchBlock}>
+
+                    <Image className={utilStyles.researchImages}
+                        
+                        src={"/images/ParallelPaths.jpg"}
+                        width={540}
+                        height={228}
+                        />
+                        <div className={utilStyles.researchTitlePart}>
+
+                            <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
+                            <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
+                            <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
+                                READ MORE
+                            </Link>
+                            
+
+                        </div>
+                    </div>
+                    <div className={utilStyles.headerbreakerBlack_top} style={{marginTop: -5}}></div>
+                    <div className={utilStyles.researchBlock}>
+                    <Image className={utilStyles.researchImages}
+                        
+                        src={"/images/ParallelPaths.jpg"}
+                        width={540}
+                        height={228}
+                        />
+                        <div className={utilStyles.researchTitlePart}>
+
+                            <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
+                            <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
+                            <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
+                                READ MORE
+                            </Link>
+                        </div>
+                    </div>   
+                    <div className={utilStyles.headerbreakerBlack_top} style={{marginTop: -5}}></div>
                 </div>
+
                 {/* 2020 */}
                 <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerBlack_top}></div>
