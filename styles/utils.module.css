@@ -1016,7 +1016,8 @@
 }
 .roleNameHeader{
   display: block;
-  width: fit-content;
+
+  width: max-content;
 }
 
 .personalImage{
@@ -1041,6 +1042,9 @@
 @media (max-width:1000px){
   .containerUserInfo{
     width: 100%;
+  }
+  .roleNameHeader{
+    width: min-content; 
   }
 
 }
@@ -1123,6 +1127,8 @@
   font-size: 30px;
   font-weight: 00;
 }
+
+
 .newsTitlePart{
   margin-left: -40px;
 
@@ -1236,7 +1242,7 @@
 
 .PublicationsTitlePart h1{
   margin: 0px;
-  font-size: 39px;
+  font-size: 2.5vw;
   font-weight: 400;
   max-width: 700px;
   line-height: 50px
@@ -1250,7 +1256,7 @@
 
 .PublicationsTitlePart p{
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 2.0vw;
   font-weight: 300;
   letter-spacing: 1px;
   max-width: 800px;
@@ -1415,9 +1421,65 @@
 
 .researchImages{
   object-fit:cover;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  max-width: 370px;
+  min-width: 100px;
+  height: max-content;
+  width: auto;
 
+}
+
+.researchBlock {
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+
+.researchtopicsText{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  gap: 200px;
+}
+
+.researchtopicsText p{
+  font-size: 30px;
+}
+.researchTitlePart{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+
+}
+@media (max-width:800px){
+  .researchImages{
+    width: 100%;
+    max-width: none;
+  }
+  .researchBlock{
+    gap: 50px;
+  }
+  
+  .researchtopicsText{
+    gap: 60px;
+  }
+  .researchtopicsText p{
+    font-size: 15px;
+  }
+  .researchTitlePart{
+    width: 100%;
+  }
+  .researchTitlePart h1{
+    font-size: 2px;
+  }
 }
 
 

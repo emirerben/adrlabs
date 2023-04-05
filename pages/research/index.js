@@ -25,13 +25,13 @@ export default function Research(){
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.TitleSection}>
-            <h1>RESEARCH</h1>
-            <p style={{fontSize: 30, width: 777, fontWeight: 300, height: 300}}>Ehendiaturi auda cor as et ducipie nduntibusda idio. Itatquatur aut ipitata poreper ionsequis est ut omnimus poribea sumenis molorrovid ellacii simaxim rae volo tempos maximil in non enim nectiorest.</p>
+            <h1 style={{fontSize: '6.923vw', width: '80%'}}>RESEARCH</h1>
+            <p style={{fontSize: '2.3vw', width: '80%', fontWeight: 300}}>Ehendiaturi auda cor as et ducipie nduntibusda idio. Itatquatur aut ipitata poreper ionsequis est ut omnimus poribea sumenis molorrovid ellacii simaxim rae volo tempos maximil in non enim nectiorest.</p>
             <div className={utilStyles.NewsContainer}>
                 {/* 2021 */}
                 <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div  className={utilStyles.BlockWithoutBreaker}>
+                    <div style={{paddingTop: 80}} className={utilStyles.researchBlock}>
 
                         <Image className={utilStyles.researchImages}
                         
@@ -39,10 +39,10 @@ export default function Research(){
                         width={540}
                         height={228}
                         />
-                        <div style={{height: 228, marginTop:35, marginLeft:180}}className={utilStyles.PublicationsTitlePart}>
+                        <div className={utilStyles.researchTitlePart}>
 
-                            <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30, width: 455}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
-                            <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10, width: 405}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
+                            <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
+                            <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
                             <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
                                 READ MORE
                             </Link>
@@ -54,7 +54,7 @@ export default function Research(){
                     
                     <div className={utilStyles.headerbreakerBlack_top} style={{marginTop: -5}}></div>
                     
-                    <div className={utilStyles.BlockWithoutBreaker}>
+                    <div className={utilStyles.researchBlock}>
 
                     <Image className={utilStyles.researchImages}
                         
@@ -62,10 +62,10 @@ export default function Research(){
                         width={540}
                         height={228}
                         />
-                        <div style={{height: 228, marginTop:35, marginLeft:180}}className={utilStyles.PublicationsTitlePart}>
+                        <div className={utilStyles.researchTitlePart}>
 
-                            <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30, width: 455}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
-                            <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10, width: 405}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
+                            <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
+                            <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
                             <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
                                 READ MORE
                             </Link>
@@ -74,17 +74,17 @@ export default function Research(){
                         </div>
                     </div>
                     <div className={utilStyles.headerbreakerBlack_top} style={{marginTop: -5}}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
+                    <div className={utilStyles.researchBlock}>
                     <Image className={utilStyles.researchImages}
                         
                         src={"/images/ParallelPaths.jpg"}
                         width={540}
                         height={228}
                         />
-                        <div style={{height: 228, marginTop:35, marginLeft:180}}className={utilStyles.PublicationsTitlePart}>
+                        <div className={utilStyles.researchTitlePart}>
 
-                            <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30, width: 455}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
-                            <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10, width: 405}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
+                            <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
+                            <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
                             <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
                                 READ MORE
                             </Link>
@@ -94,9 +94,9 @@ export default function Research(){
                 </div>
             </div>
         </div>
-        <div style={{paddingLeft: 40, paddingTop: 90, display: 'flex', gap:200, paddingBottom: 90}}>
-            <p style={{fontSize: 30}}>Research Topics</p>
-            <p style={{width: 777, fontSize: 30}}>Ehendiaturi auda cor as et ducipie nduntibusda idio. Itatquatur aut ipitata poreper ionsequis est ut omnimus poribea sumenis molorrovid ellacii simaxim rae volo tempos maximil in non enim nectiorest.</p>
+        <div className={utilStyles.researchtopicsText}>
+            <p>Research Topics</p>
+            <p>Ehendiaturi auda cor as et ducipie nduntibusda idio. Itatquatur aut ipitata poreper ionsequis est ut omnimus poribea sumenis molorrovid ellacii simaxim rae volo tempos maximil in non enim nectiorest.</p>
         </div>
         <SmallResearchTopics></SmallResearchTopics>
         <SmallNews></SmallNews>
