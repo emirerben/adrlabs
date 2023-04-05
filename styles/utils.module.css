@@ -497,7 +497,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 /* allows the arrow to start with the first line of the project title */
@@ -1101,11 +1101,28 @@
   padding-right: 40px;
   
 }
+.TitleSection p{
+  letter-spacing: -1px;
+  font-size: 30px;
+  width: 80%;
+  font-weight: 300;
+}
 
 .TitleSection h1{
   font-size: 90px;
   font-weight: 300;
 }
+
+@media (max-width:600px){
+  .TitleSection h1{
+    font-size: 32px;
+  }
+  .TitleSection p{
+    font-size: 16px;
+    letter-spacing: 0px;
+  }
+}
+
 
 .NewsContainer{
 
@@ -1444,11 +1461,20 @@
   padding-top: 90px;
   padding-bottom: 90px;
   display: flex;
-  gap: 200px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between
+
+
 }
 
 .researchtopicsText p{
-  font-size: 30px;
+  font-size: 1.17em;
+  font-weight: 300;
+}
+.researchtopicsText h3{
+  font-size: 1.6em;
+  font-weight: 400;
 }
 .researchTitlePart{
   display: flex;
@@ -1469,7 +1495,14 @@
   }
   
   .researchtopicsText{
-    gap: 60px;
+    gap: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .researchtopicsText h3{
+    font-size: 15px;
   }
   .researchtopicsText p{
     font-size: 15px;
@@ -1488,8 +1521,36 @@
 .projectMainImageStyle{
   max-height: 548px !important;
 
+  
 }
 
 .projectDescription{
   padding: 120px 40px 40px 40px;
+}
+
+.projectDescriptionContent{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.projectDescriptionContent h3{
+  width: 65%;
+  font-weight: 300;
+}
+
+@media (max-width:800px){
+  .projectDescription h1{
+    font-size: 32px;
+  }
+  .projectDescription h1{
+    font-size: 32px;
+  }
+  .projectDescription p{
+    font-size: 15px;
+  }
+  .projectDescriptionContent h3{
+    width: 100%;
+    font-size: 15px;
+  }
 }

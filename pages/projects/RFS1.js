@@ -16,7 +16,7 @@ export default function Projects(){
         <CustomCursor />
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
-        <div style={{marginTop:72}}  className={utilStyles.TitleSection}>
+        <div style={{paddingTop: 180}} className={utilStyles.TitleSection}>
             <Image className={utilStyles.projectMainImageStyle}
                 src={firstpic}
                 alt="project"
@@ -28,7 +28,7 @@ export default function Projects(){
         <div className={utilStyles.projectDescription}>
             <div className={utilStyles.headerResponsive}></div>
             <h1 style={{fontWeight: 400}}>A title goes here</h1>
-            <div style={{display: 'flex', justifyContent: 'space-between'}}>
+            <div className={utilStyles.projectDescriptionContent}>
                 <div style={{fontSize:'1rem'}}>
                     <div>
                         <p style={{fontWeight: 500, marginBottom: 0}}>Researcher</p>
@@ -43,7 +43,7 @@ export default function Projects(){
                         <p style={{fontWeight: 300, marginTop: 0}}>Concrete Choreography</p>
                     </div>
                 </div>
-                <h3 style={{width: '45%', fontWeight: 300}}>Description text goes here and it further describes the project overview.</h3>
+                <h3>Description text goes here and it further describes the project overview.</h3>
             </div>
             <div className={utilStyles.headerResponsive}></div>
         </div>
@@ -103,11 +103,20 @@ export default function Projects(){
         </div>
 
         {/* A project description block */}
-        <div style={{paddingTop:0}} className={utilStyles.projectDescription}>
+        {/* <div style={{paddingTop:0}} className={utilStyles.projectDescription}>
             <div className={utilStyles.headerResponsive}></div>
-            <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', paddingTop:30, paddingBottom:100}}>
+            <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', paddingTop:30, paddingBottom:100, flexWrap:'wrap'}}>
                 <h1 style={{fontWeight: 400}}>A title goes here</h1>
                 <p style={{fontSize:'1rem', width: '45%', fontWeight: 300}}>Description text goes here and it further describes the project overview.</p>
+            </div>
+            <div className={utilStyles.headerResponsive}></div>
+        </div> */}
+        <div style={{paddingTop:0}} className={utilStyles.projectDescription}>
+
+            <div className={utilStyles.headerResponsive}></div> 
+            <div className={utilStyles.researchtopicsText}>
+                <h3>A title goes here</h3>
+                <p>Description text goes here and it further describes the project overview.</p>
             </div>
             <div className={utilStyles.headerResponsive}></div>
         </div>

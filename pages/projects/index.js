@@ -18,7 +18,7 @@ export default function Projects(){
         <Header></Header>
         <div className={utilStyles.TitleSection}>
             <h1>PROJECTS</h1>
-            <p style={{letterSpacing:-1, fontSize: 30, width: 600, fontWeight: 300, }}>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</p>
+            <p>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</p>
         </div>
         <div style={{ marginTop:100, paddingLeft: 40, paddingRight:40}} className={utilStyles.lastestWorkStyle}>
             <div className={utilStyles.projectsScrollStyle}>
