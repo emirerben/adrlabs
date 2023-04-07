@@ -161,146 +161,119 @@ export default function About(){
                                         </Link>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     
                     {/* <div className={utilStyles.headerbreakerBlack_top} style={{marginTop: -5}}></div> */}
                     
-                    <div className={utilStyles.researchBlock}>
 
-                    <Image className={utilStyles.researchImages}
-                        
-                        src={"/images/ParallelPaths.jpg"}
-                        width={540}
-                        height={228}
-                        />
-                        <div className={utilStyles.researchTitlePart}>
+                    <div className={utilStyles.headerbreakerRelative}></div>
+                    <div className={utilStyles.yearBlockContainer}>
+                            <p style={{marginTop: 0}}>2020</p>
+                            <div className={utilStyles.sameyearPublicationsContainer}>
+                                <div className={utilStyles.publicationBlock}>
+                                    <Image className={utilStyles.researchImages}
+                                        src={"/images/ComputationalDesign.jpg"}
+                                        width={540}
+                                        height={228}
+                                    />
+                                    <div className={utilStyles.PublicationsTitlePart}>
 
-                            <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
-                            <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
-                            <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
-                                READ MORE
-                            </Link>
+                                        {/* <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
+                                        <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
+                                        <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
+                                            READ MORE
+                                        </Link> */}
+                                        <p>A. Adel</p>
+                                        <h1>Computational Design for Cooperative Robotic Assembly of Nonstandard Timber Frame Buildings</h1>
+                                        <p style={{marginBottom:10}}>Ph.D. Thesis, ETH, Zurich, 2020</p>
+                                        <div className={utilStyles.linksPublications}>
+                                            <Link href={'https://www.researchgate.net/publication/347781191_Computational_Design_for_Cooperative_Robotic_Assembly_of_Nonstandard_Timber_Frame_Buildings'}>
+                                                ResearchGate
+                                            </Link>
+                                            <Link href={'https://drive.google.com/file/d/1oGpp2UhofxlNQ-S5PfUj4ykghAz3t7B0/view'}>
+                                                PDF
+                                            </Link>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+                                <div className={utilStyles.publicationBlock}>
+                                    <Image className={utilStyles.researchImages}
                             
-
-                        </div>
-                    </div>
-                    <div className={utilStyles.headerbreakerBlack_top} style={{marginTop: -5}}></div>
-                    <div className={utilStyles.researchBlock}>
-                    <Image className={utilStyles.researchImages}
-                        
-                        src={"/images/ParallelPaths.jpg"}
-                        width={540}
-                        height={228}
-                        />
-                        <div className={utilStyles.researchTitlePart}>
-
-                            <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
-                            <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
-                            <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
-                                READ MORE
-                            </Link>
-                        </div>
-                    </div>   
-                    <div className={utilStyles.headerbreakerBlack_top} style={{marginTop: -5}}></div>
-                </div>
-
-                {/* 2020 */}
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>2020</p>
-                        <Image className={utilStyles.publicationsImages}
-                            src={"/images/ComputationalDesign.jpg"}
-                            width={250}
-                            height={250}
-                        />
-                        <div style={{marginTop:20, marginBottom:40}} className={utilStyles.PublicationsTitlePart}>
-                            <p>A. Adel</p>
-                            <h1>Computational Design for Cooperative Robotic Assembly of Nonstandard Timber Frame Buildings</h1>
-                            <p style={{marginBottom:10}}>Ph.D. Thesis, ETH, Zurich, 2020</p>
-                            <div className={utilStyles.linksPublications}>
-                                <Link href={'https://www.researchgate.net/publication/347781191_Computational_Design_for_Cooperative_Robotic_Assembly_of_Nonstandard_Timber_Frame_Buildings'}>
-                                    ResearchGate
-                                </Link>
-                                <Link href={'https://drive.google.com/file/d/1oGpp2UhofxlNQ-S5PfUj4ykghAz3t7B0/view'}>
-                                    PDF
-                                </Link>
+                                    src={"/images/Engrained.png"}
+                                    width={540}
+                                    height={228}
+                                    />
+                                    <div className={utilStyles.PublicationsTitlePart}>
+                                        <p>R. Craney and A. Adel</p>
+                                        <h1>Engrained Performance: Performance-Driven Computational Design of a Robotically Assembled Shingle Facade System</h1>
+                                        <p style={{marginBottom:10}}>Distributed Proximities: Proceedings Catalog of the 40th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA), 2020</p>
+                                        <div className={utilStyles.linksPublications}>
+                                            <Link href={'https://www.researchgate.net/publication/353890445_Engrained_Performance_Performance-Driven_Computational_Design_of_a_Robotically_Assembled_Shingle_Facade_System'}>
+                                                ResearchGate
+                                            </Link>
+                                            <Link href={'https://drive.google.com/file/d/1xtgYzawF9iQamZR2UH5gPD_fD3l0Ku3f/view'}>
+                                                PDF
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
                             </div>
                         </div>
-                    </div>
-                    <div className={utilStyles.headerbreakerBlack_top_short}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p className={utilStyles.whitetext}>2020</p>
-                        <Image className={utilStyles.publicationsImages}
-                            src={"/images/Engrained.png"}
-                            width={250}
-                            height={250}
-                        />
-                        <div className={utilStyles.PublicationsTitlePart}>
-                            <p>R. Craney and A. Adel</p>
-                            <h1>Engrained Performance: Performance-Driven Computational Design of a Robotically Assembled Shingle Facade System</h1>
-                            <p style={{marginBottom:10}}>Distributed Proximities: Proceedings Catalog of the 40th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA), 2020</p>
-                            <div className={utilStyles.linksPublications}>
-                                <Link href={'https://www.researchgate.net/publication/353890445_Engrained_Performance_Performance-Driven_Computational_Design_of_a_Robotically_Assembled_Shingle_Facade_System'}>
-                                    ResearchGate
-                                </Link>
-                                <Link href={'https://drive.google.com/file/d/1xtgYzawF9iQamZR2UH5gPD_fD3l0Ku3f/view'}>
-                                    PDF
-                                </Link>
-                            </div>
+                        <div className={utilStyles.headerbreakerRelative}></div>
+                    <div className={utilStyles.yearBlockContainer}>
+                            <p style={{marginTop: 0}}>2018</p>
+                            <div className={utilStyles.sameyearPublicationsContainer}>
+                            <div className={utilStyles.publicationBlock}>
+                                    <Image className={utilStyles.researchImages}
                             
-                        </div>
-                    </div>      
-                </div>
-                {/* 2018 */}
-                <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p>2018</p>
-                        <Image className={utilStyles.publicationsImages}
-                            src={"/images/RoboticFabrication.png"}
-                            width={250}
-                            height={250}
-                        />
-                        <div style={{marginTop:20}} className={utilStyles.PublicationsTitlePart}>
-                            <p>A. Thoma, A. Adel, M. Helmreich, T. Wehrle, F. Gramazio and M. Kohler</p>
-                            <h1>Robotic Fabrication in Architecture, Art and Design, Zurich, 2018</h1>
-                            <p style={{marginBottom:10}}>Ph.D. Thesis, ETH, Zurich, 2020</p>
-                            <div className={utilStyles.linksPublications}>
-                                <Link href={'https://www.researchgate.net/publication/327234391_Robotic_Fabrication_of_Bespoke_Timber_Frame_Modules'}>
-                                    ResearchGate
-                                </Link>
-                                <Link href={'https://drive.google.com/file/d/1RJWz0PeKv-V2OsXkf2fREFxP_aH25vj6/view'}>
-                                    PDF
-                                </Link>
-                            </div>
+                                    src={"/images/RoboticFabrication.png"}
+                                    width={540}
+                                    height={228}
+                                    />
+                                    <div className={utilStyles.PublicationsTitlePart}>
+                                    <p>A. Thoma, A. Adel, M. Helmreich, T. Wehrle, F. Gramazio and M. Kohler</p>
+                                    <h1>Robotic Fabrication in Architecture, Art and Design, Zurich, 2018</h1>
+                                    <p style={{marginBottom:10}}>Ph.D. Thesis, ETH, Zurich, 2020</p>
+                                    <div className={utilStyles.linksPublications}>
+                                        <Link href={'https://www.researchgate.net/publication/327234391_Robotic_Fabrication_of_Bespoke_Timber_Frame_Modules'}>
+                                            ResearchGate
+                                        </Link>
+                                        <Link href={'https://drive.google.com/file/d/1RJWz0PeKv-V2OsXkf2fREFxP_aH25vj6/view'}>
+                                            PDF
+                                        </Link>
+                                    </div>
+                                    </div>
+
+                                </div>
+                                <div className={utilStyles.publicationBlock}>
+                                    <Image className={utilStyles.researchImages}
                             
-                        </div>
-                    </div>
-                    <div className={utilStyles.headerbreakerBlack_top_short}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p className={utilStyles.whitetext}>2018</p>
-                        <Image className={utilStyles.publicationsImages}
-                            src={"/images/DesignofRobotically.jpg"}
-                            width={250}
-                            height={250}
-                        />
-                        <div className={utilStyles.PublicationsTitlePart}>
-                            <p>A. Adel, A. Thoma, M. Helmreich, F. Gramazio and M. Kohler</p>
-                            <h1>Design of Robotically Fabricated Timber Frame Structures</h1>
-                            <p style={{marginBottom:10}}>Recalibration: On Imprecision and Infidelity: Proceedings Catalog of the 38th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA), Mexico City, 2018</p>
-                            <div className={utilStyles.linksPublications}>
-                                <Link href={'https://www.researchgate.net/publication/344115105_Design_of_Robotically_Fabricated_Timber_Frame_Structures'}>
-                                    ResearchGate
-                                </Link>
-                                <Link href={'https://drive.google.com/file/d/12BQo0eU6QSscZ0wHCe2grtEOaeLde5A0/view'}>
-                                    PDF
-                                </Link>
+                                    src={"/images/DesignofRobotically.jpg"}
+                                    width={540}
+                                    height={228}
+                                    />
+                                    <div className={utilStyles.PublicationsTitlePart}>
+                                        <p>A. Adel, A. Thoma, M. Helmreich, F. Gramazio and M. Kohler</p>
+                                        <h1>Design of Robotically Fabricated Timber Frame Structures</h1>
+                                        <p style={{marginBottom:10}}>Recalibration: On Imprecision and Infidelity: Proceedings Catalog of the 38th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA), Mexico City, 2018</p>
+                                        <div className={utilStyles.linksPublications}>
+                                            <Link href={'https://www.researchgate.net/publication/344115105_Design_of_Robotically_Fabricated_Timber_Frame_Structures'}>
+                                                ResearchGate
+                                            </Link>
+                                            <Link href={'https://drive.google.com/file/d/12BQo0eU6QSscZ0wHCe2grtEOaeLde5A0/view'}>
+                                                PDF
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            
                         </div>
-                    </div>      
                 </div>
             </div>
         </div>

@@ -1258,7 +1258,7 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: flex-start;
-  width: 50%;
+  width: 60%;
 }
 
 
@@ -1280,9 +1280,7 @@
   font-size: 18px;
   font-weight: 300;
   letter-spacing: -0.2px;
-
 }
-
 
 .publicationBlock{
   display: flex;
@@ -1307,6 +1305,40 @@
   align-items: flex-start;
   padding-top: 40px;
   gap: 50px;
+  padding-bottom: 100px;
+}
+
+@media (max-width:800px){
+  .PublicationsTitlePart{
+    width: 100%;
+  }
+  .PublicationsTitlePart h1{
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .PublicationsTitlePart p{
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+  }
+
+  .PublicationsTitlePart a{
+    font-size: 12px;
+  }
+
+  .sameyearPublicationsContainer{
+    width: 100%;
+    gap: 60px;
+  }
+
+  .yearBlockContainer{
+    gap: 0px;
+    padding-bottom: 60px;
+  }
 }
 /* .FirstBlockWithoutBreaker{
   display: flex;
