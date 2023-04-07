@@ -7,10 +7,10 @@ import Layout, { siteTitle } from '../../components/Layout';
 import utilStyles from '../../styles/utils.module.css';
 import adrlogo from '../../public/images/ADR-Logo-01.png'
 import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
-// import fsPromises from 'fs/promises';
 import path from 'path'
 import { useState } from 'react';
 import CustomCursor from "../../components/Cursor";
+import fsPromises from 'fs/promises';
 
 // export async function getStaticProps() {
 //     const filePath = path.join(process.cwd(), '/json/news.json');
@@ -22,9 +22,28 @@ import CustomCursor from "../../components/Cursor";
 //     }
 //   }
 
+export async function getStaticProps() {
+    const filePath = path.join(process.cwd(), '/json/news.json');
+    const jsonData = await fsPromises.readFile(filePath);
+    const objectData = JSON.parse(jsonData);
+    const newsData = objectData["news"]
+    const news22 = newsData.filter(obj => obj.date.endsWith('22'));
+    const news21 = newsData.filter(obj => obj.date.endsWith('22'));
 
+  // Filter condition - only include key-value pairs where the key ends with '2'
+    // const news21 = Object.entries(objectData).filter(obj => obj.year.endsWith('21'));
+  
+    return {
+      props: {
+        news22, news21
+      }
+    }
+}
 export default function News(props){
     // const news = props.news;
+
+    const news2022 = props.news22;
+    const news2021 = props.news21;
     return(
         <>
         {/*This is the section with the title*/}
@@ -34,7 +53,53 @@ export default function News(props){
         <div className={utilStyles.TitleSection}>
             <h1>NEWS</h1>
             <div className={utilStyles.NewsContainer}>
-            <div className={utilStyles.headerbreakerBlack_top}></div>        
+            <div className={utilStyles.OneNews}>
+                    <div className={utilStyles.headerbreakerRelative}></div>
+                    <div className={utilStyles.yearBlockContainer}>
+                            <p style={{marginTop: 0}}>2022</p>
+                            <div className={utilStyles.sameyearPublicationsContainer}>
+                                {news2022.map(news =>
+                                <div className={utilStyles.newsBlock}>
+                                    <p style={{marginTop: 0}}>{news.date}</p>
+                                    <Image className={utilStyles.researchImages}
+                                    src={"/images/"+news.image}
+                                    width={189}
+                                    height={187}
+                                    />
+                                    <div className={utilStyles.newsTitlePart}>
+                                            <h1>{news.title}</h1>
+                                            <Link style={{marginBottom: 0}} href={'/news/'+news.id}>
+                                                READ MORE
+                                            </Link>
+                                    </div>
+                                </div>
+                                )}
+                            </div>
+                    </div>
+                    <div className={utilStyles.headerbreakerRelative}></div>
+                    <div className={utilStyles.yearBlockContainer}>
+                            <p style={{marginTop: 0}}>2021</p>
+                            <div className={utilStyles.sameyearPublicationsContainer}>
+                                {news2021.map(news =>
+                                <div className={utilStyles.newsBlock}>
+                                    <p>{news.date}</p>
+                                    <Image className={utilStyles.researchImages}
+                                    src={"/images/"+news.image}
+                                    width={189}
+                                    height={187}
+                                    />
+                                    <div className={utilStyles.newsTitlePart}>
+                                            <h1>{news.title}</h1>
+                                            <Link style={{marginBottom: 0}} href={'/news/'+news.id}>
+                                                READ MORE
+                                            </Link>
+                                    </div>
+                                </div>
+                                )}
+                            </div>
+                    </div>
+                </div>
+            {/* <div className={utilStyles.headerbreakerBlack_top}></div>        
             <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerBlack_top}></div>
                     <div className={utilStyles.BlockWithoutBreaker}>

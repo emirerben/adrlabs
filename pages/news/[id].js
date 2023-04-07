@@ -6,12 +6,43 @@ import Footer from '../../components/Footer';
 import Image from 'next/future/image';
 import Link from 'next/link';
 import CustomCursor from '../../components/Cursor';
+import path from 'path';
+import fsPromises from 'fs/promises';
 
 
-export default function News({ news }) {
+
+export async function getStaticProps({params}) {
+    const filePath = path.join(process.cwd(), '/json/news.json');
+    const jsonData = await fsPromises.readFile(filePath);
+    const objectData = JSON.parse(jsonData);
+    const newsData = objectData["news"];
+    var onenews = newsData.filter(obj => obj.id.toString() === params.id);
+    onenews = onenews[0]
+    return {
+      props: { onenews }
+    }
+}
+
+export async function getStaticPaths() {
+    const filePath = path.join(process.cwd(), '/json/news.json');
+    const jsonData = await fsPromises.readFile(filePath);
+    const objectData = JSON.parse(jsonData);
+    const newsData = objectData["news"];
+    const paths =  newsData.map(news => {
+        return {
+            params: {id: news.id.toString()}
+        }
+    })
+    return {
+      paths,
+      fallback: false, // can also be true or 'blocking'
+    }
+  }
+
+export default function News({ onenews }) {
     const router = useRouter()
     const basePath = '/public/images'
-    const { id } = router.query
+    // const { id } = router.query
     return (<>
         <CustomCursor />
         <Head>
@@ -20,9 +51,21 @@ export default function News({ news }) {
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.topContainerNews}>
-            {/* <p>{news.id}</p> */}
-            ADRLAB
+            <div className={utilStyles.titleAndDateNews}>
+                <h1 style={{marginTop: 0}}>{onenews.title}</h1>
+                <p style={{marginTop: 0}}>{onenews.date}</p>
+            </div>
+            <Image className={utilStyles.researchImages}
+                src={"/images/"+onenews.image}
+                width={450}
+                height={300}
+                />
+            <div className={utilStyles.newsBody}>
+                <p>{onenews.content} <a href={onenews.link}>more</a></p>
+            </div>
+            
         </div>
+        
        
 
         

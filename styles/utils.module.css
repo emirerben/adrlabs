@@ -714,6 +714,69 @@
 }
 
 
+.newsBlock{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.newsTitlePart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 60%;
+  height: inherit;
+  height: 189px;
+}
+.newsTitlePart h1{
+  margin: 0px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+
+.newsTitlePart p{
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -0.2px;
+}
+
+@media (max-width:800px){
+  .newsBlock img{
+    margin-bottom: 20px;
+  }
+  .newsTitlePart{
+    width: 100%;
+    gap: 20px;
+    height: auto;
+  }
+  .newsTitlePart h1{
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .newsTitlePart p{
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+  }
+
+  .newsTitlePart a{
+    font-size: 12px;
+  }
+
+}
+
 
 .yellowHighlight{
   display: none;
@@ -1109,13 +1172,13 @@
 }
 
 .TitleSection h1{
-  font-size: 90px;
+  font-size: 32px;
   font-weight: 300;
 }
 
 @media (max-width:600px){
   .TitleSection h1{
-    font-size: 32px;
+    font-size: 18px;
   }
   .TitleSection p{
     font-size: 16px;
@@ -1146,40 +1209,6 @@
 }
 
 
-.newsTitlePart{
-  margin-left: -40px;
-
-  padding-bottom: 30px;
-  padding-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.newsTitlePart h1{
-  margin: 0px;
-  font-size: 39px;
-  font-weight: 400;
-  max-width: 700px;
-  line-height: 50px
-}
-
-.newsTitlePart h3{
-  margin-top: 30px;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.newsTitlePart p{
-  margin-bottom: 0px;
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  max-width: 800px;
-  position: absolute;
-  align-items: flex-end;
-}
-
 .newsTitlePart a{
   width: max-content;
 }
@@ -1194,33 +1223,76 @@
 
 /*-------------News Pages----------*/
 .topContainerNews{
-
-  height: 1500px;
-  padding-top: 125px;
+  padding-top: 200px;
   padding-left: 40px;
   padding-right: 40px;
 }
-
-
-.topContainerNews h2{
-  position: relative;
-  top: -250px;
-  float: right;
+.titleAndDateNews{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
 }
 
+.titleAndDateNews p{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.titleAndDateNews h1{
+  font-size: 39px;
+  font-weight: 400;
+  width: 50%;
+}
+
+.topContainerNews img{
+  width: 50%;
+  max-width: 700px;
+}
 .newsBody{
-  position: relative;
-  float: right;
-  right: 60px;
-  max-width: 780px;
+  display: flex;
   color: #707070;
-  margin-top: 50px;
+  width: 80%;
+  padding-top: 50px;
+}
+.newsBody p{
+  text-align: justify;
 }
 
 .newsImage{
   margin-top: 35px;
   margin-bottom: 30px;
   object-fit:cover;
+}
+
+@media (max-width:800px){
+  .titleAndDateNews{
+  padding-bottom: 20px;
+  }
+  .titleAndDateNews h1{
+    font-size: 18px;
+    width: 80%;
+  }
+  .titleAndDateNews p{
+    font-size: 12px;
+
+  }
+  .TitleSection p{
+    font-size: 16px;
+    letter-spacing: 0px;
+  }
+  .topContainerNews img{
+    width: 100%;
+  }
+  .newsBody{
+    display: flex;
+    color: #707070;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .newsBody p{
+    font-size: 12px;
+    text-align: justify;
+  }
 }
 
 
@@ -1281,6 +1353,7 @@
   font-weight: 300;
   letter-spacing: -0.2px;
 }
+
 
 .publicationBlock{
   display: flex;
