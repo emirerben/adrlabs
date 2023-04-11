@@ -32,7 +32,7 @@ export async function getStaticProps() {
 
   // Filter condition - only include key-value pairs where the key ends with '2'
     // const news21 = Object.entries(objectData).filter(obj => obj.year.endsWith('21'));
-  
+
     return {
       props: {
         news22, news21
@@ -81,13 +81,13 @@ export default function News(props){
                             <p style={{marginTop: 0}}>2021</p>
                             <div className={utilStyles.sameyearPublicationsContainer}>
                                 {news2021.map(news =>
-                                <div className={utilStyles.newsBlock}>
+                                <div key={news.id} className={utilStyles.newsBlock}>
                                     <p>{news.date}</p>
-                                    <Image className={utilStyles.researchImages}
+                                    {/* <Image className={utilStyles.researchImages}
                                     src={"/images/"+news.image}
                                     width={189}
                                     height={187}
-                                    />
+                                    /> */}
                                     <div className={utilStyles.newsTitlePart}>
                                             <h1>{news.title}</h1>
                                             <Link style={{marginBottom: 0}} href={'/news/'+news.id}>
