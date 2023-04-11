@@ -1516,13 +1516,14 @@
 /*---------Contact Us------*/
 
 .yellowContactUsTitle{
-  position: relative;
   text-align: left;
   padding-left: 40px;
-  top: 220px;
+  padding-top: 80px;
+  padding-right: 40px;
+
   max-width: 900px;
   
-  line-height: 70px;
+  line-height: 50px;
   font-weight:300;
   font-size: 35px;
 
@@ -1530,7 +1531,6 @@
 
 .yellowContactUsTitle h3{
   position: relative;
-
   bottom: 30px;
   text-align: left;
   font-weight: 400;
@@ -1546,17 +1546,20 @@
   min-width: 1340px;
 }
 .form{
-  margin-left: 40px;
+  width: 50%;
 }
 
 .formContainer{
   display: flex;
   margin-top: 40px;
+  flex-wrap: wrap;
   gap: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .input {
   display: block;
-  width: 720px;
+  width: 100%;
   height: 65px;
   background-color: #EDEDEE;
   border: none;
@@ -1579,7 +1582,6 @@
 .bottomContainer{
   margin-top: 100px;
   position: relative;
-  width: 500px;
   padding-left: 40px;
 
 }
@@ -1588,6 +1590,10 @@
   width: 360px;
   height: 435px;
   padding-top: 40px;
+}
+
+.imageContactUs{
+
 }
 
 .sucessfulSubmissionBlock{
@@ -1608,7 +1614,26 @@
   text-align: center;
 
   top: 40%;
+
 }
+
+@media (max-width:780px){
+  .form{
+    width: 100%;
+  }
+  .imageContactUs{
+    width: 100%;
+  }
+  .yellowContactUsTitle h3{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .bottomContainer p{
+    font-size: 12px;
+  }
+}
+
+
 @keyframes openBox {
   from{
     transform: scale(0);

@@ -85,17 +85,20 @@ export default function ContactUs(){
                 
                 ) }
             </form>
-            {/* <Image 
-                src={"/images/Map.png"}
-                width={360}
-                height={435}
-                paddingTop={40}
-            /> */}
-            <GoogleMap className={utilStyles.mapContactUs} zoom={13} center={{lat: 42.289558, lng: -83.717043}}>
+            <a style={{height: 310}} href="https://goo.gl/maps/ZrDTHJJtGVb73yxJ9">
+                <Image className={utilStyles.imageContactUs}
+                    src={"/images/Map.png"}
+                    width={250}
+                    height={300}
+                    paddingTop={40}
+                />
+            </a>
+            
+            {/* <GoogleMap className={utilStyles.mapContactUs} zoom={13} center={{lat: 42.289558, lng: -83.717043}}>
                 <Marker position={{lat: 42.289558, lng: -83.717043}} />
                 bacground
                 bacgroundbacgroundbacground
-            </GoogleMap>
+            </GoogleMap> */}
             <script
             src="https://maps.googleapis.com/maps/api/js?key={googleMapsApiKey}"
             defer
