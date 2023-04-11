@@ -10,7 +10,7 @@ import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
 import path from 'path'
 import { useState } from 'react';
 import CustomCursor from "../../components/Cursor";
-// import fsPromises from 'fs/promises';
+import fsPromises from 'fs/promises';
 
 // export async function getStaticProps() {
 //     const filePath = path.join(process.cwd(), '/json/news.json');
@@ -22,25 +22,23 @@ import CustomCursor from "../../components/Cursor";
 //     }
 //   }
 
-// export async function getStaticProps() {
-//     const filePath = path.join(process.cwd(), '/json/news.json');
-//     const jsonData = await fsPromises.readFile(filePath);
-//     const objectData = JSON.parse(jsonData);
-//     const newsData = objectData["news"]
-//     const news22 = newsData.filter(obj => obj.date.endsWith('22'));
-//     const news21 = newsData.filter(obj => obj.date.endsWith('22'));
+export async function getStaticProps() {
+    const filePath = path.join(process.cwd(), '/json/news.json');
+    const jsonData = await fsPromises.readFile(filePath);
+    const objectData = JSON.parse(jsonData);
+    const newsData = objectData["news"]
+    // const news22 = newsData.filter(obj => obj.date.endsWith('22'));
+    // const news21 = newsData.filter(obj => obj.date.endsWith('22'));
 
-//   // Filter condition - only include key-value pairs where the key ends with '2'
-//     // const news21 = Object.entries(objectData).filter(obj => obj.year.endsWith('21'));
 
-//     return {
-//       props: {
-//         news22, news21
-//       }
-//     }
-// }
-export default function News(){
-    // const news = props.news;
+    return {
+      props: {
+        newsData
+      }
+    }
+}
+export default function News(props){
+    const news = props.newsData;
 
     // const news2022 = props.news22;
     // const news2021 = props.news21;
@@ -99,11 +97,28 @@ export default function News(){
                             </div>
                     </div>
                 </div> */}
-            <div className={utilStyles.headerbreakerBlack_top}></div>        
+                
+            <div className={utilStyles.NewsContainer}>    
             <div className={utilStyles.OneNews}>
-                    <div className={utilStyles.headerbreakerBlack_top}></div>
-                    <div className={utilStyles.BlockWithoutBreaker}>
-                        <p style={{position:'absolute'}}>2022</p>
+                <div className={utilStyles.headerbreakerRelative}></div>
+                    <div className={utilStyles.yearBlockContainer}>
+                        <p style={{marginTop: 0}}>2022</p>
+                        <div className={utilStyles.sameyearPublicationsContainer}>
+                            <div className={utilStyles.newsBlock}>
+                                <p style={{marginTop: 0}}>{news[0].date}</p>
+                                <Image className={utilStyles.researchImages}
+                                    src={"/images/"+news[0].image}
+                                    width={189}
+                                    height={187}
+                                />
+                                 <div className={utilStyles.newsTitlePart}>
+                                            <h1>{news[0].title}</h1>
+                                            <Link style={{marginBottom: 0}} href={'/news/'+news[0].id}>
+                                                READ MORE
+                                            </Link>
+                                </div>
+                            </div>
+                        </div>
                         <p style={{fontSize:20, marginTop:40, paddingLeft: 200}}>10/31/22</p>
                         <Image className={utilStyles.publicationsImages}
                         
@@ -228,6 +243,7 @@ export default function News(){
                             <h1>Keynote Lecture International Manufacturing Forum Series 2021</h1>
                             <a href={'/news/internationalmanufacturing'}>READ MORE</a>
                         </div>
+                    </div>
                     </div>
                     </div>
 
