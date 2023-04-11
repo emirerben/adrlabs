@@ -10,7 +10,7 @@ import upperArrow from '../../public/images/ADR-GraphicElementsNoBoundary_y.png'
 import path from 'path'
 import { useState } from 'react';
 import CustomCursor from "../../components/Cursor";
-import fsPromises from 'fs/promises';
+// import fsPromises from 'fs/promises';
 
 // export async function getStaticProps() {
 //     const filePath = path.join(process.cwd(), '/json/news.json');
@@ -22,28 +22,28 @@ import fsPromises from 'fs/promises';
 //     }
 //   }
 
-export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), '/json/news.json');
-    const jsonData = await fsPromises.readFile(filePath);
-    const objectData = JSON.parse(jsonData);
-    const newsData = objectData["news"]
-    const news22 = newsData.filter(obj => obj.date.endsWith('22'));
-    const news21 = newsData.filter(obj => obj.date.endsWith('22'));
+// export async function getStaticProps() {
+//     const filePath = path.join(process.cwd(), '/json/news.json');
+//     const jsonData = await fsPromises.readFile(filePath);
+//     const objectData = JSON.parse(jsonData);
+//     const newsData = objectData["news"]
+//     const news22 = newsData.filter(obj => obj.date.endsWith('22'));
+//     const news21 = newsData.filter(obj => obj.date.endsWith('22'));
 
-  // Filter condition - only include key-value pairs where the key ends with '2'
-    // const news21 = Object.entries(objectData).filter(obj => obj.year.endsWith('21'));
+//   // Filter condition - only include key-value pairs where the key ends with '2'
+//     // const news21 = Object.entries(objectData).filter(obj => obj.year.endsWith('21'));
 
-    return {
-      props: {
-        news22, news21
-      }
-    }
-}
-export default function News(props){
+//     return {
+//       props: {
+//         news22, news21
+//       }
+//     }
+// }
+export default function News(){
     // const news = props.news;
 
-    const news2022 = props.news22;
-    const news2021 = props.news21;
+    // const news2022 = props.news22;
+    // const news2021 = props.news21;
     return(
         <>
         {/*This is the section with the title*/}
