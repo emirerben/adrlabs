@@ -52,7 +52,7 @@ export default function News(props){
         <Header></Header>
         <div className={utilStyles.TitleSection}>
             <h1>NEWS</h1>
-            <div className={utilStyles.NewsContainer}>
+            {/* <div className={utilStyles.NewsContainer}>
             <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerRelative}></div>
                     <div className={utilStyles.yearBlockContainer}>
@@ -83,11 +83,11 @@ export default function News(props){
                                 {news2021.map(news =>
                                 <div key={news.id} className={utilStyles.newsBlock}>
                                     <p>{news.date}</p>
-                                    {/* <Image className={utilStyles.researchImages}
+                                    <Image className={utilStyles.researchImages}
                                     src={"/images/"+news.image}
                                     width={189}
                                     height={187}
-                                    /> */}
+                                    />
                                     <div className={utilStyles.newsTitlePart}>
                                             <h1>{news.title}</h1>
                                             <Link style={{marginBottom: 0}} href={'/news/'+news.id}>
@@ -98,8 +98,8 @@ export default function News(props){
                                 )}
                             </div>
                     </div>
-                </div>
-            {/* <div className={utilStyles.headerbreakerBlack_top}></div>        
+                </div> */}
+            <div className={utilStyles.headerbreakerBlack_top}></div>        
             <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerBlack_top}></div>
                     <div className={utilStyles.BlockWithoutBreaker}>
@@ -245,7 +245,7 @@ export default function News(props){
         )} */}
         </div>
 
-        </div>
+
 
         <Footer></Footer>
         </>
