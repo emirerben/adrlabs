@@ -7,9 +7,9 @@ import Home from '../pages';
 import Header from "./Header";
 import Footer from "./Footer";
 import Body from './Body';
-import LatestWork from './LatestWork';
+import LatestWork from './FeaturedProjects';
 import SmallAboutUs from './SmallAboutUs';
-import SmallResearchTopics from './LatestPublications';
+import SmallResearchTopics from './RecentPublications';
 import SmallNews from './SmallNews';
 
 

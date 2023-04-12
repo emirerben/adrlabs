@@ -9,7 +9,7 @@ import utilStyles from '../styles/utils.module.css';
 
 const LatestWork = () => (
 <div className={utilStyles.latestWorkStyle}>
-    <h3 style={{fontWeight: 400}}>OUR LATEST WORK</h3>
+    <h3 style={{fontWeight: 400}}>FEATURED PROJECTS</h3>
     <div className={utilStyles.projectsScrollStyle}>
         <div className={utilStyles.projectCardStyle}>
             <Link href="/">

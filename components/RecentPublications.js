@@ -57,7 +57,7 @@ export default function SmallResearchTopics(){
  return (
     <div className={utilStyles.SmallResearchTopicsStyle}>
     
-        <h2>LATEST PUBLICATIONS</h2>
+        <h2>RECENT PUBLICATIONS</h2>
         <div className={utilStyles.breakerWhite}></div>
         <div className={utilStyles.TopicContainerStyle}>
             <div className={utilStyles.TopicBlockStyle}>

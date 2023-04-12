@@ -26,22 +26,22 @@ const Footer = () => (
                 <Link href="/contactus">CONTACT</Link>
             </div>
             <div style={{marginLeft:40, float: 'left', display: 'flex', gap:35}}>
-            <Link href="https://www.instagram.com/adr_laboratory/">
+            <a href="https://www.instagram.com/adr_laboratory/" target="_blank" rel="noopener noreferrer" style={{marginTop:7}}>
                     <Image
                     src={"/images/instagram-icon.png"}
                     alt="ADR Instagram"
                     height={21}
                     width={21}
                 />
-            </Link>
-            <Link href="https://www.linkedin.com/company/adr-laboratory/about/">
+            </a>
+            <a href="https://www.linkedin.com/company/adr-laboratory/about/" target="_blank" rel="noopener noreferrer" style={{marginTop:7}}>
                 <Image 
                     src={"/images/linkedin.png"}
                     alt="ADR LinkedIn"
                     height={18}
                     width={18}
                 />
-            </Link>
+            </a>
             </div>
         </div>
         <div className={utilStyles.headerResponsive}></div>
@@ -53,13 +53,13 @@ const Footer = () => (
                 alt="Logo"
             />
         </Link>
-        <Link href="/">
+        <a href="https://taubmancollege.umich.edu/"  target="_blank" rel="noopener noreferrer">
             <Image className={utilStyles.taubman_footer}
                 src={taubman_logo}
                 alt="Taubman"
                 width={230.21}
             />
-        </Link>
+        </a>
             </div>
             <p className={utilStyles.footer_text}>Adel Design Research (ADR)<br></br>
     A. Alfred Taubman College of Architecture and Urban Planning<br></br>
