@@ -102,7 +102,30 @@
 }
 
 
+.yellowSquare{
+  width: 100px;
+  height: 100px;
+  background-color: #FFFF00;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 5;
+}
 
+.arrowLanding{
+  transform: rotate(-45deg);
+  object-fit: cover;
+  margin-left: 20%;
+  margin-top:15px;
+  width: 60%;
+  height: 80%;
+}
+
+.yellowSquare:hover{
+  width: 120px;
+  height: 120px;
+  transition: ease 100ms;
+}
 
 .videoCover{
   width: 100%;

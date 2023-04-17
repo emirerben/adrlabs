@@ -58,8 +58,11 @@ export default function Home() {
   //     setShow(0);
   //   }
   // }, []);
-
-  return show ?(<div className={utilStyles.landingVideo} onClick={handleClick}>
+  
+  return show ?(
+    <>
+  <CustomCursor />
+  <div className={utilStyles.landingVideo} onClick={handleClick}>
     <video src={require('../public/images/RFS_LandingPage.mp4')} autoPlay loop muted/>
     <div className={utilStyles.textLandingPage}>
       <Image className={utilStyles.adrWhiteLogo}
@@ -84,12 +87,21 @@ export default function Home() {
         />
       </div>
     </div>
+    <div className={utilStyles.yellowSquare}>
+      <Image className={utilStyles.arrowLanding}
+            src={mainarrow}
+            alt="arrow upside"
+            width={66.14}
+            height={66.14}
+      />
+    </div>
     <div className={utilStyles.videoCover}>
       
       
     </div>
     
-</div>) : (
+</div>
+</>) : (
   <>
         <CustomCursor />  
         <div className={utilStyles.layoutStyle}>
