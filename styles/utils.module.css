@@ -146,7 +146,9 @@
 
 @media (max-width:600px){
 
-  
+  .titleLandingPage{
+    font-size: 12px;
+  }
 
   .landingVideo{
     max-width: 600px;
@@ -165,7 +167,7 @@
     padding-left: 20px;
   }
   .textLandingPage img{
-    width: 230px;
+    width: 146px;
   }
   .textLandingPage p{
     width: 1000px;

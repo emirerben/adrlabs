@@ -7,6 +7,18 @@ export default function CustomCursor() {
     useEffect(() => {
         if (cursorRef.current == null || cursorRef == null)
             return;
+        
+        const links = document.querySelectorAll('a')
+        links.forEach((link) => {
+            link.addEventListener('mouseenter', () => {
+                if (cursorRef.current == null) return
+                cursorRef.current.classList.add('link-hover')
+            })
+            link.addEventListener('mouseleave', () => {
+                if (cursorRef.current == null) return
+                cursorRef.current.classList.remove('link-hover')
+            })
+        })
 
         document.addEventListener('mousemove', e => {
             if (cursorRef.current == null)

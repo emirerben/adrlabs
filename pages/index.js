@@ -27,7 +27,7 @@ export default function Home() {
     '/images/aboutus1.jpeg',
     '/images/aboutus2.jpeg',
   ]
-  const delay = 2500;
+  const delay = 5000;
   const [index, setIndex] = useState(0);
   function Slideshow() {
     useEffect(() => {
@@ -52,12 +52,12 @@ export default function Home() {
     setShow(0);
     localStorage.setItem('hasWatchedVideo', true);
   }
-  useEffect(() => {
-    const hasWatchedVideo = localStorage.getItem('hasWatchedVideo');
-    if (hasWatchedVideo) {
-      setShow(0);
-    }
-  }, []);
+  // useEffect(() => {
+  //   const hasWatchedVideo = localStorage.getItem('hasWatchedVideo');
+  //   if (hasWatchedVideo) {
+  //     setShow(0);
+  //   }
+  // }, []);
 
   return show ?(<div className={utilStyles.landingVideo} onClick={handleClick}>
     <video src={require('../public/images/RFS_LandingPage.mp4')} autoPlay loop muted/>

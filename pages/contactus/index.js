@@ -85,7 +85,7 @@ export default function ContactUs(){
                 
                 ) }
             </form>
-            <a style={{height: 310}} href="https://goo.gl/maps/ZrDTHJJtGVb73yxJ9">
+            <a target="_blank" rel="noopener noreferrer" style={{height: 310}} href="https://goo.gl/maps/ZrDTHJJtGVb73yxJ9">
                 <Image className={utilStyles.imageContactUs}
                     src={"/images/Map.png"}
                     width={250}

@@ -43,9 +43,9 @@ export default function Research(){
 
                             <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
                             <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
-                            <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
+                            <a target="_blank" rel="noopener noreferrer" href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
                                 READ MORE
-                            </Link>
+                            </a>
                             
 
                         </div>
@@ -66,9 +66,9 @@ export default function Research(){
 
                             <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
                             <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
-                            <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
+                            <a target="_blank" rel="noopener noreferrer" href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
                                 READ MORE
-                            </Link>
+                            </a>
                             
 
                         </div>
@@ -85,9 +85,9 @@ export default function Research(){
 
                             <h1 style={{lineHeight:1.1, fontWeight:400, fontSize:30}}>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
                             <p style={{letterSpacing:0, fontWeight:300, fontSize:16, marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA)</p>
-                            <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
+                            <a target="_blank" rel="noopener noreferrer" href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
                                 READ MORE
-                            </Link>
+                            </a>
                         </div>
                     </div>   
                     <div className={utilStyles.headerbreakerBlack_top} style={{marginTop: -5}}></div>

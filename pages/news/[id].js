@@ -61,7 +61,7 @@ export default function News({ onenews }) {
                 height={300}
                 />
             <div className={utilStyles.newsBody}>
-                <p>{onenews.content} <a href={onenews.link}>more</a></p>
+                <p>{onenews.content} <a target="_blank" rel="noopener noreferrer" href={onenews.link}>more</a></p>
             </div>
             
         </div>

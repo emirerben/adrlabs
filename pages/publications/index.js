@@ -189,12 +189,12 @@ export default function About(){
                                         <h1>Computational Design for Cooperative Robotic Assembly of Nonstandard Timber Frame Buildings</h1>
                                         <p style={{marginBottom:10}}>Ph.D. Thesis, ETH, Zurich, 2020</p>
                                         <div className={utilStyles.linksPublications}>
-                                            <Link href={'https://www.researchgate.net/publication/347781191_Computational_Design_for_Cooperative_Robotic_Assembly_of_Nonstandard_Timber_Frame_Buildings'}>
+                                            <a target="_blank" rel="noopener noreferrer" href={'https://www.researchgate.net/publication/347781191_Computational_Design_for_Cooperative_Robotic_Assembly_of_Nonstandard_Timber_Frame_Buildings'}>
                                                 ResearchGate
-                                            </Link>
-                                            <Link href={'https://drive.google.com/file/d/1oGpp2UhofxlNQ-S5PfUj4ykghAz3t7B0/view'}>
+                                            </a>
+                                            <a target="_blank" rel="noopener noreferrer" href={'https://drive.google.com/file/d/1oGpp2UhofxlNQ-S5PfUj4ykghAz3t7B0/view'}>
                                                 PDF
-                                            </Link>
+                                            </a>
                                         </div>
                                         
 
@@ -212,12 +212,12 @@ export default function About(){
                                         <h1>Engrained Performance: Performance-Driven Computational Design of a Robotically Assembled Shingle Facade System</h1>
                                         <p style={{marginBottom:10}}>Distributed Proximities: Proceedings Catalog of the 40th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA), 2020</p>
                                         <div className={utilStyles.linksPublications}>
-                                            <Link href={'https://www.researchgate.net/publication/353890445_Engrained_Performance_Performance-Driven_Computational_Design_of_a_Robotically_Assembled_Shingle_Facade_System'}>
+                                            <a target="_blank" rel="noopener noreferrer" href={'https://www.researchgate.net/publication/353890445_Engrained_Performance_Performance-Driven_Computational_Design_of_a_Robotically_Assembled_Shingle_Facade_System'}>
                                                 ResearchGate
-                                            </Link>
-                                            <Link href={'https://drive.google.com/file/d/1xtgYzawF9iQamZR2UH5gPD_fD3l0Ku3f/view'}>
+                                            </a>
+                                            <a target="_blank" rel="noopener noreferrer" href={'https://drive.google.com/file/d/1xtgYzawF9iQamZR2UH5gPD_fD3l0Ku3f/view'}>
                                                 PDF
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -241,12 +241,12 @@ export default function About(){
                                     <h1>Robotic Fabrication in Architecture, Art and Design, Zurich, 2018</h1>
                                     <p style={{marginBottom:10}}>Ph.D. Thesis, ETH, Zurich, 2020</p>
                                     <div className={utilStyles.linksPublications}>
-                                        <Link href={'https://www.researchgate.net/publication/327234391_Robotic_Fabrication_of_Bespoke_Timber_Frame_Modules'}>
+                                        <a target="_blank" rel="noopener noreferrer" href={'https://www.researchgate.net/publication/327234391_Robotic_Fabrication_of_Bespoke_Timber_Frame_Modules'}>
                                             ResearchGate
-                                        </Link>
-                                        <Link href={'https://drive.google.com/file/d/1RJWz0PeKv-V2OsXkf2fREFxP_aH25vj6/view'}>
+                                        </a>
+                                        <a target="_blank" rel="noopener noreferrer" href={'https://drive.google.com/file/d/1RJWz0PeKv-V2OsXkf2fREFxP_aH25vj6/view'}>
                                             PDF
-                                        </Link>
+                                        </a>
                                     </div>
                                     </div>
 
@@ -263,12 +263,12 @@ export default function About(){
                                         <h1>Design of Robotically Fabricated Timber Frame Structures</h1>
                                         <p style={{marginBottom:10}}>Recalibration: On Imprecision and Infidelity: Proceedings Catalog of the 38th Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA), Mexico City, 2018</p>
                                         <div className={utilStyles.linksPublications}>
-                                            <Link href={'https://www.researchgate.net/publication/344115105_Design_of_Robotically_Fabricated_Timber_Frame_Structures'}>
+                                            <a target="_blank" rel="noopener noreferrer" href={'https://www.researchgate.net/publication/344115105_Design_of_Robotically_Fabricated_Timber_Frame_Structures'}>
                                                 ResearchGate
-                                            </Link>
-                                            <Link href={'https://drive.google.com/file/d/12BQo0eU6QSscZ0wHCe2grtEOaeLde5A0/view'}>
+                                            </a>
+                                            <a target="_blank" rel="noopener noreferrer" href={'https://drive.google.com/file/d/12BQo0eU6QSscZ0wHCe2grtEOaeLde5A0/view'}>
                                                 PDF
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
