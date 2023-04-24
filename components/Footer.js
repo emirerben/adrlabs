@@ -43,7 +43,7 @@ const Footer = () => (
                     width={18}
                 />
             </a>
-            <a href="https://www.linkedin.com/company/adr-laboratory/about/" target="_blank" rel="noopener noreferrer" style={{marginTop:8}}>
+            <a href="https://www.youtube.com/channel/UC1FYGcG5oH-832kQCeT9fZQ" target="_blank" rel="noopener noreferrer" style={{marginTop:8}}>
                 <Image 
                     src={"/images/youtube.png"}
                     alt="ADR Youtube"

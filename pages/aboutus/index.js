@@ -250,7 +250,7 @@ export default function About(){
                         <p>ADR has a strong dedication to interdisciplinary research and connecting architecture, engineering and fabrication through new and evolving technologies. We seek to connect with collaborators across a variety of academic disciplines. </p>
                     </div>
                     <div className={utilStyles.textArrow}>
-                        <p>CONNECT</p>
+                        <a><Link href="/contactus">LEARN MORE</Link></a>
                         <Image className={utilStyles.smallUpperArrow}
                             src={mainarrow}
                             alt="Logo"
@@ -273,7 +273,7 @@ export default function About(){
                         <p>ADR’s robotic construction research and other core topics are integrated into the courses of the Ph.D. in Architecture and the Digital and Material Technology Master of Science programs at the University of Michigan. </p>
                     </div>
                     <div className={utilStyles.textArrow}>
-                        <p><Link href="/teachings">LEARN MORE</Link></p>
+                        <a><Link href="/teachings">LEARN MORE</Link></a>
                         <Image className={utilStyles.smallUpperArrow}
                             src={mainarrow}
                             alt="Logo"
