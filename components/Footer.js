@@ -43,11 +43,22 @@ const Footer = () => (
                     width={18}
                 />
             </a>
+            <a href="https://www.linkedin.com/company/adr-laboratory/about/" target="_blank" rel="noopener noreferrer" style={{marginTop:8}}>
+                <Image 
+                    src={"/images/youtube.png"}
+                    alt="ADR Youtube"
+                    height={18}
+                    width={18}
+                />
+            </a>
             </div>
         </div>
         <div className={utilStyles.headerResponsive}></div>
         </div>
         <div className={utilStyles.footerbottom_div}>
+            {/* only display the next line in mobile sizing */}
+            <div className={utilStyles.footerLineResponsive}></div> 
+
             <div className={utilStyles.footerlogo_style}>
             <Link href="/">
             <Image className={utilStyles.adrlogo_footer}

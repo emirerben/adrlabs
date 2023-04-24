@@ -25,8 +25,8 @@ export default function Research(){
         <div className={utilStyles.headerWhiteBackground}></div>
         <Header></Header>
         <div className={utilStyles.TitleSection}>
-            <h1 style={{fontSize: '6.923vw', width: '80%'}}>RESEARCH</h1>
-            <p style={{fontSize: '2.3vw', width: '80%', fontWeight: 300}}>Ehendiaturi auda cor as et ducipie nduntibusda idio. Itatquatur aut ipitata poreper ionsequis est ut omnimus poribea sumenis molorrovid ellacii simaxim rae volo tempos maximil in non enim nectiorest.</p>
+            <h1 className={utilStyles.researchTitle}>RESEARCH</h1>
+            <p className={utilStyles.researchTitleDescription} >Ehendiaturi auda cor as et ducipie nduntibusda idio. Itatquatur aut ipitata poreper ionsequis est ut omnimus poribea sumenis molorrovid ellacii simaxim rae volo tempos maximil in non enim nectiorest.</p>
             <div className={utilStyles.NewsContainer}>
                 {/* 2021 */}
                 <div className={utilStyles.OneNews}>

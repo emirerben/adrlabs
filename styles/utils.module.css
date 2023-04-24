@@ -113,12 +113,12 @@
 }
 
 .arrowLanding{
-  transform: rotate(-45deg);
+  /* transform: rotate(-45deg); */
   object-fit: cover;
   margin-left: 20%;
-  margin-top:15px;
+  margin-top:25px;
   width: 60%;
-  height: 80%;
+  height: 60%;
 }
 
 .yellowSquare:hover{
@@ -323,6 +323,7 @@
   right: 40px;
 }
 
+
 .headerbreakerBlack_top{
   border : 1px solid black;
   position: absolute;
@@ -467,6 +468,20 @@
   }
 }
 
+.footerLineResponsive{
+  border : 1px solid black;
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  display: none;
+}
+
+.footerbottom_div{
+  display: inline-block;
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
 .footerStyle{
   padding-top: 100px;
   padding-bottom: 40px;
@@ -474,6 +489,16 @@
 }
 @media (max-width:650px){
   .footerLinedBlock{
+    display: none;
+  }
+  .footerLineResponsive{
+    display: block;
+    margin-top: -20px;
+  }
+  .footerbottom_div{
+    padding-top: 0px;
+  }
+  .footer_text{
     display: none;
   }
 }
@@ -487,11 +512,7 @@
 .taubman_footer{
 }
 
-.footerbottom_div{
-  display: inline-block;
-  padding-left: 30px;
-  padding-top: 60px;
-}
+
 
 .footerlogo_style{
   display: flex;
@@ -679,7 +700,7 @@
 }
 
 .SmallResearchTopicsStyle h2{
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 400;
 
   letter-spacing:-1px;
@@ -1228,7 +1249,7 @@
 
 /*---------- News main ---------*/
 .TitleSection{
-  padding-top: 125px;
+  padding-top: 150px;
   padding-left: 40px;
   padding-right: 40px;
   
@@ -1241,13 +1262,13 @@
 }
 
 .TitleSection h1{
-  font-size: 32px;
+  font-size: 90px;
   font-weight: 300;
 }
 
 @media (max-width:600px){
   .TitleSection h1{
-    font-size: 18px;
+    font-size: 36px;
   }
   .TitleSection p{
     font-size: 16px;
@@ -1731,7 +1752,15 @@
 
 
 /* research */
-
+.researchTitle{
+  font-size: 90px;
+  font-weight: 300;
+}
+.researchTitleDescription{
+  font-size: 30px;
+  font-weight: 300;
+  width: 80%;
+}
 .researchImages{
   object-fit:cover;
   max-width: 370px;
@@ -1790,8 +1819,8 @@
   
   .researchtopicsText{
     gap: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -1806,6 +1835,13 @@
   }
   .researchTitlePart h1{
     font-size: 2px;
+  }
+  .researchTitle{
+    font-size: 48px;
+  }
+  .researchTitleDescription{
+    font-size: 16px;
+    width: 100%;
   }
 }
 

@@ -89,7 +89,7 @@ export default function Home() {
     </div>
     <div className={utilStyles.yellowSquare}>
       <Image className={utilStyles.arrowLanding}
-            src={mainarrow}
+            src={"/images/45arrow.png"}
             alt="arrow upside"
             width={66.14}
             height={66.14}
