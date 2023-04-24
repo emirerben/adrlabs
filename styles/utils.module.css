@@ -825,9 +825,8 @@
 }
 .newsTitlePart h1{
   margin: 0px;
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 50px;
+  font-size: 30px !important;
+  font-weight: 400 !important; 
 }
 
 
@@ -849,8 +848,8 @@
   }
   .newsTitlePart h1{
     margin: 0px;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 20px !important;
+    font-weight: 400 !important;
     line-height: 30px;
   }
   

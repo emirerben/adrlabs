@@ -52,12 +52,12 @@ export default function Home() {
     setShow(0);
     localStorage.setItem('hasWatchedVideo', true);
   }
-  // useEffect(() => {
-  //   const hasWatchedVideo = localStorage.getItem('hasWatchedVideo');
-  //   if (hasWatchedVideo) {
-  //     setShow(0);
-  //   }
-  // }, []);
+  useEffect(() => {
+    const hasWatchedVideo = localStorage.getItem('hasWatchedVideo');
+    if (hasWatchedVideo) {
+      setShow(0);
+    }
+  }, []);
   
   return show ?(
     <>

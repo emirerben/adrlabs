@@ -104,7 +104,7 @@ export default function News(){
                 <div className={utilStyles.OneNews}>
                     <div className={utilStyles.headerbreakerRelative}></div>
                     <div className={utilStyles.yearBlockContainer}>
-                        <p style={{marginTop: 0}}>2022</p>
+                        <p style={{fontWeight:500, marginTop: 0}}>2022</p>
                         <div className={utilStyles.sameyearPublicationsContainer}>
                             <div className={utilStyles.newsBlock}>
                                 <p style={{marginTop: 0}}>10/31/22</p>
@@ -194,7 +194,7 @@ export default function News(){
                     </div>
                     <div className={utilStyles.headerbreakerRelative}></div>
                     <div className={utilStyles.yearBlockContainer}>
-                        <p style={{marginTop: 0}}>2021</p>
+                        <p style={{fontWeight:500, marginTop: 0}}>2021</p>
                         <div className={utilStyles.sameyearPublicationsContainer}>
                             <div className={utilStyles.newsBlock}>
                                 <p style={{marginTop: 0}}>11/03/21</p>
