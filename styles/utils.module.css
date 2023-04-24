@@ -472,8 +472,8 @@
   padding-bottom: 40px;
   font-size: 14px;
 }
-@media (max-width:600px){
-  .footerStyle{
+@media (max-width:650px){
+  .footerLinedBlock{
     display: none;
   }
 }
@@ -485,14 +485,19 @@
 }
 
 .taubman_footer{
-  margin-bottom: 10px;
-  margin-left: 47px;
 }
 
-.footerlogo_style{
+.footerbottom_div{
   display: inline-block;
   padding-left: 30px;
   padding-top: 60px;
+}
+
+.footerlogo_style{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .footerlogoleft_style{
@@ -702,18 +707,15 @@
 
 .moreinfoStyle{
 
-
   display: flex;
   margin-bottom: 130px;
-  animation: fadeInAnimation ease 3s;
+  animation: utils_fadeInAnimation__i5lLV ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  align-items: center;
+  align-items: flex-start;
   gap: 120px;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-
-
 }
 
 .moreinfoStyle p{

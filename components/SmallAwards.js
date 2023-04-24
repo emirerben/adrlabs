@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import a from 'next/link';
 import Image from 'next/future/image'
 import utilStyles from '../styles/utils.module.css';
 import plus_graphic from '../public/images/ADR-GraphicElements_white.png'
@@ -68,14 +68,14 @@ export default function SmallResearchTopics(){
                     alt="Plus"
                 />
             </div>
-            <div className={utilStyles.moreinfoStyle} style={{display:showMe1?"block":"none"}}>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe1?"flex":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
                         src='/images/awards1.jpeg'
                         alt="Plus"
                         width={540}
                         height={334}
                     />
-                    <Link href='https://www.dezeen.com/2022/08/26/robotically-fabricated-structure-university-of-michigan'><p style={{textDecorationLine: 'underline'}}>Read more</p></Link>
+                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='https://www.dezeen.com/2022/08/26/robotically-fabricated-structure-university-of-michigan'>Read more</a>
             </div>
             
             <div className={utilStyles.breakerWhite}></div>
@@ -89,14 +89,14 @@ export default function SmallResearchTopics(){
                     alt="Plus"
                 />
             </div>
-            <div className={utilStyles.moreinfoStyle} style={{display:showMe2?"block":"none"}}>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe2?"flex":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
                         src='/images/awards2.jpg'
                         alt="Plus"
                         width={540}
                         height={334}
                     />
-                    <Link href='http://www.architecturepressrelease.com/gold-winner-robotically-fabricated-structure-rfs-adr-laboratory/'><p style={{textDecorationLine: 'underline'}}>Read more</p></Link>
+                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='http://www.architecturepressrelease.com/gold-winner-robotically-fabricated-structure-rfs-adr-laboratory/'>Read more</a>
             </div>
             <div className={utilStyles.breakerWhite}></div>
             <div className={utilStyles.TopicBlockStyle}>
@@ -107,14 +107,14 @@ export default function SmallResearchTopics(){
                     alt="Plus"
                 />
             </div>
-            <div className={utilStyles.moreinfoStyle} style={{display:showMe3?"block":"none"}}>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe3?"flex":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
                         src='/images/awards3.jpeg'
                         alt="Plus"
                         width={540}
                         height={334}
                     />
-                    <Link href='https://www.loopdesignawards.com/project/robotically-fabricated-structure-rfs/'><p style={{textDecorationLine: 'underline'}}>Read more</p></Link>
+                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='https://www.loopdesignawards.com/project/robotically-fabricated-structure-rfs/'>Read more</a>
             </div>
             <div className={utilStyles.breakerWhite}></div>
             <div className={utilStyles.TopicBlockStyle}>
@@ -127,14 +127,14 @@ export default function SmallResearchTopics(){
                     alt="Plus"
                 />
             </div>
-            <div className={utilStyles.moreinfoStyle} style={{display:showMe4?"block":"none"}}>
+            <div className={utilStyles.moreinfoStyle} style={{display:showMe4?"flex":"none"}}>
                     <Image className={utilStyles.researchImageStyle}
                         src='/images/awards4.jpeg'
                         alt="Plus"
                         width={540}
                         height={334}
                     />
-                    <Link href='http://www.thearchitecturecommunity.com/robotically-fabricated-structure-rfs-adr-laboratory-taubman-college-of-architecture-and-urban-planning-university-of-michigan-world-design-awards-2022/'><p style={{textDecorationLine: 'underline'}}>Read more</p></Link>
+                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='http://www.thearchitecturecommunity.com/robotically-fabricated-structure-rfs-adr-laboratory-taubman-college-of-architecture-and-urban-planning-university-of-michigan-world-design-awards-2022/'>Read more</a>
             </div>
             <div className={utilStyles.breakerWhite}></div>
         </div>

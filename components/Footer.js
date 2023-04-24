@@ -8,6 +8,7 @@ import utilStyles from '../styles/utils.module.css';
 
 const Footer = () => (
     <div className={utilStyles.footerStyle}>
+        <div className={utilStyles.footerLinedBlock}>
         <div className={utilStyles.headerResponsive}></div>
         <div style={{paddingRight:40, height: 45, display: 'flex', justifyContent: 'space-between', flexWrap:'nowrap', alignItems:'center'}}>
             <p style={{marginLeft:40, float: 'left', fontWeight: 800, fontSize: 16}} >© 2022 ADR</p>
@@ -45,14 +46,16 @@ const Footer = () => (
             </div>
         </div>
         <div className={utilStyles.headerResponsive}></div>
-        <div className={utilStyles.footerlogo_style}>
-            <div style={{display: 'inline-block'}}>
+        </div>
+        <div className={utilStyles.footerbottom_div}>
+            <div className={utilStyles.footerlogo_style}>
             <Link href="/">
             <Image className={utilStyles.adrlogo_footer}
                 src={adr_logo}
                 alt="Logo"
+                style={{marginLeft: '-11px'}}
             />
-        </Link>
+            </Link>
         <a href="https://taubmancollege.umich.edu/"  target="_blank" rel="noopener noreferrer">
             <Image className={utilStyles.taubman_footer}
                 src={taubman_logo}
