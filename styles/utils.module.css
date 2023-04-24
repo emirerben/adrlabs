@@ -763,8 +763,10 @@
 }
 
 .verticalLine{
-  border : 1px solid black;
+  border: 0.5px solid black;
   margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .NewsContainerStyle{
   display: flex;
@@ -804,6 +806,10 @@
     font-size: 10px !important;
 
   }
+  .verticalLine{
+    margin-top: 12px;
+    margin-bottom: 12px;
+  } 
 }
 
 

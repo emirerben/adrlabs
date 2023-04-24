@@ -122,9 +122,9 @@ export default function About(){
                                         <p>K. Graser, A. Adel, M. Baur, A. Thoma and D. Sanz Pont</p>
                                         <h1>Parallel Paths of Inquiry: Detailing for DFAB HOUSE</h1>
                                         <p style={{marginBottom:10}}>Technology | Architecture + Design, vol. 5, no. 1, pp. 38-43, 2021</p>
-                                        <Link href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
+                                        <a target="_blank" rel="noopener noreferrer" href={'https://www.tandfonline.com/doi/full/10.1080/24751448.2021.1863668'}>
                                             READ MORE
-                                        </Link>
+                                        </a>
                                         
 
                                     </div>
@@ -140,9 +140,9 @@ export default function About(){
                                         <p>A. Adel, E. Augustynowicz and T. Wehrle</p>
                                         <h1>Robotic Timber Construction: A Case Study Structure</h1>
                                         <p style={{marginBottom:10}}>Realignments: Toward Critical Computation: Proceedings Catalog of the 41st Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA), 2021</p>
-                                        <Link href={'https://drive.google.com/file/d/1Q4hzXtLFFQp-vT_kAObbLKv1_cykyM-9/view'}>
+                                        <a target="_blank" rel="noopener noreferrer" href={'https://drive.google.com/file/d/1Q4hzXtLFFQp-vT_kAObbLKv1_cykyM-9/view'}>
                                             READ MORE
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className={utilStyles.publicationBlock}>
@@ -156,9 +156,9 @@ export default function About(){
                                         <p>M. Bruce, G. Clune, R. Xie, S. Mozaffari and A. Adel</p>
                                         <h1>Cocoon: 3D Printed Clay Formwork for Concrete Casting</h1>
                                         <p style={{marginBottom:10}}> Realignments: Toward Critical Computation: Proceedings Catalog of the 41st Annual Conference of the Association for Computer Aided Design in Architecture (ACADIA), 2021</p>
-                                        <Link href={'https://www.researchgate.net/publication/364639955_Cocoon_3D_Printed_Clay_Formwork_for_Concrete_Casting'}>
+                                        <a target="_blank" rel="noopener noreferrer" href={'https://www.researchgate.net/publication/364639955_Cocoon_3D_Printed_Clay_Formwork_for_Concrete_Casting'}>
                                             READ MORE
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                                 
