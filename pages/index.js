@@ -45,7 +45,6 @@ export default function Home() {
 
   Slideshow(); // Call the Slideshow component
 
-
   const [show, setShow] = useState(1);
 
   function handleClick() {
@@ -57,6 +56,7 @@ export default function Home() {
     if (hasWatchedVideo) {
       setShow(0);
     }
+
   }, []);
   
   return show ?(
