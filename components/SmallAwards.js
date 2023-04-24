@@ -75,7 +75,7 @@ export default function SmallResearchTopics(){
                         width={540}
                         height={334}
                     />
-                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='https://www.dezeen.com/2022/08/26/robotically-fabricated-structure-university-of-michigan'>Read more</a>
+                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='https://www.dezeen.com/2022/08/26/robotically-fabricated-structure-university-of-michigan'>READ MORE</a>
             </div>
             
             <div className={utilStyles.breakerWhite}></div>
@@ -96,7 +96,7 @@ export default function SmallResearchTopics(){
                         width={540}
                         height={334}
                     />
-                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='http://www.architecturepressrelease.com/gold-winner-robotically-fabricated-structure-rfs-adr-laboratory/'>Read more</a>
+                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='http://www.architecturepressrelease.com/gold-winner-robotically-fabricated-structure-rfs-adr-laboratory/'>READ MORE</a>
             </div>
             <div className={utilStyles.breakerWhite}></div>
             <div className={utilStyles.TopicBlockStyle}>
@@ -114,7 +114,7 @@ export default function SmallResearchTopics(){
                         width={540}
                         height={334}
                     />
-                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='https://www.loopdesignawards.com/project/robotically-fabricated-structure-rfs/'>Read more</a>
+                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='https://www.loopdesignawards.com/project/robotically-fabricated-structure-rfs/'>READ MORE</a>
             </div>
             <div className={utilStyles.breakerWhite}></div>
             <div className={utilStyles.TopicBlockStyle}>
@@ -134,7 +134,7 @@ export default function SmallResearchTopics(){
                         width={540}
                         height={334}
                     />
-                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='http://www.thearchitecturecommunity.com/robotically-fabricated-structure-rfs-adr-laboratory-taubman-college-of-architecture-and-urban-planning-university-of-michigan-world-design-awards-2022/'>Read more</a>
+                    <a style={{color: 'white'}} target="_blank" rel="noopener noreferrer" href='http://www.thearchitecturecommunity.com/robotically-fabricated-structure-rfs-adr-laboratory-taubman-college-of-architecture-and-urban-planning-university-of-michigan-world-design-awards-2022/'>READ MORE</a>
             </div>
             <div className={utilStyles.breakerWhite}></div>
         </div>

@@ -64,7 +64,7 @@ const Footer = () => (
             <Image className={utilStyles.adrlogo_footer}
                 src={adr_logo}
                 alt="Logo"
-                style={{marginLeft: '-11px'}}
+                style={{marginLeft: '0px'}}
             />
             </Link>
         <a href="https://taubmancollege.umich.edu/"  target="_blank" rel="noopener noreferrer">
@@ -72,6 +72,7 @@ const Footer = () => (
                 src={taubman_logo}
                 alt="Taubman"
                 width={230.21}
+                style={{marginTop: '5px'}}
             />
         </a>
             </div>

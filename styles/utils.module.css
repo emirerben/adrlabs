@@ -487,6 +487,17 @@
   padding-bottom: 40px;
   font-size: 14px;
 }
+.adrlogo_footer{
+  object-fit: contain;
+  width: 216.21px;
+  height: auto;
+}
+.footerlogo_style{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
 @media (max-width:650px){
   .footerLinedBlock{
     display: none;
@@ -501,25 +512,33 @@
   .footer_text{
     display: none;
   }
+  .adrlogo_footer{
+    width: 120px;
+    height: auto;
+  }
+  .taubman_footer{
+    width: 120px;
+    height: auto;
+  }
+  .footerbottom_div{
+    padding-top: 0px;
+    width: 100%;
+    padding-right: 40px;
+  }
+  .footerlogo_style{
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  
 }
 
-.adrlogo_footer{
-  object-fit: contain;
-  width: 216.21px;
-  height: auto;
-}
-
-.taubman_footer{
-}
 
 
 
-.footerlogo_style{
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
-  align-items: flex-end;
-}
+
+
+
 
 .footerlogoleft_style{
   position: absolute;
