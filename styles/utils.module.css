@@ -762,6 +762,10 @@
   position: relative;
 }
 
+.verticalLine{
+  border : 1px solid black;
+  margin-right: 20px;
+}
 .NewsContainerStyle{
   display: flex;
   margin-left: 0px;
@@ -782,8 +786,7 @@
 
 .NewsBlockStyle h3{
   font-size: 30px;
-  width: 90%;
-
+  margin-right: 10px;
   font-weight: 400;
 }
 
