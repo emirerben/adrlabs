@@ -20,7 +20,8 @@ export default function Projects(){
             <h1>PROJECTS</h1>
             <p>ADR is an interdisciplinary laboratory for advanced research in Architecture, Computational Design, and Robotic Construction.</p>
         </div>
-        <div style={{ marginTop:100, paddingLeft: 40, paddingRight:40}} className={utilStyles.lastestWorkStyle}>
+        <div className={utilStyles.headerbreakerBlack_top}></div>
+        <div style={{ marginTop:150, paddingLeft: 40, paddingRight:40}} className={utilStyles.lastestWorkStyle}>
             <div className={utilStyles.projectsScrollStyle}>
                 <div className={utilStyles.projectCardStyle}>
                     <Link href="/">
