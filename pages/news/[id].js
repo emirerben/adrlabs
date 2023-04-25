@@ -60,7 +60,7 @@ export default function News({ onenews }) {
                 height={300}
                 />
             <div className={utilStyles.newsBody}>
-                <div
+                <div 
                     dangerouslySetInnerHTML={{__html: onenews.content}}
                 />
                 <a style={{width: 'fit-content'}} target="_blank" rel="noopener noreferrer" href={onenews.link}> READ MORE</a>
