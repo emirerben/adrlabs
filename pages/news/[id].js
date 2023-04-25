@@ -9,8 +9,6 @@ import CustomCursor from '../../components/Cursor';
 import path from 'path';
 import fsPromises from 'fs/promises';
 
-
-
 export async function getStaticProps({params}) {
     const filePath = path.join(process.cwd(), '/json/news.json');
     const jsonData = await fsPromises.readFile(filePath);
@@ -39,6 +37,7 @@ export async function getStaticPaths() {
     }
   }
 
+  
 export default function News({ onenews }) {
     const router = useRouter()
     const basePath = '/public/images'
@@ -61,7 +60,11 @@ export default function News({ onenews }) {
                 height={300}
                 />
             <div className={utilStyles.newsBody}>
-                <p>{onenews.content} <a target="_blank" rel="noopener noreferrer" href={onenews.link}>more</a></p>
+                <div
+                    dangerouslySetInnerHTML={{__html: onenews.content}}
+                />
+                <a style={{width: 'fit-content'}} target="_blank" rel="noopener noreferrer" href={onenews.link}> READ MORE</a>
+                {/* <Message data={onenews.content} /> */}
             </div>
             
         </div>

@@ -1371,6 +1371,7 @@
   color: #707070;
   width: 80%;
   padding-top: 50px;
+  flex-direction: column;
 }
 .newsBody p{
   text-align: justify;

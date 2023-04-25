@@ -12,7 +12,7 @@ const SmallNews = () => (
         <h3>Robotically Fabricated Structure Receives Global Future Design Award</h3>
             <p>10/31/22 <br></br><br></br><Link href={'/news/globaldesignaward'}>READ MORE</Link></p>
             <div className={utilStyles.yellowHighlight}></div>
-            
+        
         </div>
         <div className={utilStyles.verticalLine}></div>
         <div className={utilStyles.NewsBlockStyle}>
