@@ -24,7 +24,7 @@ export default function Projects(){
         <div style={{ marginTop:150, paddingLeft: 40, paddingRight:40}} className={utilStyles.lastestWorkStyle}>
             <div className={utilStyles.projectsScrollStyle}>
                 <div className={utilStyles.projectCardStyle}>
-                    <Link href="/">
+                    <Link href="/projects/RFS2">
                         <Image className={utilStyles.projectImageStyle}
                             src={firstpic}
                             alt="project"
@@ -63,7 +63,7 @@ export default function Projects(){
                     </div>
                 </div>        
                 <div className={utilStyles.projectCardStyle}>
-                    <Link href="/">
+                    <Link href="/projects/MultiRoboticTimber">
                         <Image className={utilStyles.projectImageStyle}
                             src={thirdpic}
                             alt="project"

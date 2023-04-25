@@ -12,7 +12,7 @@ const LatestWork = () => (
     <h3 style={{fontWeight: 400}}>FEATURED PROJECTS</h3>
     <div className={utilStyles.projectsScrollStyle}>
         <div className={utilStyles.projectCardStyle}>
-            <Link href="/">
+            <Link href="/projects/RFS2">
                 <Image className={utilStyles.projectImageStyle}
                     src={firstpic}
                     alt="project"
@@ -31,7 +31,7 @@ const LatestWork = () => (
             </div>
         </div>
         <div className={utilStyles.projectCardStyle}>
-            <Link href="/">
+            <Link href="/projects/RFS">
                 <Image className={utilStyles.projectImageStyle}
                     src={secondpic}
                     alt="project"
@@ -50,7 +50,7 @@ const LatestWork = () => (
             </div>
         </div>        
         <div className={utilStyles.projectCardStyle}>
-            <Link href="/">
+            <Link href="/projects/MultiRoboticTimber">
                 <Image className={utilStyles.projectImageStyle}
                     src={thirdpic}
                     alt="project"

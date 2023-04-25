@@ -114,22 +114,6 @@ export default function ContactUs(){
             Arash Adel, Director<br></br>
             aaadel@umich.edu  
         </p>
-        <Link href="https://www.instagram.com/adr_laboratory/">
-                    <Image className={utilStyles.adrsocial_footer}
-                        src={"/images/instagram-icon.png"}
-                        alt="ADR Instagram"
-                        height={21}
-                        width={21}
-                    />
-                </Link>
-                <Link href="https://www.linkedin.com/company/adr-laboratory/about/">
-                    <Image className={utilStyles.adrsociallinkedin_footer}
-                        src={"/images/linkedin.png"}
-                        alt="ADR LinkedIn"
-                        height={18}
-                        width={18}
-                    />
-                </Link>
         
         </div>
         

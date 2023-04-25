@@ -498,7 +498,16 @@
   flex-wrap: wrap;
   align-items: flex-end;
 }
+.logosResponsive{
+  display: none;
+  padding-left:40px;
+  margin-bottom:20px;
+  gap: 20px;
+}
 @media (max-width:650px){
+  .logosResponsive{
+    display: flex;
+  }
   .footerLinedBlock{
     display: none;
   }
@@ -644,6 +653,12 @@
   height: 50%;
   max-width: 100%;
 }
+.lightSub{
+  margin-top: 70px;
+  color: #707070;
+  font-size: 16px;
+  position: relative;
+}
 @media (max-width:900px){
   .SmallAboutUsStyle{
     padding-top: 0px;
@@ -652,6 +667,12 @@
   .SmallAboutUsStyle p{
     font-size: 18px;
     line-height: 25px;
+  }
+  .textContent{
+    font-size: 12px;
+  }
+  .lightSub{
+    font-size: 12px;
   }
 }
 
@@ -1011,6 +1032,7 @@
   }
   .firstWhiteBlock p{
     width: max-content;
+    font-size: 12px;
   }
   
   .Aboutus_first_imageStyle{
@@ -1148,6 +1170,9 @@
   .secondWhiteBlock h3{
     font-size: 30px;
   }
+  .secondWhiteBlock p{
+    font-size: 14px;
+  }
 }
 .textArrow{
   width: 200px;
@@ -1237,12 +1262,7 @@
   top: -40px;
 }
 
-.lightSub{
-  margin-top: 70px;
-  color: #707070;
-  font-size: 16px;
-  position: relative;
-}
+
 
 .yellowHighlightName{
   border : 10px solid #FFFF00;
@@ -1881,7 +1901,7 @@
 }
 
 .projectDescription{
-  padding: 120px 40px 40px 40px;
+  padding: 60px 40px 40px 40px;
 }
 
 .projectDescriptionContent{

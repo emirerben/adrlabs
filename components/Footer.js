@@ -26,7 +26,7 @@ const Footer = () => (
                 <Link href="/aboutus">ABOUT</Link>
                 <Link href="/contactus">CONTACT</Link>
             </div>
-            <div style={{marginLeft:40, float: 'left', display: 'flex', gap:35}}>
+            <div style={{marginLeft:40, float: 'left', display: 'flex', gap:20}}>
             <a href="https://www.instagram.com/adr_laboratory/" target="_blank" rel="noopener noreferrer" style={{marginTop:7}}>
                     <Image
                     src={"/images/instagram-icon.png"}
@@ -55,6 +55,33 @@ const Footer = () => (
         </div>
         <div className={utilStyles.headerResponsive}></div>
         </div>
+        {/* only display the next div in mobile sizing */}
+        <div className={utilStyles.logosResponsive}>
+            <a href="https://www.instagram.com/adr_laboratory/" target="_blank" rel="noopener noreferrer" style={{marginTop:7}}>
+                    <Image
+                    src={"/images/instagram-icon.png"}
+                    alt="ADR Instagram"
+                    height={21}
+                    width={21}
+                />
+            </a>
+            <a href="https://www.linkedin.com/company/adr-laboratory/about/" target="_blank" rel="noopener noreferrer" style={{marginTop:7}}>
+                <Image 
+                    src={"/images/linkedin.png"}
+                    alt="ADR LinkedIn"
+                    height={18}
+                    width={18}
+                />
+            </a>
+            <a href="https://www.youtube.com/channel/UC1FYGcG5oH-832kQCeT9fZQ" target="_blank" rel="noopener noreferrer" style={{marginTop:8}}>
+                <Image 
+                    src={"/images/youtube.png"}
+                    alt="ADR Youtube"
+                    height={18}
+                    width={18}
+                />
+            </a>
+            </div>
         <div className={utilStyles.footerbottom_div}>
             {/* only display the next line in mobile sizing */}
             <div className={utilStyles.footerLineResponsive}></div> 

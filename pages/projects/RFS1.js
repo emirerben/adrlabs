@@ -9,8 +9,23 @@ import thirdpic from '../../public/images/latestwork3.jpg'
 import fourthpic from '../../public/images/latestwork4.jpeg'
 import Image from "next/image";
 import Footer from "../../components/Footer";
+import { useEffect, useState } from "react";
+
+
 
 export default function Projects(){
+//     const [imageFilenames, setImageFilenames] = useState([]);
+
+//     useEffect(() => {
+//         async function fetchImages() {
+//         const res = await fetch('/api/images');
+//         const data = await res.json();
+//         setImageFilenames(data);
+//         }
+
+//     fetchImages();
+//   }, []);
+
     return(
         <>
         <CustomCursor />
@@ -47,7 +62,11 @@ export default function Projects(){
             </div>
             <div className={utilStyles.headerResponsive}></div>
         </div>
-
+        {/* {imageFilenames.map((filename) => (
+                <div className={utilStyles.projectCardStyle}>
+                    <Image key={filename} src={`/images/RFS/${filename}`} width={400} height={280} />
+                </div>
+            ))} */}
         {/* image gallery block */}
         <div style={{ marginTop:50, paddingLeft: 40, paddingRight:40}} className={utilStyles.lastestWorkStyle}>
             <div className={utilStyles.projectsScrollStyle}>
