@@ -1897,7 +1897,6 @@
 .projectMainImageStyle{
   max-height: 548px !important;
 
-  
 }
 
 .projectDescription{
@@ -1907,7 +1906,8 @@
 .projectDescriptionContent{
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  gap: 20px;
 }
 
 .projectDescriptionContent h3{
@@ -1928,5 +1928,9 @@
   .projectDescriptionContent h3{
     width: 100%;
     font-size: 15px;
+  }
+  .projectDescriptionContent{
+    flex-wrap: wrap;
+    gap: 0px;
   }
 }
